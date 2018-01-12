@@ -1,0 +1,113 @@
+\documentclass[a4paper,11pt,oneside,openany]{jsbook}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage{subfigure}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{ascmac}
+\usepackage{makeidx}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{here}
+\usepackage{tikz}
+\usepackage{url}
+\usepackage{mathrsfs}
+\usepackage{braket}
+\usepackage[many]{tcolorbox}
+\usepackage[top=50truemm,bottom=50truemm,left=25truemm,right=15truemm]{geometry}
+\usepackage[dvipdfm,colorlinks=true,urlcolor=blue]{hyperref}
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\bibname}{References}
+\renewcommand{\appendixname}{Appendix~}
+
+\setcounter{tocdepth}{2}
+\hypersetup{%
+linkcolor=blue%
+}%
+\hypersetup{%
+citecolor=blue%
+}%
+
+\newtcolorbox{empheqboxed}[1][]{colback=gray!20,
+ colframe=white,
+ width=\textwidth,
+ sharpish corners,
+ top=-3mm, % default value 2mm
+ bottom=3pt
+}
+\def\id#1{\def\@id{#1}}
+\usetikzlibrary[arrows,decorations.pathmorphing,backgrounds,positioning,fit,petri]
+\usetikzlibrary{intersections,calc}
+\newcommand{\bvec}[1]{\mbox{\boldmath$#1$}}
+%
+\makeindex
+%
+
+%
+\newcommand{\diff}{\mathrm{d}}  %微分記号
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+%
+\title{量子情報}
+\author{川　大揮}
+\id{17M00430}
+\date{\today}
+\begin{document}
+%
+%
+%\maketitle
+\begin{titlepage}
+\begin{flushright}
+{\large
+指導教員（主査）：山口昌英　教授  % 主査
+}
+\end{flushright}
+\begin{center}
+\vspace*{150truept}
+{\huge \textit{量子情報}}\\ % タイトル
+\vspace{120truept}
+{\Large17M00430}\\ % 学籍番号
+\vspace{50truept}
+{\Large 川　大揮}\\ % 著者
+\vspace{50truept}
+{\today}\\ % 提出日
+\end{center}
+\end{titlepage}
+%
+%
+\frontmatter
+%
+\addcontentsline{toc}{chapter}{}
+\include{abstract}
+
+\tableofcontents
+%
+%
+\mainmatter
+%
+\include{chap1/chap1}
+\include{chap2/chap2}
+\include{chap3/chap3}
+\include{chap4/chap4}
+%
+%
+\appendix
+%
+\include{appendixA/appendixA}
+\include{appendixB/appendixB}
+\include{appendixD/appendixD}
+\include{appendixC/appendixC}
+\include{appendixE/appendixE}
+%
+%
+%
+%
+\include{References/References}
+%
+%
+\newpage
+\printindex
+%
+%
+\end{document}

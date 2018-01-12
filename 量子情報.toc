@@ -1,0 +1,76 @@
+\contentsline {section}{\numberline {0.1}Notation}{i}{section.0.1}
+\contentsline {chapter}{}{i}{Doc-Start}
+\contentsline {chapter}{\numberline {第1章}量子情報理論の基礎}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}重力のエントロピーとエンタングルメントエントロピー}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}ホログラフィー原理}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}AdS/CFT}{3}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}first theses}{3}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}純粋状態と混合状態}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}純粋状態におけるエンタングルメント}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}混合状態におけるエンタングルメントエントロピー}{4}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}PPT条件とNegativity}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Negativity}{6}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}量子力学におけるエントロピーと統計力学におけるエントロピー}{7}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}カノニカル・アンサンブル}{7}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Tsallis Entropy(ツァリス エントロピー)}{8}{section.1.5}
+\contentsline {section}{\numberline {1.6}場の理論におけるEntanglement Entropy\cite {15}\cite {16}\cite {17}\cite {18}}{9}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}replica法(Calabrese-Cardyの方法)}{9}{subsection.1.6.1}
+\contentsline {subsubsection}{Note}{13}{section*.2}
+\contentsline {subsection}{\numberline {1.6.2}密度行列の計算}{14}{subsection.1.6.2}
+\contentsline {chapter}{\numberline {第2章}Entanglement Entropy in de Sitter space}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Euclidean vacuum mode functions for a scalar field on open de Sitter space\cite {10}}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Abstract}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Introduction}{15}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Scalar Field on Open de Sitter Space}{16}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}de Sitter Space}{17}{subsection.2.2.1}
+\contentsline {subsubsection}{Global Chart}{17}{section*.3}
+\contentsline {subsubsection}{Open Chart}{17}{section*.4}
+\contentsline {subsubsection}{Flat Chart}{17}{section*.5}
+\contentsline {subsection}{\numberline {2.2.2}Euclidean de Siiter space}{19}{subsection.2.2.2}
+\contentsline {subsubsection}{(i)}{20}{section*.6}
+\contentsline {subsubsection}{(ii)}{20}{section*.7}
+\contentsline {subsubsection}{Scalar field on de Sitter Space}{22}{section*.8}
+\contentsline {subsection}{\numberline {2.2.3}マルダセナ}{24}{subsection.2.2.3}
+\contentsline {subsubsection}{de Sitter spaceにおけるevent Horizon}{25}{section*.9}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}A}特殊関数}{29}{appendix.A}
+\contentsline {section}{\numberline {A.1}ルジャンドル関数}{29}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}ルジャンドルの微分方程式}{29}{subsection.A.1.1}
+\contentsline {section}{\numberline {A.2}球面調和関数}{29}{section.A.2}
+\contentsline {section}{\numberline {A.3}球面調和関数 in hyperbolic}{29}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}様々な計算手法と近似法}{30}{subsection.A.3.1}
+\contentsline {subsubsection}{鞍点法}{30}{section*.10}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}B}相対論と場の理論からの準備}{31}{appendix.B}
+\contentsline {section}{\numberline {B.1}一般相対論からの準備}{31}{section.B.1}
+\contentsline {subsubsection}{ブラックホール(BH)}{31}{section*.11}
+\contentsline {subsection}{\numberline {B.1.1}相対論的運動学}{31}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}計量に関する有用な公式}{32}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}共変微分}{34}{subsection.B.1.3}
+\contentsline {subsection}{\numberline {B.1.4}測地線方程式}{35}{subsection.B.1.4}
+\contentsline {subsection}{\numberline {B.1.5}曲率}{36}{subsection.B.1.5}
+\contentsline {subsection}{\numberline {B.1.6}不変体積要素}{37}{subsection.B.1.6}
+\contentsline {subsection}{\numberline {B.1.7}四元流束(particle 4-flow)}{38}{subsection.B.1.7}
+\contentsline {section}{\numberline {B.2}古典場の理論}{39}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}ネーターカレント(Noether current)}{39}{subsection.B.2.1}
+\contentsline {subsection}{\numberline {B.2.2}エネルギー運動量テンソル}{41}{subsection.B.2.2}
+\contentsline {subsection}{\numberline {B.2.3}重力場の作用}{42}{subsection.B.2.3}
+\contentsline {subsubsection}{エネルギー保存則}{44}{section*.12}
+\contentsline {subsection}{\numberline {B.2.4}スカラー場}{45}{subsection.B.2.4}
+\contentsline {subsection}{\numberline {B.2.5}Fierz恒等式}{46}{subsection.B.2.5}
+\contentsline {subsubsection}{(a)}{46}{section*.13}
+\contentsline {subsubsection}{(b)}{47}{section*.14}
+\contentsline {subsubsection}{(c)}{48}{section*.15}
+\contentsline {chapter}{\numberline {Appendix\nobreakspace {}C}膨張宇宙とフリードマン方程式}{49}{appendix.C}
+\contentsline {section}{\numberline {C.1}キリング(Killing)ベクトルと対称性}{49}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}キリングベクトル}{49}{subsection.C.1.1}
+\contentsline {subsubsection}{極大対称空間}{51}{section*.16}
+\contentsline {section}{\numberline {C.2}一様等方宇宙}{51}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}計量とフリードマン方程式}{51}{subsection.C.2.1}
+\contentsline {subsubsection}{平坦な宇宙}{52}{section*.17}
+\contentsline {subsubsection}{閉じた宇宙}{52}{section*.18}
+\contentsline {subsubsection}{開いた宇宙}{52}{section*.19}
+\contentsline {section}{\numberline {C.3}$\Lambda $CDM(Cosmological Model with Dark Matter and Dark Energy)}{55}{section.C.3}
+\contentsline {subsection}{\numberline {C.3.1}宇宙の構成要素}{55}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.2}宇宙論パラメーター(Cosmological Parameters)}{56}{subsection.C.3.2}
+\contentsline {subsection}{\numberline {C.3.3}赤方偏移(redshift)}{57}{subsection.C.3.3}
+\contentsline {subsection}{\numberline {C.3.4}絶対光度と見かけの光度}{57}{subsection.C.3.4}

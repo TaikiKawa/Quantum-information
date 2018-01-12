@@ -1,0 +1,800 @@
+\chapter{相対論と場の理論からの準備}
+\section{一般相対論からの準備}
+はじめに，時空を記述するために必要な道具として，数学的な表現を考える．まず時空は集合として扱え，また，点の集積点などを含む位相空間，(距離を定義したい)これに座標を張るために多様体を用意する．多様体から曲率を定義したい．距離の測り方としてメトリックを導入する．
+\subsubsection{ブラックホール(BH)}
+事象の水平線で囲まれた内側が存在し，その内側の部分をBHと呼ぶ．
+\subsection{相対論的運動学}
+以下の議論では，ミンコフスキー(Minkowski)計量$\eta_{\mu\nu}$の符号を
+\begin{eqnarray}
+\label{D1}
+\eta_{\mu\nu}=
+\left(\begin{array}{cccc}-1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{array}\right)
+\end{eqnarray}
+に定める．
+このとき，時空間隔は，
+\begin{eqnarray}
+ds^2=\eta_{\mu\nu}dx^{\mu}dx^{\nu}
+\end{eqnarray}
+で与えられる．粒子とともに動く観測者によってによって測られる$\tau$を固有時と呼び，この系における粒子の微小時間間隔は，
+\begin{eqnarray}
+\label{tau}
+\eta_{\mu\nu}dx^{\mu}dx^{\nu}=-d\tau^2
+\end{eqnarray}
+で与えられる．
+
+質量が０でない粒子を考えてときの，単位固有時あたりの粒子の座標変化は，4元速度と呼ばれ，
+\begin{eqnarray}
+u^{\mu}=\frac{dx^{\mu}}{d\tau}
+\end{eqnarray}
+で定義される．この四元ベクトルは，(\ref{tau})式によって規格化されていて，
+\begin{eqnarray}
+\label{4v}
+\eta_{\mu\nu}u^{\nu}u^{\mu}=-1
+\end{eqnarray}
+を満たす．以上から，四元速度$u^{\mu}$は，
+\begin{eqnarray}
+\label{4vv}
+(u^{\mu})=\biggl(\frac{c}{\sqrt{1-v^2}},\frac{\bm{v}}{{\sqrt{1-v^2}}}\biggr)
+\end{eqnarray}
+ここで，$|\bm{v}|=v$である．また，粒子の静止質量を$m$とすれば，粒子の四元運動量が
+\begin{eqnarray}
+P^{\mu}=mu^{\mu}
+\end{eqnarray}
+が定義できる．(\ref{4vv})式から，
+\begin{eqnarray}
+(P^{\mu})&=&\biggl(\frac{mc}{\sqrt{1-v^2}},\frac{m\bm{v}}{{\sqrt{1-v^2}}}\biggr)  \vspace{4mm} \\
+&=&\biggl(\dfrac{E}{c},\bm{P}\biggr)
+\end{eqnarray}
+である．これより，粒子の静止系からみた速度$\bm{v}$と四元運動量の関係は，
+\begin{eqnarray}
+\label{vp}
+\bm{v}=c\frac{\bm{P}}{P^{0}}=c^2\frac{\bm{P}}{E}
+\end{eqnarray}
+となることに注意したい．
+\begin{empheqboxed}
+\
+
+四元速度の規格化条件(\ref{4v})式より，四元運動量$P^{\mu}$は，
+\begin{eqnarray}
+\label{OS}
+\eta_{\mu\nu}P^{\mu}P^{\mu}+m^2=0
+\end{eqnarray}
+のOn-shell条件が課される．
+\end{empheqboxed}
+
+粒子の持つエネルギーは，この四元運動量を用いて二通りで表されて，
+\begin{eqnarray}
+E=cP^{0}&=&\dfrac{mc^2}{\sqrt{1-\beta^2}} \\
+&=&\sqrt{c^2P^2+m^2c^4}
+\end{eqnarray}
+となる．ただし，$|\bm{P}|=P$である．
+\subsection{計量に関する有用な公式}
+対角化可能な行列$M$に対して，$\mathrm{Tr}\ln M$を考える．対数$\ln$のテイラー展開は，
+\begin{eqnarray}
+\log(x+1)=x-\frac{1}{2}x^2+\frac{1}{3}x^3+\cdots
+\end{eqnarray}
+あるいは，
+\begin{eqnarray}
+\log(x)=(x-1)-\frac{1}{2}(x-1)^2+\frac{1}{3}(x-1)^3+\cdots
+\end{eqnarray}
+と展開できるので，$\mathrm{Tr}\ln M$も同様に計算できて，
+\begin{eqnarray}
+\mathrm{Tr}\ln M&=&\mathrm{Tr}\biggl((M-E)-\frac{1}{2}(M-E)^2+\cdots\biggr) \nonumber \\
+&=&\mathrm{Tr}\biggl(A(N-E)A^{-1}-\frac{1}{2}A(N-E)^2A^{-1}+\cdots\biggr) \nonumber \\
+&=&\mathrm{Tr}\biggl(A(\ln N)A^{-1}\biggr) \nonumber \\
+&=&\mathrm{Tr}\ln N \nonumber \\
+&=&\log\lambda_1+\ln\lambda_2+\cdots+\ln\lambda_n \nonumber \\
+&=&\ln\lambda_1\lambda_2\cdots\lambda_n \nonumber \\
+&=&\ln\det M
+\end{eqnarray}
+ここで，$N$は$M$を対角化行列$A$で対角化したものであり，3行目から4行目の変形は，トレースの性質を用いた．
+\begin{empheqboxed}
+\
+
+したがって，対角化可能な行列$M$に対して，
+\begin{eqnarray}
+\label{trdet}
+\mathrm{Tr} \ln M=\ln \det M
+\end{eqnarray}が成立する．
+\end{empheqboxed}
+\footnote{
+(\ref{trdet})式は，
+\begin{eqnarray}
+\label{iii}
+\det M=\exp(\mathrm{Tr}\ln M)
+\end{eqnarray}
+と書き換えられて，さらに，
+\begin{eqnarray}
+M=\exp G
+\end{eqnarray}
+と定めることで，(\ref{iii})式の右辺が$G$で表されて，
+\begin{eqnarray}
+\label{iiii}
+\det M=\exp(\mathrm Tr G)
+\end{eqnarray}を得る．この式は，郡$M$と代数$G$(generator)の間の関係と見ることもできる．いま，$\det M=1$を満たすような変換行列(回転)を考えると，(\ref{iiii})式から$\exp(\mathrm{Tr} G)=1$すなわち，$\mathrm{Tr} G=0$となる．$G$の例としてパウリ演算子などがあげられる．同様に，$\det M>1$(拡大)なる変換に対するgeneratorは，$\mathrm{Tr} G>0$であり，$\det M>1$(縮小)なる変換に対するgeneratorは，$\mathrm{Tr} G<0$となることがわかる．}
+
+微分とトレースは可換であるから，(\ref{trdet})式の両辺を変分すると，
+\begin{eqnarray}
+{\delta \det M\over \det M}=Tr M^{-1}\delta M
+\end{eqnarray}
+なる関係が得られる．これを計量に適応すれば，
+\begin{empheqboxed}
+\begin{eqnarray}
+\label{ggg}
+\delta g=g g^{\mu\nu}\delta g_{\mu\nu}
+\end{eqnarray}
+\end{empheqboxed}
+なる有用な公式が得られる．今度は行列式ではなく，$g_{\mu\nu}$の変分を求める．初めに，$\delta(g_{\mu\nu}g^{\mu\lambda})=0$であるのから，
+\begin{eqnarray}
+g_{\mu\nu}\delta g^{\mu\lambda}=-g^{\mu\lambda}\delta g_{\mu\nu}
+\end{eqnarray}
+であるが，$g^{\delta \nu}$を両辺にかけて足をつぶせば，
+\begin{empheqboxed}
+\begin{eqnarray}
+\label{gggg}
+\delta g^{\lambda\delta }=-g^{\mu\lambda}g^{\nu\delta}\delta g_{\mu\nu}
+\end{eqnarray}
+\end{empheqboxed}
+なる関係が得られる．すなわち，$\delta g^{\lambda\delta }$の添え字は，計量$g_{\mu\nu}$でしていけないことがわかる．さらに，(\ref{ggg})式と，(\ref{gggg})式を用いいれば，
+\begin{eqnarray}
+\label{hen-g}
+\delta\sqrt{-g}&=&\frac{1}{2}\sqrt{-g}g^{\mu\nu}\delta g_{\mu\nu} \\
+&=&-\frac{1}{2}\sqrt{-g}g_{\mu\nu}\delta g^{\mu\nu}
+\end{eqnarray}
+などが計算できる．
+\subsection{共変微分}
+共変微分は，座標によらない微分概念である．ベクトル場を考えて，ある曲線に沿って点$P$の接空間で定義されるベクトルを点$Q$へ並行移動する．並行移動した点$P$で定義されていたベクトルを点$Q$で定義されている元のベクトルとの差を考えるのが共変微分である．ここで，並行移動とは，点$P$で定義されている接空間の基底ベクトルを他の点$Q$で定義されている接空間の基底ベクトルで表すことである．
+\begin{empheqboxed}
+\
+
+例えば，一階共変反変テンソル$A^{\mu}_{\ \nu}$の共変微分は，
+\begin{eqnarray}
+\nabla_{\rho}A^{\mu}_{\ \ \nu}=\partial_{\rho}A^{\mu}_{\ \ \nu}+\Gamma^{\mu}_{\rho\lambda}A^{\lambda}_{\ \ \nu}-\Gamma^{\lambda}_{\rho\nu}A^{\mu}_{\ \ \lambda}
+\end{eqnarray}
+となる．(ベクトルの上付き添え字でクリストフェルと縮約を取るときは，符号が正であると覚えておけば良い，)
+ここで，クリストフェル(Christoffel)$\Gamma^{\mu}_{\nu\lambda}$は，以下で表される．
+\begin{eqnarray}
+\label{Ch}
+\Gamma^{\mu}_{\nu\lambda}=\frac{1}{2}g^{\mu\rho}(\partial_\nu g_{\lambda\rho}+\partial_\lambda g_{\nu\rho} - \partial_\rho g_{\nu\lambda})
+\end{eqnarray}
+
+\end{empheqboxed}
+ただし，totion freeを課した．ここで，クリストフェル$\Gamma^{\mu}_{\nu\lambda}$は，テンソルでなく座標変換に対して，
+\begin{eqnarray}
+\Gamma^{\prime \alpha}_{\ \beta\gamma}=\frac{\partial x^{\prime\alpha}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x^{\prime\beta}}\frac{\partial x^{\lambda}}{\partial x^{\prime\gamma}}\Gamma^{\mu}_{\ \nu\lambda}+\frac{\partial^2 x^{\rho}}{\partial x^{\prime \beta}\partial x^{\prime \gamma}}\frac{\partial x^{\prime \alpha}}{\partial x^{\rho}}
+\end{eqnarray}
+あるいは，
+\begin{eqnarray}
+\Gamma^{\prime \alpha}_{\ \beta\gamma}=\frac{\partial x^{\prime\alpha}}{\partial x^{\mu}}\frac{\partial x^{\nu}}{\partial x^{\prime\beta}}\frac{\partial x^{\lambda}}{\partial x^{\prime\gamma}}\Gamma^{\mu}_{\ \nu\lambda}-\frac{\partial x^{\nu}}{\partial x^{\prime\beta}}\frac{\partial x^{\lambda}}{\partial x^{\prime\gamma}}\frac{\partial^2 x^{\prime \alpha}}{\partial x^{\nu}\partial x^{\lambda}}
+\end{eqnarray}
+と変換する．
+
+(\ref{Ch})式で，クリストフェルの縮約をとると，
+\begin{eqnarray}
+\label{Chdetg}
+\Gamma^{\mu}_{\nu\mu}=\frac{1}{2}g^{\mu\rho}\partial_\nu g_{\mu\rho}=\frac{\partial_{\nu} g}{2g}=\frac{\partial_{\nu} \sqrt{-g}}{\sqrt{-g}}
+\end{eqnarray}
+二番目の等号は，(\ref{ggg})式を用いた．
+これより，ベクトルの発散に関する有用な公式，
+\begin{eqnarray}
+\label{di32}
+\nabla_{\mu}A^{\mu}&=&\partial_{\mu}A^{\mu}+\Gamma^{\mu}_{\mu\nu}A^{\nu} \nonumber \\
+&=&\partial_{\mu}A^{\mu}+\frac{\partial_{\mu} \sqrt{-g}}{\sqrt{-g}}A^{\mu} \nonumber \\
+&=&\frac{1}{\sqrt{-g}}\partial_{\mu}(\sqrt{-g}A^{\mu})
+\end{eqnarray}
+が導かれる．また，ベクトル$A^{\mu}$がスカラー$\phi$の$\grad$から求まるとき，$A^{\mu}=\nabla^{\mu} \phi=g^{\mu\nu}\partial_{\nu}\phi$となるので，
+これを(\ref{di32})式に代入すると，
+\begin{eqnarray}
+\nabla_{\mu}\nabla^{\mu}\phi=\frac{1}{\sqrt{-g}}\partial_{\mu}(\sqrt{-g}g^{\mu\nu}\partial_{\nu}\phi)
+\end{eqnarray}
+さらに，高階テンソルついても，$A^{\mu\nu\cdots}$が，添え字に関して反対称であれば全く同様な式が得られる．以上をまとめれば，
+\begin{empheqboxed}
+\begin{eqnarray}
+\label{a34}
+\nabla_{\mu}A^{\mu}=\frac{1}{\sqrt{-g}}\partial_{\mu}(\sqrt{-g}A^{\mu})
+\end{eqnarray}
+\begin{eqnarray}
+\nabla_{\mu}\nabla^{\mu}\phi=\frac{1}{\sqrt{-g}}\partial_{\mu}(\sqrt{-g}g^{\mu\nu}\partial_{\nu}\phi)
+\end{eqnarray}
+\end{empheqboxed}
+となる．
+
+ただし，ここまでの計算では，計量条件(メトリシティー)，
+\begin{eqnarray}
+g^{\mu\nu}_{\ \ ;\mu}=0
+\end{eqnarray}
+あるいは，この式から求まる関係，
+\begin{eqnarray}
+\label{metometo}
+g_{\mu\nu,\lambda}=g_{\mu\rho}\Gamma^{\rho}_{\nu\lambda}+g_{\nu\rho}\Gamma^{\rho}_{\mu\lambda}
+\end{eqnarray}
+を仮定して計算した．
+\subsection{測地線方程式}
+アフィンパラメーター$\lambda$とすると，運動量$P^{\mu}$は粒子の位置座標$x^{\mu}$を用いて，
+\begin{eqnarray}
+\label{D2}
+P^{\mu}={d x^{\mu}\over d\lambda}
+\end{eqnarray}で定められる，ここで，アフィンパラメーターとは，(\ref{tau})式で定義された固有時のアフィン変換
+\begin{eqnarray}
+\lambda=a\tau+b
+\end{eqnarray}で表されるようなパラメータである．
+粒子が重力の影響を受けながら運動するとき，重力以外が働かなければその粒子の軌道は，
+\begin{eqnarray}
+\label{Go}
+{d P^{\mu}\over d\lambda}+\Gamma^{\mu}_{\nu\sigma}P^{\nu}P^{\sigma}=0
+\end{eqnarray}
+にしたがう．
+\subsection{曲率}
+リーマン(Riemann Tensor)テンソルについて簡単に確認する．計量$g_{\mu\nu}$に二回微分に相当する幾何学量であり，重力の有無を判断する良い指標になる．リーマンテンソルは，共変微分の交換関係に現れて，
+\begin{eqnarray}
+\label{RRR}
+\nabla_{\lambda}\nabla_{\delta}A^{\mu}-\nabla_{\delta}\nabla_{\lambda}A^{\mu}=\bigl[\nabla_{\lambda},\nabla_{\delta}\bigr]=R^{\mu}_{\nu\lambda\delta}A^{\nu}
+\end{eqnarray}
+と表せる．
+\begin{empheqboxed}
+\
+
+$R^{\mu}_{\nu\lambda\delta}$をあらわに書き表せば，
+\begin{eqnarray}
+\label{rie}
+R^{\mu}_{\nu\lambda\delta}=\partial_{\lambda}\Gamma^{\mu}_{\nu\delta}-\partial_{\delta}\Gamma^{\mu}_{\nu\lambda}+\Gamma^{\mu}_{\rho\lambda}\Gamma^{\rho}_{\nu\delta}-\Gamma^{\mu}_{\rho\delta}\Gamma^{\rho}_{\nu\lambda}
+\end{eqnarray}
+で定義される．さらに，リーマンテンソルの縮約をとったリッチテンソル(Ricci tensor)は，
+\begin{eqnarray}
+\label{rct}
+R_{\mu\nu}=R^{\lambda}_{\mu\lambda\nu}
+\end{eqnarray}
+であり，さらに縮約をとったリッチスカラーは，
+\begin{eqnarray}
+\label{rcs}
+R=g^{\mu\nu}R_{\mu\nu}
+\end{eqnarray}
+で定義される．リーマンテンソルには，添字の循環に対して対称で，
+\begin{eqnarray}
+\label{Rcycle}
+R^{\lambda}_{\mu\nu\sigma}+R^{\lambda}_{\nu\sigma\mu}+R^{\lambda}_{\sigma\mu\nu}=0
+\end{eqnarray}を満たす．
+\end{empheqboxed}
+あとで，必要になるので，(\ref{rie}),(\ref{rct}),(\ref{rcs})式で定義される曲率の変分を求めておく．まずは，計量を共変微分したものの変分を求めることから始めていく，
+\begin{eqnarray}
+\label{hendg}
+\nabla_{\lambda}(\delta g_{\mu\nu})=\delta g_{\mu\nu,\lambda}-\Gamma_{\mu\lambda}^{\tau}\delta g_{\tau\nu}-\Gamma_{\nu\lambda}^{\tau}\delta g_{\tau\mu}
+\end{eqnarray}
+となる，この式からも分るように，偏微分と変分は交換するが，共変微分と変分は交換しない，次にクリストフェルの変分を考える．(\ref{Ch})式より，
+\begin{eqnarray}
+\delta \Gamma^{\mu}_{\nu\lambda}=\frac{1}{2}\delta\biggl(g^{\mu\rho}(\partial_\nu g_{\lambda\rho}+\partial_\lambda g_{\nu\rho} - \partial_\rho g_{\nu\lambda})\biggr)
+\end{eqnarray}
+を(\ref{hendg})式を用いて計算すると，
+\begin{eqnarray}
+\delta \Gamma^{\mu}_{\nu\lambda}=\frac{1}{2}g^{\mu\rho}(\delta g_{\lambda\rho;\nu}+\delta g_{\nu\rho;\lambda} -\delta g_{\nu\lambda;\rho})
+\end{eqnarray}
+を得る．着目すべき点は，テンソルでないクリストフェルの変分は，テンソルとして振る舞うことである．同様に，このクリストフェルの変分に対する共変微分を考える．共変微分の定義から頑張って計算すると，
+\begin{eqnarray}
+\label{dhench}
+\nabla_{\alpha}(\delta \Gamma^{\mu}_{\nu\lambda})=\delta \Gamma^{\mu}_{\nu\lambda;\alpha}=\frac{1}{2}g^{\mu\rho}(\delta g_{\lambda\rho;\nu\alpha}+\delta g_{\nu\rho;\lambda\alpha} -\delta g_{\nu\lambda;\rho\alpha})
+\end{eqnarray}
+を得る，これらを用いれば，リーマンテンソルの変分が計算できる．(\ref{rie})式から，
+\begin{eqnarray}
+\label{henri}
+\delta R^{\mu}_{\nu\lambda\delta}&=&\delta\biggl(\partial_{\lambda}\Gamma^{\mu}_{\nu\delta}-\partial_{\delta}\Gamma^{\mu}_{\nu\lambda}+\Gamma^{\mu}_{\rho\lambda}\Gamma^{\rho}_{\nu\delta}-\Gamma^{\mu}_{\rho\delta}\Gamma^{\rho}_{\nu\lambda}
+\biggr)\nonumber \\
+&=&\delta\Gamma^{\mu}_{\nu\delta;\lambda}-\delta\Gamma^{\mu}_{\nu\lambda;\delta}
+\end{eqnarray}
+となるが，(\ref{dhench})式から計量を用いて表すこともできる，(\ref{henri})式で，縮約をとると，リッチテンソルを変分した値が得られて，
+\begin{eqnarray}
+\label{henrct}
+\delta R_{\mu\nu}&=&\delta R^{\lambda}_{\mu\lambda\nu}=\delta\Gamma^{\lambda}_{\mu\nu;\lambda}-\delta\Gamma^{\lambda}_{\mu\lambda;\nu}\nonumber \\
+&=&\frac{1}{2}\biggl(\delta g_{\lambda\mu;\nu}^{\quad \ \  ;\lambda}+\delta g_{\lambda\nu;\mu}^{\quad \ \  ;\lambda}-g^{\tau\lambda}\delta g_{\lambda\tau;\mu\nu}-\delta g_{\mu\nu;\lambda}^{\quad \ \  ;\lambda}\biggr)
+\end{eqnarray}
+となる．最後に，リッチスカラーについて変分をとる．(\ref{rcs})式より，
+\begin{eqnarray}
+\delta R=\delta(g^{\mu\nu}R_{\mu\nu})=g^{\mu\nu}\delta R_{\mu\nu}+R_{\mu\nu}\delta g^{\mu\nu}
+\end{eqnarray}
+となり，(\ref{henrct})式と，添字の対称性に注意して計算すると，
+\begin{eqnarray}
+\delta R=\delta g_{\mu\nu}^{\quad ;\mu\nu}-g^{\mu\nu}\delta g_{\mu\nu;\lambda}^{\quad \ \ ;\lambda}+R_{\mu\nu}\delta g^{\mu\nu}
+\end{eqnarray}
+が得られる．この式は，重力場の作用からアインシュタイン方程式を導く際に有用である．
+\subsection{不変体積要素}
+時空の計量$g_{\mu\nu}$の行列式を$g=\det(g_{\mu\nu})$で定義する．このとき，時空の不変体積要素は，$\sqrt{-g}d^4x$となる．四元運動量も四元ベクトルであるので不変体積要素も同様に$\sqrt{-g}d^4P$となる．そこで，8次元位相空間における不変体積要素は，$-gd^4xd^4P$である．実際の粒子の運動を考えるときは，8次元でなく，
+\begin{eqnarray}
+\label{Os}
+P_{\mu}P^{\mu}+m^2=0
+\end{eqnarray}
+(\ref{OS})式で表されるOn-shell条件を満たすように運動する．したがって，位相空間の分配関数$f(x,P)$は，８次元に埋め込まれた7次元超曲面上に値を持つ．さらに，粒子の持っているエネルギー$E$は正であるはずなので，$E=P^{0}\geqslant0$の条件が課される．(これ以降，Os-shell条件を満たすような粒子のエネルギー$P^0$は，$E$と書くことにする．)
+
+運動量にはこのような二つの制約が課されるので，次のような三次元運動量要素$d\Pi$を定義することは有用である．
+\begin{eqnarray}
+\label{D3}
+d\Pi=\frac{\sqrt{-g}d^4P}{(2\pi)^3}\Theta(P^{0})\delta_{D}(P_{\mu}P^{\mu}+m^2)
+\end{eqnarray}
+ここで，$\Theta(P^{0})$は，階段関数(step function)でこの値は，本義ローレンツ変換の元で不変に保たれる．
+よって，(\ref{D3})式の右辺もまた一般座標変換に対して不変なスカラーである．%\footnote{\textcolor{red}{ローレンツ不変だから一般座標変換不変にある????????}}
+このような積分要素を定義すれば，上の要請を満たすような物理的な粒子について考えることになるので，$P^{0}$について先に積分してしまう．\footnote{積分要素であり，あとで積分することになるので先に行っておく}
+(\ref{D3})式に現れるデルタ関数は，$f(x)=0$の解を$x_p$とするとき
+\begin{empheqboxed}
+\begin{eqnarray}
+\label{D4}
+\delta_{D}(f(x))=\sum_{p}{\delta_{D}(x-x_p) \over |f^{\prime}(x_p)|}
+\end{eqnarray}
+\end{empheqboxed}
+なる性質がある．今，デルタ関数の中身のOn-shell条件(\ref{Os})式は，
+$P^{0}=E$についてとくと(時空の構造によって，内積の値がかわることに注意する．)
+\begin{eqnarray}
+g_{00}(P^0)^2+2g_{0i}P^0P^i+g_{ij}P^iP^j+m^2=0
+\end{eqnarray}から，
+\begin{eqnarray}
+E={g_{0i}P^i+\sqrt{(g_{0i}P^i)^2-g_{00}(g_{ij}P^iP^j+m^2)}\over -g_{00}}
+\end{eqnarray}
+となる，(\ref{D4})式との対応は，$|f^{\prime}(x_p)|$が$2g_{00}P^0+2g_{0i}P^i=2\sqrt{(g_{0i}P^i)^2-g_{00}(g_{ij}P^iP^j+m^2)}$であるので，具体的に，(\ref{D3})式の$P^0$に関する積分を実行すると，
+\begin{eqnarray}
+d\Pi=\dfrac{\sqrt{-g}d^3P}{2\sqrt{(g_{0i}P^i)^2-g_{00}(g_{ij}P^iP^j+m^2)}}
+\end{eqnarray}
+が得られる．
+\begin{empheqboxed}
+\
+
+ミンコフスキー時空(\ref{D1})で不変体積要素は
+\begin{eqnarray}
+\label{D8}
+d\Pi={\sqrt{-g}d^3P\over (2\pi)^32E}
+\end{eqnarray}
+となる．
+\end{empheqboxed}
+\subsection{四元流束(particle 4-flow)}
+四元流束を後で使うので，ここで定義しておく，局所ミンコフスキー時空では\footnote{$\sqrt{-g}=1$となるので，普通に積分すればよいことになる．}(\ref{C3})式で定義した粒子の数密度が，(\ref{D8})式を用いて書き直せて，
+\begin{eqnarray}
+n(\bm{x},t)=2\int d\Pi P^0f(x,P) .
+\end{eqnarray}
+この値は四元運動量を用いて四元ベクトルに拡張子できて，
+\begin{eqnarray}
+\label{D13}
+N^{\mu}(\bm{x},t)=2\int d\Pi P^{\mu}f(x,P)
+\end{eqnarray}
+が定義できる．これは，ミンコフスキー時空で四元流束とよばれる．四元ベクトルの成分で，書けば見慣れた形にになる．
+\begin{eqnarray}
+(N^{\mu})=(n,\bm{j})
+\end{eqnarray}
+
+\section{古典場の理論}
+この節では，簡単に古典場の理論をまとめておく．本論文ではスカラー場のみを扱うので，簡単のために以下では，実スカラー場$\phi$について見ていくことにする．
+\begin{empheqboxed}
+\
+
+古典的な場を考えると，この場$\phi$は作用原理から運動方程式，
+\begin{eqnarray}
+\label{eleq}
+\dfrac{\delta S}{\delta \phi}=0
+\end{eqnarray}
+を満たす．具体的にラグラジアン密度を用いて表すと，
+\begin{eqnarray}
+\label{EL}
+\frac{\partial \sqrt{-g}\mathcal{L}}{\partial \phi}-
+\partial_{\mu}\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}=0
+\end{eqnarray}
+のオイラーラグランジュ(Euler-Lagrange)方程式にしたがうことがわかる．
+\end{empheqboxed}
+これを出発点として，ラグラジアンとエネルギー運動量テンソルの関係を一般の時空で議論しよう．
+
+
+\subsection{ネーターカレント(Noether current)}
+保存則と対称性の関係は，ネーター(Noether)の定理によって表される．
+考えている系の物理をラグラジアン密度を用いて表すことができるとするときについて考える．この系を支配する物理法則，あるいは運動方程式がある変換について不変であるとき，その系には必ず保存則が存在する．ここで，ある変換で運動方程式が不変であるということは，\textbf{作用が不変，あるいは作用の変化が表面項だけ}で与えられる場合である．
+いま，簡単のために，
+\begin{eqnarray}
+\label{xn}
+&x^{\mu}\rightarrow \overline{x}^{\mu}={x}^{\mu}+\overline{\delta}x^{\mu}& \\
+\label{pn}
+&\phi\rightarrow\overline{\phi}(\overline{x})=\phi(x)+\overline{\delta}\phi(x)&
+\end{eqnarray}
+のように，$\phi$と$x$を同時に変換する場合を考える．ここで注意すべきことは，$\phi$の変換が同じ座標値で行う変分でないことである．すなわち，
+\begin{eqnarray}
+\label{a64aa}
+\overline{\delta}\phi(x)&=&\overline{\phi}(\overline{x})-\phi(x) \nonumber \\
+&=&\overline\phi(x+\delta x)-\phi(x) \nonumber \\
+&=&\delta\phi(x)+\phi_{,\mu}\overline{\delta}x^{\mu}
+\end{eqnarray}
+となっている．(\ref{a64aa})式の結果を見ると，変分$\overline{\delta}\phi(x)$には，きちんと$\phi(x)$の変分と$x$の変分からくる項が含まれている．$x$に関する変分を考えず，$\phi(x)$だけの変分を考えると時は$\delta x=0$となるので，確かに$\overline{\delta}\phi(x)=\delta\phi(x)$となっている．
+
+同様に，$\sqrt{-g}\mathcal{L}$の(\ref{pn})式による変化量と変分の間の関係は，$\sqrt{-g}\mathcal{L}$全体を$x$の関数として捉えれば，
+\begin{eqnarray}
+\label{a24}
+\overline{\delta}(\sqrt{-g}\mathcal{L})&=&\sqrt{-g(\overline{x})}\mathcal{L}(\overline{x})-\sqrt{-g(x)}\mathcal{L(x)} \nonumber \\
+&=&\delta(\sqrt{-g}\mathcal{L})+\partial_{\mu}(\sqrt{-g}\mathcal{L})\overline{\delta}x^{\mu}
+\end{eqnarray}
+である．(\ref{a24})式の右辺第1項は，
+\begin{eqnarray}
+\label{a25}
+\delta(\sqrt{-g}\mathcal{L})&=&\frac{\partial \sqrt{-g}\mathcal{L}}{\partial \phi}\delta \phi+\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\delta \partial_{\mu}\phi \nonumber \\
+&=&\partial_{\mu}\biggl(\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\delta\phi\biggr)
+\end{eqnarray}
+と書き直せる．一行目から二行目の変形は，運動方程式(\ref{EL})を用いた．
+さらに，座標変換(\ref{xn})から変換後の微小体積要素$d^4\overline{x}$はヤコビアンJを用いると，元の座標$x$で表現できて，
+\begin{eqnarray}
+d^4\overline{x}=Jd^4x
+\end{eqnarray}
+となる．ここで，$J$は(\ref{xn})式から決まり今回は，
+\begin{eqnarray}
+d^4\overline{x}=Jd^4x&=&\det\biggl(\dfrac{\partial x^{\mu}}{\partial \overline{x}^{\nu}}\biggr)d^4x  \nonumber \\
+&=&\det(\delta^{\mu}_{\nu}+\partial_{\nu}\overline{\delta}x^{\mu})d^4x  \nonumber \\
+&=&1+\partial_{\mu}\overline{\delta}x^{\mu}d^4x
+\end{eqnarray}
+と定める．したがって，
+\begin{eqnarray}
+\overline{\delta}(d^4x)=(\partial_{\mu}\overline{\delta}x^{\mu})d^4x.
+\end{eqnarray}
+以上より，作用$S$
+\begin{eqnarray}
+S=\int d^4x\sqrt{-g}\mathcal{L}(\phi,\partial_{\mu}\phi)
+\end{eqnarray}
+が不変に保たれるとき，
+\begin{eqnarray}
+\label{313}
+\delta S&=&\int d^4x \biggl((\partial_{\mu}\overline{\delta}x^{\mu})\sqrt{-g}\mathcal{L}+\overline{\delta}(\sqrt{-g}\mathcal{L})\biggr) \nonumber \\
+&=&\int d^4x \biggl(\partial_{\mu}(\overline{\delta}x^{\mu}\sqrt{-g}\mathcal{L})-\overline{\delta}x^{\mu}\partial_{\mu}(\sqrt{-g}\mathcal{L})
++\partial_{\mu}\biggl(\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\delta\phi\biggr)+\overline{\delta}x^{\mu}\partial_{\mu}(\sqrt{-g}\mathcal{L})\biggr) \nonumber \\
+&=&\int d^4x \ \partial_{\mu}\biggl(\overline{\delta}x^{\mu}\sqrt{-g}\mathcal{L}+\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\delta\phi\biggr)=0
+\end{eqnarray}
+となる．一行目は，微小体積要素の変分と$\sqrt{-g}\mathcal{L}$に対する変分を行った．一行目から二行目は，(\ref{a25})式を用いた．
+最後にこの変分の値を始めに定義した変化量$\overline{\delta}x^{\mu},\delta\phi(x)$で書き直せば，
+\begin{eqnarray}
+\label{a31}
+\delta S=\int d^4x \  \partial_{\mu} \biggl[\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\overline{\delta}\phi+\biggl(\delta^{\mu}_{\nu}\sqrt{-g}\mathcal{L}-\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\partial_{\nu}\phi\biggr)\overline{\delta}x^{\nu}\biggr]=0
+\end{eqnarray}
+となる．(\ref{a31})式が成立するためには，被積分関数が$0$となればよくて，
+\begin{eqnarray}
+\label{a32}
+\partial_{\mu} \biggl[\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\overline{\delta}\phi+\sqrt{-g}T^{\mu}_{\ \  \nu}\overline{\delta}x^{\nu}\biggr]=0
+\end{eqnarray}
+が成立する．
+\begin{empheqboxed}
+\
+
+ここで$T^{\mu}_{\ \ \nu}$は，エネルギー運動量テンソルになる量で，次で定義される．
+\begin{eqnarray}
+\label{emt1}
+T_{\ \ \nu}^\mu=-\frac{1}{\sqrt{-g}}\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\partial_{\nu}\phi+\delta^{\mu}_{\nu}\mathcal{L}
+\end{eqnarray}
+
+\end{empheqboxed}
+ほとんどの場合，計量の行列式は物質場$\phi$によらないので，\footnote{\textcolor{red}{普通なら計量は，$\phi$に依存そう．}}\footnote{このままでは，添え字に関して対称とは限らない.}
+\begin{eqnarray}
+T_{\ \ \nu}^\mu=-\frac{\partial \mathcal{L}}{\partial(\partial_{\mu} \phi)}\partial_{\nu}\phi+\delta^{\mu}_{\nu}\mathcal{L}
+\end{eqnarray}
+を用いれば良い．
+(\ref{a32})式は，ネーターカレント$j^{\mu}$を，
+\begin{eqnarray}
+j^{\mu}=\frac{1}{\sqrt{-g}}\frac{\partial \sqrt{-g}\mathcal{L}}{\partial(\partial_{\mu} \phi)}\overline{\delta}\phi+T^{\mu}_{\ \  \nu}\overline{\delta}x^{\nu}
+\end{eqnarray}
+と定めることで，保存量となり$j^{\mu}$は，
+\begin{eqnarray}
+\partial_{\mu}(\sqrt{-g}j^{\mu})=0
+\end{eqnarray}
+とカレントの保存式になる．さらに，(\ref{a34})式から，
+\begin{eqnarray}
+\label{ncu}
+\nabla_{\mu}j^{\mu}=0
+\end{eqnarray}
+が導ける．
+\subsection{エネルギー運動量テンソル}
+特に作用に一般座標変換の対称性，すなわち，(\ref{xn})式で$\overline{\delta}x^{\mu}=\epsilon\xi^{\mu}(x)$として
+\begin{eqnarray}
+\label{xnnn}
+x^{\mu}\rightarrow x^{\prime \mu}=x^{\mu}-\epsilon\xi^{\mu}(x)
+\end{eqnarray}
+の変換の下での，不変性があるときは，上で定義したネーターカレントは，
+\begin{eqnarray}
+j^{\mu}=T^{\mu}_{\ \  \nu}\xi^{\nu}(x)
+\end{eqnarray}
+となり，このときの保存則(\ref{ncu})は，
+\begin{eqnarray}
+\nabla_{\mu}j^{\mu}=\nabla_{\mu}(T^{\mu}_{\ \  \nu}\xi^{\nu})=0
+\end{eqnarray}
+あるいは，
+\begin{eqnarray}
+\label{tmco}
+\nabla_{\mu}(T^{\mu \nu}\xi_{\nu})=0
+\end{eqnarray}
+となる，ただし，$\epsilon$は，定数なので消去した．
+\subsection{重力場の作用}
+これまで導いてきた，関係を用いてアインシュタイン方程式及び，エネルギー運動量テンソルの保存則について確認する．ここで，重力場の運動方程式(アインシュタイン方程式)は，作用原理から導くことができるはずである．そのラグラジアン密度は一般座標変化に対して不変であり(物理法則は座標によらない)，物理法則の局所性から微分は高々2階という要請からmininmalなcouplingとして，$aR+b$が考えられる．$R$は，リッチスカラーである．物質場の作用$S_{M}$を，
+\begin{eqnarray}
+\label{a82}
+S_{M}[g,\phi]=\int d^4x\sqrt{-g}\mathcal{L_{M}}(\phi,\partial_{\mu}\phi;g)
+\end{eqnarray}
+とすると，場全体の作用$S$は，
+\begin{eqnarray}
+S[g,\phi]&=&S_{G}[g]+S_{M}[g,\phi] \nonumber \\
+&=&\int d^4x\sqrt{-g}(aR+b)+\int d^4x\sqrt{-g}\mathcal{L_{M}}(\phi,\partial_{\mu}\phi;g)
+\end{eqnarray}
+という形が考えられる．この式作用の計量に関する変分をとってみる，いま，重力場の作用に含まれる$\sqrt{-g}R$の変分は，
+\begin{eqnarray}
+\label{a89}
+\delta(\sqrt{-g}R)&=&\delta R\sqrt{-g}+R\delta\sqrt{-g} \nonumber \\
+&=&\sqrt{-g}\biggl(R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R\biggr)\delta g^{\mu\nu}+\sqrt{-g}\biggl(g^{\mu\nu}\delta\Gamma^{\lambda}_{\mu\nu;\lambda}-\delta\Gamma^{\lambda \ \ ;\mu}_{\mu\lambda}\biggr)
+\end{eqnarray}
+である．$\sqrt{-g}$の変分には，(\ref{hen-g})式を用いた．(\ref{a89})式でガウスの法則を適応すると，第三項，第四項は表面項となり\textbf{変分原理では，境界を固定したときの運動を考える}ので，表面項の第三項，第四項に含まれる$\delta\Gamma$に関する部分は，変分に寄与しない．したがって，
+\begin{eqnarray}
+\dfrac{\delta S}{\delta g^{\mu\nu}}=\sqrt{-g}\biggl[a\biggl(R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R\biggr)-\frac{b}{2}g_{\mu\nu}\biggr]+\dfrac{\delta S_{M}}{\delta g^{\mu\nu}}=0
+\end{eqnarray}
+を得る．これを整理して書き直すと，アインシュタイン(Einstein)方程式
+\begin{eqnarray}
+R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}+\Lambda^{\prime} g_{\mu\nu}=8\pi GT_{\mu\nu}
+\end{eqnarray}
+を得る．ここで，
+\begin{eqnarray}
+\frac{b}{a}=-2\Lambda^{\prime}
+\end{eqnarray}
+\begin{eqnarray}
+\label{emt2}
+T_{\mu\nu}=-\frac{1}{8\pi Ga\sqrt{-g}}\dfrac{\delta S_{M}}{\delta g^{\mu\nu}}
+\end{eqnarray}
+と定めた．物質場のラグランジアン密度が計量テンソルの微分を含んでいなければ，(\ref{emt2})式に含まれる$S_{M}$の汎関数微分が計算できる．(\ref{a82})式の変分をとることで，
+\begin{eqnarray}
+\delta S_{M}[g,\phi]=\int d^4x^{\prime} \sqrt{-g}\biggl(\frac{\partial \mathcal{L}_{M}}{\partial g_{\mu\nu}(x^{\prime})}-\frac{1}{2}g_{\mu\nu}(x^{\prime})\mathcal{L}_{M}\biggr)\delta g^{\mu\nu}(x^{\prime})
+\end{eqnarray}
+を得る．$\sqrt{-g}$の変分には，(\ref{hen-g})式を用いた．したがって，
+\begin{eqnarray}
+\dfrac{\delta S_{M}}{\delta g^{\mu\nu}(x)}=\sqrt{-g}\biggl(\frac{\partial \mathcal{L}_{M}}{\partial g_{\mu\nu}(x)}-\frac{1}{2}g_{\mu\nu}(x)\mathcal{L}_{M}\biggr)
+\end{eqnarray}
+よって，(\ref{emt2})式は，
+\begin{eqnarray}
+\label{emt3}
+T_{\mu\nu}&=&-\frac{1}{8\pi Ga}\biggl(\frac{\partial \mathcal{L}_{M}}{\partial g_{\mu\nu}(x)}-\frac{1}{2}g_{\mu\nu}(x)\mathcal{L}_{M}\biggr) \nonumber \\
+&=&\frac{1}{16\pi Ga}\biggl(-2\frac{\partial \mathcal{L}_{M}}{\partial g_{\mu\nu}(x)}+g_{\mu\nu}(x)\mathcal{L}_{M}\biggr)
+\end{eqnarray}
+となる．
+
+エネルギー運動量テンソルは，すでに(\ref{emt1})式で定義したので，これと整合性が合うように定数$a$を決めることができる．
+いま，一般のスカラー場のラグラジアン密度$\mathcal{L}_{M}$を，$V(\phi)$をポテンシャルとして，
+\begin{eqnarray}
+\mathcal{L}_{M}=-\frac{1}{2}g^{\mu\nu}\partial_{\mu}\phi\partial_{\nu}\phi-V(\phi)
+\end{eqnarray}
+と定めると，(\ref{emt3})式から求まるエネルギー運動量テンソルは，
+\begin{eqnarray}
+T_{\mu\nu}=\frac{1}{16\pi Ga}\biggl[\partial_{\mu}\phi\partial_{\nu}\phi+g_{\mu\nu}\biggl(-\frac{1}{2}g^{\alpha\beta}\partial_{\alpha}\phi\partial_{\beta}\phi-V(\phi)\biggr)\biggr]
+\end{eqnarray}
+である．また，(\ref{emt1})式から求まる求まるエネルギー運動量テンソルは，
+\begin{eqnarray}
+T_{\mu\nu}=\partial_{\mu}\phi\partial_{\nu}\phi+g_{\mu\nu}\biggl(-\frac{1}{2}g^{\alpha\beta}\partial_{\alpha}\phi\partial_{\beta}\phi-V(\phi)\biggr)
+\end{eqnarray}
+となるから，$a=\frac{1}{16\pi G}$と求まる．
+\begin{empheqboxed}
+\
+
+以上より，重力場の作用$S_{G}[g]$は，
+\begin{eqnarray}
+S[g,\phi]=\frac{1}{16\pi G}\int d^4\sqrt{-g}(R-2\Lambda^{\prime})
+\end{eqnarray}
+のアインシュタイン-ヒルベルト(Einstein-Hilbert)作用で与えらる．さらに，エネルギー運動量テンソルは，
+\begin{eqnarray}
+\label{emt4}
+T_{\mu\nu}&=&-\frac{2}{\sqrt{-g}}\dfrac{\delta S_{M}}{\delta g^{\mu\nu}(x)} \nonumber \\
+&=&-2\frac{\partial \mathcal{L}_{M}}{\partial g_{\mu\nu}(x)}+g_{\mu\nu}(x)\mathcal{L}_{M}
+\end{eqnarray}
+で定義されることがわかる．
+
+\end{empheqboxed}
+また，(\ref{emt4})式は，(\ref{gggg})式を用いることで
+\begin{eqnarray}
+\label{emt5}
+T^{\mu\nu}&=&\frac{2}{\sqrt{-g}}\dfrac{\delta S_{M}}{\delta g_{\mu\nu}(x)} \nonumber \\
+\end{eqnarray}
+とも表すことができる．
+
+\subsubsection{エネルギー保存則}
+最後に，エネルギー保存則を導く．物質場の作用$S_{M}[g,\phi]$は，$g(x),\phi(x)$の汎関数である．そこで，その変分は，
+\begin{eqnarray}
+\label{a98}
+\delta S_{M}=\int d^4x\biggl[\dfrac{\delta S_{M}}{\delta g^{\mu\nu}}\delta g_{\mu\nu}+\dfrac{\delta S_{M}}{\delta \phi}\delta \phi\biggr]
+\end{eqnarray}
+となる，この式の第二項は，(\ref{eleq})式より$0$である．いま，変分として(\ref{xnnn})式で行った一般座標変換を考えると，
+\begin{eqnarray}
+\delta g_{\mu\nu}&=&g^{\prime}_{\mu\nu}(x)-g_{\mu\nu}(x)
+\end{eqnarray}
+ここで，計量$g_{\mu\nu}$は，一般座標変換で不変に保たれて，
+\begin{eqnarray}
+g^{\prime}_{\mu\nu}(x^{\prime})=\frac{\partial x^{\rho}}{\partial x^{\prime \mu}}\frac{\partial x^{\sigma}}{\partial x^{\prime \nu}}g_{\rho\sigma}(x)
+\end{eqnarray}
+と変換する．ここで，(\ref{xnnn})式を用いて偏微分を計算すると，
+\begin{eqnarray}
+\label{a102}
+\delta g_{\mu\nu}&=&g^{\prime}_{\mu\nu}(x)-g_{\mu\nu}(x) \nonumber \\
+&=&\epsilon(\xi_{\mu;\nu}+\xi_{\nu;\mu})\nonumber \\
+&=&\epsilon \mathfrak{L}_{\xi}g_{\mu\nu}
+\end{eqnarray}
+となるから，(\ref{a98})式は，
+\begin{eqnarray}
+\delta S_{M}=2\epsilon \int d^4x \dfrac{\delta S_{M}}{\delta g^{\mu\nu}}\xi_{\mu;\nu}=\epsilon \int d^4x \sqrt{-g}T^{\mu\nu}\xi_{\mu;\nu}
+\end{eqnarray}
+となる．ここでは，計量が$\mu\leftrightarrow\nu$に対して対称であることと，(\ref{emt5})式を用いた．さらに，
+\begin{eqnarray}
+T^{\mu\nu}\xi_{\mu;\nu}=\nabla_{\nu}(T^{\mu\nu}\xi_{\mu})-T^{\mu\nu}_{ \ \ \ ;\nu}\xi_{\mu}=-T^{\mu\nu}_{ \ \ \ ;\nu}\xi_{\mu}
+\end{eqnarray}
+が成立する．二個目の等号は，物質場の作用が一般座標変換で不変に保たれるという要請から以前導いた(\ref{tmco})式を用いた．
+このことを用いて，もう一度物質場の作用$S_{M}[g,\phi]$が，一般座標変換(\ref{xnnn})の下で不変に保たれることを要請すると，
+\begin{eqnarray}
+\delta S_{M}=-\epsilon \int d^4x \sqrt{-g}T^{\mu\nu}_{\ \ \ ;\nu}\xi_{\mu}=0
+\end{eqnarray}
+被積分関数である，エネルギー運動量テンソルの共変微分が0である．
+\begin{empheqboxed}
+\
+
+エネルギー保存則
+\begin{eqnarray}
+\label{eee1}
+T^{\mu\nu}_{\ \ \ ;\nu}=0
+\end{eqnarray}
+を得る．
+\end{empheqboxed}
+\subsection{スカラー場}
+スカラー場の自由粒子のlagragianは次で与えられる．
+\begin{eqnarray}
+\mathcal{L}=-\dfrac{1}{2}\partial^{\mu}\phi\partial_{\mu}\phi-\dfrac{1}{2}m^2\phi^2
+\end{eqnarray}
+このlagragianの符号は，次で定義されるハミルトニアンが正の値になるように定めた，
+\begin{eqnarray}
+\mathcal{H}=\Pi\dot{\phi}-\mathcal{L},\qquad \Pi=\dfrac{\partial \mathcal{L}}{\partial \dot{\phi}}
+\end{eqnarray}
+この値は，実スカラー場を考えると正の値となる．複素スカラー場でも，正の値となるようにラグラジアンを定める．
+\newpage
+\subsection{Fierz恒等式}
+スレドニキの(35.4)式をより，
+\begin{eqnarray}
+\label{A113}
+\sigma^{\mu}_{a\dot{a}}\sigma_{\mu b\dot{b}}=-2\epsilon_{ab}\epsilon_{\dot{a}\dot{b}}
+\end{eqnarray}
+この式の両辺に，$\epsilon^{ca}\epsilon^{\dot{c}\dot{a}}\epsilon^{db}\epsilon^{\dot{d}\dot{b}}$をかけて，$\epsilon^{ab}$の直交条件を用いると，
+\begin{eqnarray}
+\label{A114}
+\overline{\sigma}^{\mu \dot{c}c}\sigma_{\mu}^{\dot{d}d}&=&-2\epsilon^{ca}\epsilon^{\dot{c}\dot{a}}\epsilon^{db}\epsilon^{\dot{d}\dot{b}}\epsilon_{ab}\epsilon_{\dot{a}\dot{b}} \\
+&=&-2\epsilon^{dc}\epsilon^{\dot{d}\dot{c}}
+\end{eqnarray}
+となる．したがって，
+\begin{empheqboxed}
+
+\begin{eqnarray}
+\label{A115}
+\sigma^{\mu}_{a\dot{a}}\sigma_{\mu b\dot{b}}=-2\epsilon_{ab}\epsilon_{\dot{a}\dot{b}} \\
+\label{A116}
+\overline{\sigma}^{\mu \dot{a}a}\overline{\sigma}_{\mu}^{\dot{b}b}=-2\epsilon^{ab}\epsilon^{\dot{a}\dot{b}}
+\end{eqnarray}
+
+\end{empheqboxed}
+を得る．
+同様にして，スレドニキの(35.5)式についても，
+\begin{empheqboxed}
+
+\begin{eqnarray}
+\epsilon^{ab}\epsilon^{\dot{a}\dot{b}}\sigma^{\mu}_{a\dot{a}}\sigma^{\nu}_{b\dot{b}}=-2g^{\mu\nu} \\
+\epsilon_{ab}\epsilon_{\dot{a}\dot{b}}\overline{\sigma}^{\mu \dot{a}a}\overline{\sigma}^{\nu\dot{b}b}=-2g^{\mu\nu}
+\end{eqnarray}
+
+\end{empheqboxed}
+また，ガンマ行列と呼ばれる，
+\begin{eqnarray}
+\gamma^{\mu}=\left(\begin{array}{cc}0 & \sigma^{\mu}_{e\dot{a}} \\\overline{\sigma}^{\mu\dot{e}a} & 0\end{array}\right)
+\end{eqnarray}を定義しておくと便利である．
+\subsubsection{(a)}
+これらを用いて，fierz恒等式を導出する．まず，(\ref{A116})式を用いて，
+\begin{eqnarray}
+(\chi_{1}^{\dagger}\overline{\sigma}^{\mu}\chi_{2})(\chi_{3}^{\dagger}\overline{\sigma}_{\mu}\chi_{4})&=&\chi_{1\dot{c}}^{\dagger}\overline{\sigma}^{\mu\dot{c}a}\chi_{2a}\chi_{3\dot{b}}^{\dagger}\overline{\sigma}_{\mu}^{\dot{b}d}\chi_{4d} \\
+&=&-2(\chi_{1\dot{c}}^{\dagger}\chi_{3}^{\dagger\dot{c}})(\chi_{2}^{d}\chi_{4d}) \\
+&=&-2(\chi_{1}^{\dagger}\chi_{3}^{\dagger})(\chi_{2}\chi_{4})
+\end{eqnarray}
+と書き直せる．また，最後の等式で，$\chi_{2}\chi_{4}=\chi_{4}\chi_{2}$であることを利用し，今までの道筋を逆にと取ることで，
+\begin{eqnarray}
+-2(\chi_{1}^{\dagger}\chi_{3}^{\dagger})(\chi_{4}\chi_{2})=(\chi_{1}^{\dagger}\sigma^{\mu}\chi_{4})(\chi_{3}^{\dagger}\sigma_{\mu}\chi_{2})
+\end{eqnarray}
+を得る．もちろんright-hand-spinorについても，同じことが言えて，
+\begin{eqnarray}
+(\xi_{1}\sigma^{\mu}\xi^{\dagger}_{2})(\xi_{3}\sigma_{\mu}\xi^{\dagger}_{4})&=&-2(\xi_{1}\xi_{3})(\xi_{2}^{\dagger}\xi_{4}^{\dagger}) \\
+&=&(\xi_{1}\sigma^{\mu}\xi^{\dagger}_{4})(\xi_{3}\sigma_{\mu}\xi^{\dagger}_{2})
+\end{eqnarray}
+が確かめられる．
+以上より，
+\begin{empheqboxed}
+
+\begin{eqnarray}
+\label{A126}
+(\chi_{1}^{\dagger}\overline{\sigma}^{\mu}\chi_{2})(\chi_{3}^{\dagger}\overline{\sigma}_{\mu}\chi_{4})&=&-2(\chi_{1}^{\dagger}\chi_{3}^{\dagger})(\chi_{2}\chi_{4}) \\
+\label{A127}
+&=&(\chi_{1}^{\dagger}\sigma^{\mu}\chi_{4})(\chi_{3}^{\dagger}\sigma_{\mu}\chi_{2})
+\end{eqnarray}
+\begin{eqnarray}
+\label{A128}
+(\xi_{1}\sigma^{\mu}\xi^{\dagger}_{2})(\xi_{3}\sigma_{\mu}\xi^{\dagger}_{4})&=&-2(\xi_{1}\xi_{3})(\xi_{2}^{\dagger}\xi_{4}^{\dagger}) \\
+\label{A129}
+&=&(\xi_{1}\sigma^{\mu}\xi^{\dagger}_{4})(\xi_{3}\sigma_{\mu}\xi^{\dagger}_{2})
+\end{eqnarray}
+
+\end{empheqboxed}
+が確かめられた．
+\subsubsection{(b)}
+次のDirac場を定義する．
+\begin{eqnarray}
+\Psi_i=\left(\begin{array}{c}\chi_i \\ \xi^{\dagger}_i \end{array}\right),\qquad \Psi_i^{C}=\left(\begin{array}{c}\xi_i \\ \chi^{\dagger}_i \end{array}\right) \\
+\overline{\Psi}_i=\left(\begin{array}{cc}\xi_i & \chi^{\dagger}_i\end{array}\right)\qquad \overline{\Psi}_i^{C}=\left(\begin{array}{cc}\chi_i & \xi^{\dagger}_i\end{array}\right)
+\end{eqnarray}
+この$\Psi$を用いた，Fierz恒等式について考える．
+\begin{eqnarray}
+(\overline{\Psi}_{1}\gamma^{\mu}P_L\Psi_{2})(\overline{\Psi}_{3}\gamma_{\mu}P_L\Psi_{4})&=&\overline{\Psi}_{1}\left(\begin{array}{c}0 \\ \overline{\sigma}^{\mu \dot{a}c}\chi_{2c}\end{array}\right)\overline{\Psi}_{3}\left(\begin{array}{c}0 \\ \overline{\sigma}_{\mu}^{\dot{b}d}\chi_{4d}\end{array}\right) \\
+\label{A133}
+&=&(\chi_{1}^{\dagger}\overline{\sigma}^{\mu}\chi_{2})(\chi_{3}^{\dagger}\overline{\sigma}_{\mu}\chi_{4})
+\end{eqnarray}
+ここで，$(\overline{\Psi}_{1}P_R\Psi_{3}^{C})(\overline{\Psi}_{4}^{C}P_L\Psi_{2})$を計算すると，
+\begin{eqnarray}
+(\overline{\Psi}_{1}P_R\Psi_{3}^{C})(\overline{\Psi}_{4}^{C}P_L\Psi_{2})&=&\overline{\Psi}_{1}\left(\begin{array}{c}0 \\ \chi^{\dagger}_{3}\end{array}\right)\overline{\Psi}^{C}_{4}\left(\begin{array}{c}\chi_2 \\ 0\end{array}\right) \\
+\label{A135}
+&=&(\chi_{1}^{\dagger}\chi_{3}^{\dagger})(\chi_{2}\chi_{4})
+\end{eqnarray}
+となるので，(\ref{A126}),(\ref{A133}),(\ref{A135})式より，
+\begin{eqnarray}
+-2(\overline{\Psi}_{1}P_R\Psi_{3}^{C})(\overline{\Psi}_{4}^{C}P_L\Psi_{2})=(\overline{\Psi}_{1}\gamma^{\mu}P_L\Psi_{2})(\overline{\Psi}_{3}\gamma_{\mu}P_L\Psi_{4})
+\end{eqnarray}
+また，(\ref{A127}),(\ref{A133})式より，
+\begin{eqnarray}
+(\overline{\Psi}_{1}\gamma^{\mu}P_L\Psi_{2})(\overline{\Psi}_{3}\gamma_{\mu}P_L\Psi_{4})=(\overline{\Psi}_{1}\gamma^{\mu}P_L\Psi_{4})(\overline{\Psi}_{3}\gamma_{\mu}P_L\Psi_{2})
+\end{eqnarray}
+が満たされる．もちろん，全く同様にして，
+\begin{eqnarray}
+(\overline{\Psi}_{1}\gamma^{\mu}P_R\Psi_{2})(\overline{\Psi}_{3}\gamma_{\mu}P_R\Psi_{4})&=&(\overline{\Psi}_{1}\gamma^{\mu}P_R\Psi_{4})(\overline{\Psi}_{3}\gamma_{\mu}P_R\Psi_{2}) \\
+&=&-2(\overline{\Psi}_{1}P_L\Psi_{3}^{C})(\overline{\Psi}_{4}^{C}P_R\Psi_{2})
+\end{eqnarray}
+も得られる．まとめると．
+\begin{empheqboxed}
+\begin{eqnarray}
+(\overline{\Psi}_{1}\gamma^{\mu}P_L\Psi_{2})(\overline{\Psi}_{3}\gamma_{\mu}P_L\Psi_{4})&=&(\overline{\Psi}_{1}\gamma^{\mu}P_L\Psi_{4})(\overline{\Psi}_{3}\gamma_{\mu}P_L\Psi_{2}) \\
+&=&-2(\overline{\Psi}_{1}P_R\Psi_{3}^{C})(\overline{\Psi}_{4}^{C}P_L\Psi_{2})
+\end{eqnarray}
+
+\begin{eqnarray}
+(\overline{\Psi}_{1}\gamma^{\mu}P_R\Psi_{2})(\overline{\Psi}_{3}\gamma_{\mu}P_R\Psi_{4})&=&(\overline{\Psi}_{1}\gamma^{\mu}P_R\Psi_{4})(\overline{\Psi}_{3}\gamma_{\mu}P_R\Psi_{2}) \\
+&=&-2(\overline{\Psi}_{1}P_L\Psi_{3}^{C})(\overline{\Psi}_{4}^{C}P_R\Psi_{2})
+\end{eqnarray}
+
+
+\end{empheqboxed}
+
+\subsubsection{(c)}
+スレドニキの(36,63)$\sim$(36.65)式の左辺と右辺が一致することを示す．
+(36,63)のLHS;
+\begin{eqnarray}
+\overline{\Psi}_{1}\gamma^{\mu}P_{R}\Psi_{2}=\overline{\Psi}_{1}\left(\begin{array}{c}\sigma^{\mu}_{a\dot{c}}\xi^{\dagger \dot{c}}_2 \\0\end{array}\right)=\xi_1\sigma^{\mu}\xi^{\dagger}_2
+\end{eqnarray}
+(36,63)のRHS;
+\begin{eqnarray}
+-\overline{\Psi}_{2}^{C}\gamma^{\mu}P_{L}\Psi_{1}^C=-\overline{\Psi}_{2}^{C}\left(\begin{array}{c}0 \\ \overline{\sigma}^{\mu\dot{a}c}\xi_{1c}\end{array}\right)=-\xi^{\dagger}_2\overline{\sigma}^{\mu}\xi_1=-\xi^{\dagger}_{2\dot{c}} \epsilon^{\dot{c}\dot{b}} \epsilon^{ad} \sigma^{\mu}_{b\dot{d}}\xi_{1a}= \xi_{1}^{b} \sigma^{\mu}_{b\dot{d}} \xi^{\dagger \dot{d}}_{2}
+\end{eqnarray}
+最後の式変形には，グラスマン数であることを用いた．これより，2式は一致する．
+
+
+(36,64)のLHS;
+\begin{eqnarray}
+\overline{\Psi}_{1}P_L\Psi_{2}=\Psi_{1}\left(\begin{array}{c}\chi_2 \\0\end{array}\right)=\xi_1\chi_2=\chi_2\xi_1
+\end{eqnarray}
+(36,64)のRHS;
+\begin{eqnarray}
+\overline{\Psi}_{2}^{C}P_L\Psi_{1}^{C}=\overline{\Psi}_{2}^{C}\left(\begin{array}{c}\xi_1 \\0\end{array}\right)=\chi_2\xi_1
+\end{eqnarray}より，確かに一致する．
+
+(36,65)のLHS;
+\begin{eqnarray}
+\overline{\Psi}_{1}P_R\Psi_{2}=\overline{\Psi}_{1}\left(\begin{array}{c}0 \\\xi^{\dagger}_2\end{array}\right)=\chi^{\dagger}_1\xi^{\dagger}_2=\chi^{\dagger}_2\xi^{\dagger}_1
+\end{eqnarray}
+(36,64)のRHS;
+\begin{eqnarray}
+\overline{\Psi}_{2}^{C}P_R\Psi_{1}^{C}=\overline{\Psi}_{2}^{C}\left(\begin{array}{c}0 \\\chi_1^{\dagger}\end{array}\right)=\xi^{\dagger}_2\chi^{\dagger}_1
+\end{eqnarray}より，確かに一致する．以上をまとめると，
+\begin{empheqboxed}
+\begin{eqnarray}
+\overline{\Psi}_{1}\gamma^{\mu}P_{R}\Psi_{2}&=&-\overline{\Psi}_{2}^{C}\gamma^{\mu}P_{L}\Psi_{1}^C \\
+\overline{\Psi}_{1}P_L\Psi_{2}&=&\overline{\Psi}_{2}^{C}P_L\Psi_{1}^{C} \\
+\overline{\Psi}_{1}P_R\Psi_{2}&=&\overline{\Psi}_{2}^{C}P_R\Psi_{1}^{C}
+\end{eqnarray}
+
+\end{empheqboxed}

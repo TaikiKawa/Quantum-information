@@ -1,0 +1,1683 @@
+This is e-upTeX, Version 3.14159265-p3.6-u1.20-141210-2.6 (utf8.uptex) (TeX Live 2015) (preloaded format=uplatex 2015.5.24)  15 OCT 2017 01:20
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**References.tex
+(./References.tex
+pLaTeX2e <2011/05/07u00>+0 (based on LaTeX2e <2015/01/01> patch level 0)
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+
+./References.tex:1: LaTeX Error: Environment thebibliography undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}
+                           {2}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./References.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}{2
+                             }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (25.00002pt too wide) in paragraph at lines 1--2
+[]\OT1/cmr/m/n/10 2 
+ []
+
+
+./References.tex:2: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \bibitem{1}
+               D. E. Bruschi, J. Louko, E. Martin-Martinez, A. Dragan, I. Fu...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:2: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.2 \bibitem{1}
+               D. E. Bruschi, J. Louko, E. Martin-Martinez, A. Dragan, I. Fu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:2: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.2 \bibitem{1}
+               D. E. Bruschi, J. Louko, E. Martin-Martinez, A. Dragan, I. Fu...
+I'm forgetting what you said and using zero instead.
+
+\bibcite{1}{0}
+./References.tex:2: Undefined control sequence.
+l.2 ...Martinez, A. Dragan, I. Fuentes (2010)\href
+                                                  {https://arxiv.org/abs/100...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (10.41669pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 D.
+ []
+
+
+Overfull \hbox (9.58336pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 E.
+ []
+
+
+Overfull \hbox (14.33336pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Br-
+ []
+
+
+Overfull \hbox (24.77782pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 uschi,
+ []
+
+
+Overfull \hbox (7.91669pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 J.
+ []
+
+
+Overfull \hbox (29.58342pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Louko,
+ []
+
+
+Overfull \hbox (9.58336pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 E.
+ []
+
+
+Overfull \hbox (33.63896pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Martin-
+ []
+
+
+Overfull \hbox (41.9723pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Martinez,
+ []
+
+
+Overfull \hbox (10.2778pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 A.
+ []
+
+
+Overfull \hbox (19.88892pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Dra-
+ []
+
+
+Overfull \hbox (18.33339pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 gan,
+ []
+
+
+Overfull \hbox (6.3889pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 I.
+ []
+
+
+Overfull \hbox (33.25005pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Fuentes
+ []
+
+
+Overfull \hbox (249.63962pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 (2010)https://arxiv.org/abs/1007.4670arXiv:1007.4670v2
+ []
+
+
+Overfull \hbox (31.11118pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 [quant-
+ []
+
+
+Overfull \hbox (13.88893pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 ph] 
+ []
+
+
+./References.tex:3: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \bibitem{2}
+                I. Fuentes-Schuller and R.B. Mann (2005) Alice falls into a ...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:3: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.3 \bibitem{2}
+                I. Fuentes-Schuller and R.B. Mann (2005) Alice falls into a ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:3: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.3 \bibitem{2}
+                I. Fuentes-Schuller and R.B. Mann (2005) Alice falls into a ...
+I'm forgetting what you said and using zero instead.
+
+\bibcite{2}{0}
+./References.tex:3: Undefined control sequence.
+l.3 ...: Entanglement in non-inertial frames \href
+                                                  {https://arxiv.org/pdf/qua...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (6.3889pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 I.
+ []
+
+
+Overfull \hbox (36.58337pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 Fuentes-
+ []
+
+
+Overfull \hbox (34.47227pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 Schuller
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (20.00005pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 R.B.
+ []
+
+
+Overfull \hbox (25.27785pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 Mann
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 (2005)
+ []
+
+
+Overfull \hbox (13.61113pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 Al-
+ []
+
+
+Overfull \hbox (11.66667pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 ice
+ []
+
+
+Overfull \hbox (17.5556pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 falls
+ []
+
+
+Overfull \hbox (16.94449pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 into
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (22.77783pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 black
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 hole:
+ []
+
+
+Overfull \hbox (15.69447pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 En-
+ []
+
+
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 tan-
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 gle-
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 ment
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 non-
+ []
+
+
+Overfull \hbox (31.13896pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 inertial
+ []
+
+
+Overfull \hbox (28.6945pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 frames
+ []
+
+
+Overfull \hbox (127.05591pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 https://arxiv.org/pdf/quant-
+ []
+
+
+Overfull \hbox (123.91702pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 ph/0410172.pdfarXiv:quant-
+ []
+
+
+Overfull \hbox (61.38908pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 ph/0410172v3 
+ []
+
+
+./References.tex:4: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \bibitem{3}
+                石坂 智，小川朋宏 他 (2012) 量子情報科学入門
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:4: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.4 \bibitem{3}
+                石坂 智，小川朋宏 他 (2012) 量子情報科学入門
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:4: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.4 \bibitem{3}
+                石坂 智，小川朋宏 他 (2012) 量子情報科学入門
+I'm forgetting what you said and using zero instead.
+
+\bibcite{3}{0}
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 石
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 坂
+ []
+
+
+Overfull \hbox (13.93329pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 智 ，
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 小
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 川
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 朋
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 宏
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 他
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 4--5
+\OT1/cmr/m/n/10 (2012)
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 量
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 子
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 情
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 報
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 科
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 学
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 入
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 4--5
+\JY2/mc/m/n/10 門 
+ []
+
+
+./References.tex:6: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \bibitem{4}
+                細谷さんの講義ノート
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:6: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.6 \bibitem{4}
+                細谷さんの講義ノート
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:6: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.6 \bibitem{4}
+                細谷さんの講義ノート
+I'm forgetting what you said and using zero instead.
+
+\bibcite{4}{0}
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 細
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 谷
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 さ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 ん
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 義
+ []
+
+
+Overfull \hbox (18.74438pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 ノ ー
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 6--7
+\JY2/mc/m/n/10 ト 
+ []
+
+
+./References.tex:8: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \bibitem{5}
+                Nielsen
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:8: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.8 \bibitem{5}
+                Nielsen
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:8: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.8 \bibitem{5}
+                Nielsen
+I'm forgetting what you said and using zero instead.
+
+\bibcite{5}{0}
+
+Overfull \hbox (31.44449pt too wide) in paragraph at lines 8--9
+\OT1/cmr/m/n/10 Nielsen 
+ []
+
+
+./References.tex:9: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \bibitem{10}
+                 Sasaki M, Tanaka T, Yamamoto K.  (1995)\href{https://journa...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:9: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.9 \bibitem{10}
+                 Sasaki M, Tanaka T, Yamamoto K.  (1995)\href{https://journa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:9: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.9 \bibitem{10}
+                 Sasaki M, Tanaka T, Yamamoto K.  (1995)\href{https://journa...
+I'm forgetting what you said and using zero instead.
+
+\bibcite{10}{0}
+./References.tex:9: Undefined control sequence.
+l.9 ...asaki M, Tanaka T, Yamamoto K.  (1995)\href
+                                                  {https://journals.aps.org/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (27.55563pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 Sasaki
+ []
+
+
+Overfull \hbox (11.94447pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 M,
+ []
+
+
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 Tanaka
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 T,
+ []
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 Ya-
+ []
+
+
+Overfull \hbox (35.55566pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 mamoto
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 K.
+ []
+
+
+Overfull \hbox (341.00087pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 (1995)https://journals.aps.org/prd/abstract/10.1103/PhysRevD.51.2979Phys.
+ []
+
+
+Overfull \hbox (19.86115pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 Rev.
+ []
+
+
+Overfull \hbox (7.6389pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 D
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 51,
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 2979 
+ []
+
+
+./References.tex:10: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \bibitem{11}
+                 ] J.R. Gott, III, (London) 295, 304 (1982)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:10: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.10 \bibitem{11}
+                 ] J.R. Gott, III, (London) 295, 304 (1982)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:10: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.10 \bibitem{11}
+                 ] J.R. Gott, III, (London) 295, 304 (1982)
+I'm forgetting what you said and using zero instead.
+
+\bibcite{11}{0}
+./References.tex:11: Undefined control sequence.
+l.11 \href
+          {https://www.nature.com/nature/journal/v368/n6467/abs/368108a0.htm...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 ]
+ []
+
+
+Overfull \hbox (18.05559pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 J.R.
+ []
+
+
+Overfull \hbox (23.40283pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 Gott,
+ []
+
+
+Overfull \hbox (14.1667pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 III,
+ []
+
+
+Overfull \hbox (24.02783pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 (Lon-
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 don)
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 295,
+ []
+
+
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 304
+ []
+
+
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 (1982)
+ []
+
+
+Overfull \hbox (349.66757pt too wide) in paragraph at lines 10--12
+\OT1/cmr/m/n/10 https://www.nature.com/nature/journal/v368/n6467/abs/368108a0.htmlnature 
+ []
+
+
+./References.tex:12: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \bibitem{12}
+                  K. Yamamoto, T. Tanaka, and M. Sasaki, this issue,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:12: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.12 \bibitem{12}
+                  K. Yamamoto, T. Tanaka, and M. Sasaki, this issue,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:12: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.12 \bibitem{12}
+                  K. Yamamoto, T. Tanaka, and M. Sasaki, this issue,
+I'm forgetting what you said and using zero instead.
+
+\bibcite{12}{0}
+./References.tex:13: Undefined control sequence.
+l.13 \href
+          {https://watermark.silverchair.com/90-5-1019.pdf?token=AQECAHi208B...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...-5-1019.pdf?token=AQECAHi208BE49Ooan9kkhW_
+                                                  Ercy7Dm3ZL_9Cf3qfKAc485ysg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 13.
+./References.tex:13: Extra }, or forgotten $.
+l.13 ...9KnUauDqLi35FS9BotRz2ulHI7GHJhyDQuVYwn9Jg}
+                                                  {Phys. Rev. D 51, 2968 (19...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./References.tex:14: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \bibitem{13}
+                 \href{http://iopscience.iop.org/article/10.1088/0305-4470/1...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./References.tex:14: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \bibitem{13}
+                 \href{http://iopscience.iop.org/article/10.1088/0305-4470/1...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./References.tex:14: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \bibitem{13}
+                 \href{http://iopscience.iop.org/article/10.1088/0305-4470/1...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./References.tex:14: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \bibitem{13}
+                 \href{http://iopscience.iop.org/article/10.1088/0305-4470/1...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:14: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.14 \bibitem{13}
+                 \href{http://iopscience.iop.org/article/10.1088/0305-4470/1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:14: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.14 \bibitem{13}
+                 \href{http://iopscience.iop.org/article/10.1088/0305-4470/1...
+I'm forgetting what you said and using zero instead.
+
+\bibcite{13}{0}
+./References.tex:14: Undefined control sequence.
+l.14 \bibitem{13}\href
+                      {http://iopscience.iop.org/article/10.1088/0305-4470/1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:15: Not two-byte family.
+l.15 か
+        なり有用　
+IGNORE.
+
+./References.tex:15: Not two-byte family.
+l.15 かな
+           り有用　
+IGNORE.
+
+./References.tex:15: Not two-byte family.
+l.15 かなり
+              有用　
+IGNORE.
+
+./References.tex:15: Not two-byte family.
+l.15 かなり有
+                 用　
+IGNORE.
+
+./References.tex:15: Not two-byte family.
+l.15 かなり有用
+                    　
+IGNORE.
+
+./References.tex:15: Not two-byte family.
+l.15 かなり有用　
+                       
+IGNORE.
+
+
+./References.tex:16: LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \bibitem{6}
+                  From Classical to Quantum Shannon Theory 2016　iBookに...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 \bibitem{6}
+                  From Classical to Quantum Shannon Theory 2016　iBookに...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 K.
+ []
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 Ya-
+ []
+
+
+Overfull \hbox (38.33345pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 mamoto,
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 T.
+ []
+
+
+Overfull \hbox (34.44453pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 Tanaka,
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 and
+ []
+
+
+Overfull \hbox (11.94447pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 M.
+ []
+
+
+Overfull \hbox (30.33342pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 Sasaki,
+ []
+
+
+Overfull \hbox (16.1667pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 this
+ []
+
+
+Overfull \hbox (10.05556pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 is-
+ []
+
+
+Overfull \hbox (16.72224pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 sue,
+ []
+
+
+Overfull \hbox (168.00035pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 https://watermark.silverchair.com/90-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 5-
+ []
+
+
+Overfull \hbox (1820.30269pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 1019.pdf?token=AQECAHi208BE49Ooan9kkhW$[]\OML/cmm/m/it/10 rcy\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 Dm\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ZL[]Cf\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 qfKAc\OT1/cmr/m/n/10 485\OML/cmm/m/it/10 ysgAAAdkwggHVBgkqhkiG\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 w\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 BBwagggHGMIIBwgIBADCCAbsGCSqGSIb\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 DQEHATAeBglghkgBZQMEAS\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 wEQQMG\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 YI\OT1/cmr/m/n/10 38\OML/cmm/m/it/10 EtQrzzIPENAgEQgIIBjBSLn\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 OZbwlN[]\OT1/cmr/m/n/10 91\OML/cmm/m/it/10 wKv\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 rKH\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 wDpJpjyWRv\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 FYJ\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 vYvv\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 PWYWxyZlINUnFvQMSSzDOfZgN\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 fgSpRTjz\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 MJ\OT1/cmr/m/n/10 971\OML/cmm/m/it/10 ddX\OT1/cmr/m/n/10 61\OML/cmm/m/it/10 rCv[]scoP\OT1
+/cmr/m/n/10 2\OML/cmm/m/it/10 md\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 HIngTwHbGzgVBBj \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (334.10802pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 mqBEuSICESGYqckZ\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 xb\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 iEoRgpPudT\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 XrmHabrhGs\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 oxj\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 axceO\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 M \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (183.74255pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 Fgc\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 Ok\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 SR\OT1/cmr/m/n/10 93\OML/cmm/m/it/10 WITWsjDzTAKD\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 t \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (322.86751pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 jkpG[]Z\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 iBPham\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ZEsxO\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 QDt\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 ait\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 sntIk\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 zlyvScrXCINrP\OT1/cmr/m/n/10 74\OML/cmm/m/it/10 c \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (55.78893pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 rxEktj\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 dk \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (18.32529pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 ay \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (217.73622pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 Uyv\OT1/cmr/m/n/10 74\OML/cmm/m/it/10 SX\OT1/cmr/m/n/10 78\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 5[]\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 PghKFLnrfCefHyjbHHt \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10 3 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (75.75484pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 PXP\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 JSCBH \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (942.72263pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 kqocf\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 FumgyNffxr\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 TXCHNWV\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 AmarYIUEhyt\OT1/cmr/m/n/10 495\OML/cmm/m/it/10 bHTum\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 sJYYSUw\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 q\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 Z\OT1/cmr/m/n/10 147\OML/cmm/m/it/10 tvmUHce\OT1/cmr/m/n/10 3255\OML/cmm/m/it/10 MOGiCKIv\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 7[]\OML/cmm/m/it/10 HoQIrXUX\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 uh\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ouJAn[]H\OT1/cmr/m/n/10 6\OML/cmm/m/it/10 DoNMQw\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 c\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 PgNK\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 STFTW\OT1/cmr/m/n/10 78\OML/cmm/m/it/10 w\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 yV\OT1/cmr/m/n/10 44\OML/cmm/m/it/10 tknOxk\OT1/cmr/m/n/10 74\OML/cmm/m/it/10 LpYF\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 jY \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (941.68724pt too wide) in paragraph at lines 12--16
+\OML/cmm/m/it/10 IWbGPv\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 veRA\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 eRN\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 qN\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 GbE\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 KnUauDqLi\OT1/cmr/m/n/10 35\OML/cmm/m/it/10 FS\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 BotRz\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ulHI\OT1/cmr/m/n/10 7\OML/cmm/m/it/10 GHJhyDQuVYwn\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 Jg[][][]\OT1/cmr/m/n/10 ^^@^^@^^@^^@^^@^^@[]$ 
+ []
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 16.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 16.
+
+./References.tex:16: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \bibitem{6}
+                  From Classical to Quantum Shannon Theory 2016　iBookに...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+
+./References.tex:16: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \bibitem{6}
+                  From Classical to Quantum Shannon Theory 2016　iBookに...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:16: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.16 \bibitem{6}
+                  From Classical to Quantum Shannon Theory 2016　iBookに...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:16: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.16 \bibitem{6}
+                  From Classical to Quantum Shannon Theory 2016　iBookに...
+I'm forgetting what you said and using zero instead.
+
+\bibcite{6}{0}
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 16.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 16.
+./References.tex:16: Undefined control sequence.
+l.16 ...2016　iBookにある \textbf{iBook} \href
+                                                  {https://arxiv.org/pdf/110...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (22.9445pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 From
+ []
+
+
+Overfull \hbox (22.2778pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 Clas-
+ []
+
+
+Overfull \hbox (10.05556pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 si-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 cal
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (27.22229pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 Quan-
+ []
+
+
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 tum
+ []
+
+
+Overfull \hbox (25.00006pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 Shan-
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 non
+ []
+
+
+Overfull \hbox (20.55557pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 The-
+ []
+
+
+Overfull \hbox (14.19449pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 ory
+ []
+
+
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 2016
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 16--17
+\JY2/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (25.41676pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 iBook
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 16--17
+\JY2/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 16--17
+\JY2/mc/m/n/10 あ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 16--17
+\JY2/mc/m/n/10 る
+ []
+
+
+Overfull \hbox (29.26373pt too wide) in paragraph at lines 16--17
+\OT1/cmr/bx/n/10 iBook
+ []
+
+
+Overfull \hbox (239.02852pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 https://arxiv.org/pdf/1106.1445.pdfarXiv:1106.1445v7
+ []
+
+
+Overfull \hbox (31.11118pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 [quant-
+ []
+
+
+Overfull \hbox (13.88893pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 ph] 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
+[]
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ブ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ラ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ッ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ク
+ []
+
+
+Overfull \hbox (18.74438pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ホ ー
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ル
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 エ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ン
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (18.74438pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ピ ー
+ []
+
+
+Overfull \hbox (13.5111pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 (\JY2/mc/m/n/10 ホ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ロ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 グ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ラ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 フ
+ []
+
+
+Overfull \hbox (22.63329pt too wide) in paragraph at lines 18--19
+\JY2/mc/m/n/10 ィ ー\OT1/cmr/m/n/10 ) 
+ []
+
+
+./References.tex:19: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \bibitem{7}
+                 AN INTRODUCTION TO BLACK HOLES, INFORMATION,
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:19: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.19 \bibitem{7}
+                 AN INTRODUCTION TO BLACK HOLES, INFORMATION,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:19: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.19 \bibitem{7}
+                 AN INTRODUCTION TO BLACK HOLES, INFORMATION,
+I'm forgetting what you said and using zero instead.
+
+\bibcite{7}{0}
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 AN
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 IN-
+ []
+
+
+Overfull \hbox (25.41669pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 TRO-
+ []
+
+
+Overfull \hbox (25.69447pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 DUC-
+ []
+
+
+Overfull \hbox (26.11116pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 TION
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 TO
+ []
+
+
+Overfull \hbox (35.55563pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 BLACK
+ []
+
+
+Overfull \hbox (36.66676pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 HOLES,
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 IN-
+ []
+
+
+Overfull \hbox (24.72226pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 FOR-
+ []
+
+
+Overfull \hbox (20.00003pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 MA-
+ []
+
+
+Overfull \hbox (28.88895pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 TION,
+ []
+
+
+Overfull \hbox (22.63893pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 AND
+ []
+
+
+Overfull \hbox (21.52782pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 THE
+ []
+
+
+Overfull \hbox (39.09727pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 STRING
+ []
+
+
+Overfull \hbox (24.86115pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 THE-
+ []
+
+
+Overfull \hbox (21.80559pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 ORY
+ []
+
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 REV-
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 O-
+ []
+
+
+Overfull \hbox (17.08336pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 LU-
+ []
+
+
+Overfull \hbox (26.11116pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 TION
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 19--21
+\JY2/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (25.41676pt too wide) in paragraph at lines 19--21
+\OT1/cmr/m/n/10 iBook
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 19--21
+\JY2/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 19--21
+\JY2/mc/m/n/10 あ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 19--21
+\JY2/mc/m/n/10 る 
+ []
+
+
+./References.tex:22: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \bibitem{8}
+                 高橋ノート　iBookにある
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:22: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.22 \bibitem{8}
+                 高橋ノート　iBookにある
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:22: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.22 \bibitem{8}
+                 高橋ノート　iBookにある
+I'm forgetting what you said and using zero instead.
+
+\bibcite{8}{0}
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 高
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 橋
+ []
+
+
+Overfull \hbox (18.74438pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 ノ ー
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 ト
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 　
+ []
+
+
+Overfull \hbox (25.41676pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 iBook
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 に
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 あ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 22--23
+\JY2/mc/m/n/10 る 
+ []
+
+
+./References.tex:24: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \bibitem{9}
+                 早田さんの講義ノート
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./References.tex:24: Undefined control sequence.
+<argument> \@listctr 
+                     
+l.24 \bibitem{9}
+                 早田さんの講義ノート
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./References.tex:24: You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.24 \bibitem{9}
+                 早田さんの講義ノート
+I'm forgetting what you said and using zero instead.
+
+\bibcite{9}{0}
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 早
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 田
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 さ
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 ん
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 の
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 講
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 義
+ []
+
+
+Overfull \hbox (18.74438pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 ノ ー
+ []
+
+
+Overfull \hbox (9.6222pt too wide) in paragraph at lines 24--25
+\JY2/mc/m/n/10 ト 
+ []
+
+
+./References.tex:26: LaTeX Error: \begin{document} ended by \end{thebibliography}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{thebibliography}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./References.tex:26: Missing } inserted.
+<inserted text> 
+                }
+l.26 \end{thebibliography}
+                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./References.tex:27: LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2] (./References.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 30 strings out of 493769
+ 273 string characters out of 6151300
+ 62929 words of memory out of 5000000
+ 3621 multiletter control sequences out of 15000+600000
+ 6283 words of font info for 32 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 22i,4n,12p,810b,134s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on References.dvi (2 pages, 4492 bytes).

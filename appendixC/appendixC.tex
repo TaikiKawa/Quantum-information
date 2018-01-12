@@ -1,0 +1,351 @@
+\chapter{膨張宇宙とフリードマン方程式}
+\section{キリング(Killing)ベクトルと対称性}
+現在の宇宙は，大域的に見ればほぼ一様で等方な時空となっている．この章では，この一様と等方とはどのような意味であるかについて議論し，そこから予想される宇宙の3つのモデルについて考えていく．
+\subsection{キリングベクトル}
+考えている幾何学構造の座標の取り方が適当でないときは，問題にしている時空がどのうような対称性を持っているのかを見破ることは，難しい．ここでは，このような座標の取り方に関係なく時空がどのような対称性を持っているか，あるいは持っていないかを見破る道具としてキリングベクトルを導入する．
+
+(\ref{a102})式は，座標変換する前と座標変換した後の異なる二つの座標系から見た座標値が等しい点における，計量の差$\delta g_{\mu\nu}$である．この変分の値が$0$となるとき，すなわち，
+\begin{eqnarray}
+\label{nB1}
+g_{\mu\nu}(x)=g^{\prime}_{\mu\nu}(x)
+\end{eqnarray}
+が成立するならば，変換(\ref{xnnn})の下で計量$g_{\mu\nu}$は不変である．このような変換を\textbf{等長変換(Isometry)}という．\footnote{ここで言っている座標変換で不変というのは，普段のテンソルが一般座標変換で不変であると言っている意味とは異なる．テンソルが一般座標変換で不変という場合は，同じ点で基底も合わせたテンソルが座標の貼り方によらないことを言っているが，ここでは，異なる点の同じ座標値のテンソルを比較している．座標をgeometryに沿って貼られた網だと思うと，その網をズルっとdeometryに沿って動かすイメージ．動かす前と動かした後の同じ網の点でのテンソルを比較している．}(\ref{nB1})式が成立するとき，(\ref{a102})からベクトル$\xi_{\mu}$は，
+\begin{empheqboxed}
+\begin{eqnarray}
+\label{kilcon}
+\mathfrak{L}_{\xi}g_{\mu\nu} =\xi_{\mu;\nu}+\xi_{\nu;\mu}=0
+\end{eqnarray}
+を満たす．この式はKilling conditionと呼ばれ，この式を満たすようなベクトル$\xi_{\mu}$をキリングベクトルと呼ぶ．キリングベクトルは，添え字に関して反対称になっている．
+\end{empheqboxed}
+このことから，考えている空間にキリングベクトルが存在すれば，その空間はキリングベクトルの方向に対称性があることになる．すなわち，ある空間の計量のある"点"のおけるキリングベクトルの個数がその点における対称性の数となる．いま，(\ref{kilcon})式は，空間の任意の点で定義される．そのため，ある点におけるキリングベクトルとその点から少しずれた点でのキリングベクトルの変化を定めることが，着目している空間の対称性１つ対応する．したがって，キリングベクトルとその微分を合わせた個数が空間の対称性の数となるわけだ．
+
+このことを数学的に示す．任意のベクトルとリーマンテンソルの関係は，(\ref{RRR})式で表される．したがって，キリングベクトルも．
+\begin{eqnarray}
+\label{cyclick}
+\xi_{\sigma;\rho;\mu}-\xi_{\sigma;\mu;\rho}=-R^{\lambda}_{\sigma\rho\mu}\xi_{\lambda}
+\end{eqnarray}
+の関係にある．\footnote{2階共変微分は，ナブラ記号で$\nabla_{\mu}\nabla_{\nu}A^{\lambda}$と書くときと，省略記号$A^{\lambda}_{;\mu;\nu}$では，微分の順番が逆になることに注意する．}
+また，(\ref{Rcycle})式に$\xi_{\lambda}$をかけたものは，
+\begin{eqnarray}
+\label{Rxi}
+R^{\lambda}_{\mu\nu\sigma}\xi_{\lambda}+R^{\lambda}_{\nu\sigma\mu}\xi_{\lambda}+R^{\lambda}_{\sigma\mu\nu}\xi_{\lambda}=0
+\end{eqnarray}
+となる．(\ref{cyclick})式を(\ref{Rxi})式に代入して，キリングベクトルの添字に関する反対称性を用いることで，キリングベクトルの2回微分にも，次のような添字の循環に関係する式を得る．
+\begin{eqnarray}
+\label{cycle2}
+\xi_{\sigma;\rho;\mu}-\xi_{\sigma;\mu;\rho}-\xi_{\mu;\rho;\sigma}=0
+\end{eqnarray}
+以上，(\ref{cyclick})，(\ref{cycle2})式を合わせると，キリングベクトルの2階微分は，リーマンテンソルが空間の計量から既知であるから
+\begin{eqnarray}
+\label{kiR1}
+\xi_{\mu;\rho;\sigma}=-R^{\lambda}_{\sigma\rho\mu}\xi_{\lambda}
+\end{eqnarray}
+のように，キリングベクトル$\xi_{\lambda}$であらわすことができる．したがって，キリングベクトルとその一階微分が定まれば，それより高階の微分については，(\ref{kiR1})式やその高階微分から決まることがわかる．すなわち，キリングベクトルとその微分を合わせた個数が時空の対称性の数となることが示せた．
+
+これより，ある点$X$でのキリングベクトル$\xi_{\lambda}(X)$とその微分$\xi_{\lambda;\nu}(X)$が与えられれば，その点の近傍の点$x$でのキリングベクトルは，
+\begin{eqnarray}
+\label{kiln}
+\xi_{\mu}^{\ \ n}(x)=A_{\mu}^{\ \ \lambda}(x;X)\xi_{\lambda}^{\ \ n}(X)+B_{\mu}^{\ \ \lambda\nu}(x;X)\xi_{\lambda;\nu}^{\ \ n}(X)
+\end{eqnarray}
+と展開できる，ここで，キリングベクトルが解析関数\footnote{解析関数は，べき展開で表すことができる関数のこと．}
+であることを要求し，$\xi_{\lambda}(X)$の高階微分が$\xi_{\lambda}(X)$とその1階微分だけで表されることを用いた．また，$n$は変換に対するindexである．(\ref{kiln})式は，$n$番目の等長変換のキリングベクトルであることを示す．
+
+次に，いままで考えてきた等長変換の個数が$N$次元の時空では最大いくつあるかについて考えていく．キリングベクトルまたは，その1階微分の線形独立な個数は，$N$次元であるとすると$N$，$\dfrac{N(N-1)}{2}$個あることがわかる．$N$は，$N$次元での可能なすべての方向を表し(これは，並進変換に対応する)，$\dfrac{N(N-1)}{2}$は，キリングベクトルの添字の反対称性を考えて二つの添字の組み合わせの数であるこれは，回転変換に対応する)．これをまとめると以下のようになる．
+ \begin{itembox}[l]{一様性(Homogenous)}
+空間の計量$g_{\mu\nu}$の任意の点で\textbf{可能なすべての方向にキリングベクトルが存在するとき，その空間は，一様である}という．
+ \end{itembox}
+ \begin{itembox}[l]{等方性(Isotropic)}
+空間の計量$g_{\mu\nu}$の任意の点で\textbf{キリングベクトルの1階微分が可能なすべての値を取れるとき，その空間は，等方である}という．
+\end{itembox}
+また，これらの性質を同時に満たすとき
+\begin{empheqboxed}
+\
+
+等長変換のうち可能な最大の対称性の数は，
+\begin{eqnarray}
+N+\dfrac{N(N-1)}{2}=\dfrac{N(N+1)}{2}
+\end{eqnarray}
+となる，このように，合計$\dfrac{N(N+1)}{2}$この最大個数の独立なキリングベクトルを持つ空間のことを極大対称空間(Maximally Symmetric Space)と呼ぶ，極大対称空間は，一様性と等方性を持つので一様等方な空間である．また，その逆も示すことができる．さらに，\textbf{すべての点で等方な空間は，一様であることも示される}
+\cite{b5}
+\end{empheqboxed}
+キリングベクトルは，ベクトルなので座標変換によらず存在(内在量)するので，このようなキリングベクトルをある座標で見つけることでその空間が座標の取り方によらず知ることができる．
+
+\subsubsection{極大対称空間}
+次に，極大対称空間の性質について見ていく．極大対称空間のキリングベクトルは，すでに知っているのでこれを用いて，上で使ったリーマンテンソルとキリングベクトルの関係式の計算をさらに進める．すると，
+\begin{empheqboxed}
+\
+
+極大対称空間であればその空間の曲率$K$を除いて，リッチテンソルと，リーマンテンソルが一意的に，
+\begin{eqnarray}
+R_{\sigma\rho}=-(N-1)Kg_{\sigma\rho}
+\end{eqnarray}
+\begin{eqnarray}
+\label{RieMSS}
+R_{\lambda\rho\sigma\nu}=K(g_{\sigma\rho}g_{\lambda\nu}-g_{\sigma\lambda}g_{\rho\nu})
+\end{eqnarray}
+となる．
+\end{empheqboxed}
+この結果を見ると，リッチテンソルが計量に比例する形で表されて言えることから，極大対称空間は，アインシュタイン空間でもあることがわかる．
+\section{一様等方宇宙}
+\subsection{計量とフリードマン方程式}
+\hypertarget{ApA}{この節}では，初期宇宙に関する簡単のreviwと，宇宙膨張を支配するフリードマン(Friedmann)方程式について確認する．
+宇宙の空間成分が一様等方であると仮定すると，その計量は上で定義した一様等方の条件を用いて，対称性が$\dfrac{N(N+1)}{2}$個あり，リーマンテンソルが(\ref{RieMSS})式で表されるものとして，次のフリードマン-ルメート-ロバートソン-ウォーカー計量(Friedmann-Lema\^{\i}tre-Robertson-Walker metric$=$FLRW)
+\begin{eqnarray}
+\label{FL}
+ds^2=g_{ij}dx^idx^j=-dt^2+a^2(t)\biggl[\frac{dr^2}{1-Kr^2}+r^2d\theta^2+r^2\sin^2\theta d^2\phi\biggr]
+\end{eqnarray}
+が考えられる．ここで，$a(t)$はスケール因子，$K$は断面曲率である．
+この計量から求まる，クリストフェルは，以下ののようになる．書いていないものは，$0$になる．
+\begin{eqnarray}
+\label{cccch}
+\Gamma^{0}_{ij}=a\dot{a}\gamma_{ij},\quad \gamma^{i}_{0j}=\gamma^{i}_{0j}=\frac{\dot{a}}{a}\delta^{i}_{j},\quad　\Gamma^{i}_{jk}=\frac{1}{2}\gamma^{ij}(\gamma_{lk,j}+\gamma_{lk,j}+\gamma_{lk,j})
+\end{eqnarray}
+
+(\ref{FL})式で断面曲率の値が$0$，正，負である場合それぞれを，平坦な(flat)，閉じた(closd)，開いた(open)宇宙というように区別して呼ぶ，
+それぞれの場合について，上の計量を適当な座標変換をすることで，次の形に書き換えられる．(ただし，スケール因子も式が簡単になるように適当に再定義している．)
+\begin{empheqboxed}
+\
+\subsubsection{平坦な宇宙}
+$K=0$で，平坦なので空間分はユークリッド空間と同じ形になる．
+\begin{eqnarray}
+\label{flat}
+ds^2=-dt^2+a^2(t)\biggl(dx^2+dy^2+dz^2\biggr)
+\end{eqnarray}
+\subsubsection{閉じた宇宙}
+$K>0$のときは，空間の体積は有限で，空間方向にはどの方向にも周期性がある3-sphere(三次元球面)とる．
+\begin{eqnarray}
+ds^2=-dt^2+a^2(t)\biggl(d\chi^2+\sin^2\chi(d\theta^2+\sin\theta d\phi^2)\biggr)
+\end{eqnarray}
+
+\subsubsection{開いた宇宙}
+$K<0$のときは，空間の体積は無限で，3-hyperboloid(三次元双曲面)となる．
+\begin{eqnarray}
+ds^2=-dt^2+a^2(t)\biggl(d\chi^2+\sinh^2\chi(d\theta^2+\sin\theta d\phi^2)\biggr)
+\end{eqnarray}
+\
+
+\end{empheqboxed}
+
+現在測定されているCMBのデータから，我々のいる宇宙の曲率は極めて小さいためこの論文では，特に注意がない限り平坦な宇宙のモデル(A.2)について考えていく．空間の一様等方性からこの計量の形は，どこでも等しい．また，宇宙の(計量の)時間発展は，
+\begin{empheqboxed}
+\
+
+アインシュタイン(Einstein)方程式
+\begin{eqnarray}
+\label{Eeq1}
+G_{\mu\nu}-8\pi G\Lambda g_{\mu\nu}=8\pi GT_{\mu\nu}
+\end{eqnarray}
+あるいは，
+\begin{eqnarray}
+R_{\mu\nu}=8\pi G\biggl(T_{\mu\nu} -\frac{1}{2}g_{\mu\nu}T^{\lambda}_{\ \ \lambda}\biggr)
+\end{eqnarray}
+ここで，
+\begin{eqnarray}
+G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}
+\end{eqnarray}
+である．
+\end{empheqboxed}
+
+から定る．
+
+ここで，$G_{\mu\nu}$はアインシュタインテンソル，$T_{\mu\nu}$はエネルギー運動量テンソル，$\Lambda$は宇宙定数である．
+一様等方な宇宙における，エネルギー運動量テンソルは，このアインシュタイン方程式(\ref{Eeq1})の左辺が，対角成分しか$0$以外の値をもとないので，完全流体と同じ，
+\begin{eqnarray}
+\label{emt10}
+T^{\mu\nu}&=&(p+\rho)u^{\mu}u^{\nu}+pg^{\mu\nu}
+\end{eqnarray}
+あるいは，
+\begin{eqnarray}
+\label{emt}
+(T^{\mu\nu})=\left(\begin{array}{cccc}\rho & 0 & 0 & 0 \\0 & p & 0 & 0 \\0 & 0 & p & 0 \\0 & 0 & 0 & p\end{array}\right)
+\end{eqnarray}
+の形でかける．ここで，$u^{\mu}$は，完全流体の四元速度で一様等方な宇宙での適当な計量のもとでは，$(u^{\mu})=(1,0,0,0), \ (u_{\mu})=(-1,0,0,0)$で与えらる．\footnote{上の議論で，(\ref{FL})式で表される一様等方宇宙の計量を選ぶと$u^{\mu}$は，確かに，第０成分のみだけに値を持つ．}
+
+$\rho$は考えている粒子などのエネルギー密度，$p$はそのときの圧力である．また，(\ref{eee1})式からエネルギー保存則，
+\begin{eqnarray}
+\label{ec1}
+\nabla_{\mu}T^{\mu\nu}=0
+\end{eqnarray}
+を満たす．
+\begin{empheqboxed}
+\
+
+計量(A.1)式の下でアインシュタイン方程式(A,5)は，フリードマン方程式，
+\begin{eqnarray}
+\label{fre}
+\biggl(\frac{\dot{a}}{a}\biggr)^2=H^2=\frac{8\pi G}{3}\rho-\frac{k}{a^2}
+\end{eqnarray}
+となる．$\chi$は，曲率を表し$+1,0,-1$のいずれかの値である．対応は，
+\begin{eqnarray}
+k=\begin{cases}
+    +1, &\text{3-sphere(closed)} \\
+     \ \ 0, &\text{3-plane(flat)} \\
+     -1, &\text{3-hyperboloid(open)}
+  \end{cases}
+  \end{eqnarray}
+となっている．また，エネルギー保存則(\ref{ec1})式は(\ref{emt})式の下で，
+\begin{eqnarray}
+\label{ec}
+\dot{\rho}+3{\dot{a}\over a}(\rho+p)=\dot{\rho}+3H(\rho+p)=0
+\end{eqnarray}
+となる．$H$は，ハッブルパラメータである．
+\end{empheqboxed}
+(\ref{ec})式は，
+\begin{eqnarray}
+\label{ec2}
+d(\rho a^3)=-p d(a^3)
+\end{eqnarray}
+とも書ける．
+
+フリードマン方程式は，$\rho$と$p$の関係式(状態方程式)を与えることで解くことができる．状態方程式は，宇宙が放射優勢の場合と，物質優勢の場合，宇宙定数優勢の場合で異なり，
+\begin{eqnarray}
+\label{EOS}
+p=w\rho
+\end{eqnarray}
+で表される．このような圧力が密度のみに依存する場合の状態方程式をバロトロピック(Barotropic)方程式という．宇宙が放射優勢の場合では，後で示すステファンボルツマン(Stefan-Boltzmann)の関係式(\ref{Rp})から$w=\frac{1}{3}$となる．物質優勢の場合は，物質は(主に銀河などの大きな質量の物体が大きなエネルギーを持つので)共動座標上で静止しているので，圧力はなく$w=0$となる．宇宙定数優勢の場合は，$w=-1$となる．\footnote{宇宙定数でなく暗黒エネルギーを考えれば．状態方程式が現在までの観測では$-1.1--0.9$程度であることが分かっている．また，時間に依存する可能性もある．この状態方程式を考えると，熱力学第一法則は，$dE=+\rho dV $となり，膨張する方がエネルギー的に得．仕事をしたので，エネルギーが増えてさらに加速しようとする．このよう奇妙な元凶は，全てダークエネルギーの奇妙な状態方程式$\rho=-p$にある．このような\textbf{特殊な物質を考える限り，エネルギーがどんどん増える}ことになる．また，ダークネネルギーには，宇宙定数のチューニング問題などが他にも存在する．}
+このことを用いれば，スケール因子と$\rho$の関係は，
+\begin{eqnarray}
+\label{rhoa}
+\rho=\begin{cases}
+    a(t)^{-4}, & \text{(放射優勢)} \vspace{2mm} \\
+    a(t)^{-3}, & (\mbox{物質優勢}) \vspace{2mm} \\
+    constant, & (\mbox{宇宙定数優勢})
+  \end{cases}
+  \end{eqnarray}
+ で表される．初期宇宙は，十分高温であるのほとんどの物質が光速に近い速度で運動しているため，始めは放射優勢であったが，宇宙の温度が膨張と共に減少し，やがて共同座標上でほとんど速度を持たなくなる．そのため，現在の宇宙では，物質と宇宙定数が優勢である．
+
+最後に，(A.10)式のそれぞれの値でフリードマン方程式を解くと，スケール因子は，
+\begin{eqnarray}
+a(t)\propto\begin{cases}
+   t^{1/2},  & (\mbox{放射優勢}) \vspace{2mm} \\
+   t^{2/3},  & (\mbox{物質優勢}) \vspace{2mm} \\
+   e^{H_{ds}t}, & (\mbox{宇宙定数優勢})
+  \end{cases}
+  \end{eqnarray}
+と時間発展することがわかる．$H_{ds}$は定数で，
+\begin{eqnarray}
+H_{ds}=\sqrt{\frac{8\pi}{3}G\Lambda}
+\end{eqnarray}
+である．
+
+(A.11)式から，ハッブルパラメータ$H$ももとまる．(A.8)式の定義より，
+\begin{eqnarray}
+H(t)=\begin{cases}
+   1/2t  & (\mbox{放射優勢}) \vspace{2mm} \\
+   2/3t  & (\mbox{物質優勢}) \vspace{2mm} \\
+   H_{ds} & (\mbox{宇宙定数優勢})
+  \end{cases}
+  \end{eqnarray}
+  となる．これを$t$についてとけば，宇宙の年齢$t_0$がおおよそハッブルパラメータの逆数$H^{-1}$で評価できることがわかる．(現在の宇宙は，物質と宇宙定数が優勢である．この場合で，やはりハッブルパラメータの逆数が宇宙年齢として用いることができる．)
+\section{$\Lambda$CDM(Cosmological Model with Dark Matter and Dark Energy)}
+\subsection{宇宙の構成要素}
+今までの議論は，放射，物質，宇宙定数それぞれが単独で優勢の場合の宇宙膨張のスケール因子がどのように時間発展するかについて考えてきた．しかし，実際の宇宙膨張はこれらのすべての寄与を考える必要がある．具体的にフリードマン方程式を書きくだせば，
+\begin{eqnarray}
+\biggl(\frac{\dot{a}}{a}\biggr)^2&=&\frac{8\pi G}{3}\rho_{tot}\\
+&=&\frac{8\pi G}{3}(\rho_{M}+\rho_{rad}+\rho_{\Lambda}+\rho_{curv})
+\end{eqnarray}
+となる．$\rho_{curv}$は，
+\begin{eqnarray}
+\label{A17}
+\frac{8\pi G}{3}\rho_{curv}=-\frac{k}{a^2}
+\end{eqnarray}
+で定義される，(A.9)式の曲率に関する項を便宜的にエネルギー密度として表したものである．
+次に，臨界密度$\rho_{c}$を導入する．
+\begin{eqnarray}
+\label{A18}
+\rho_{c}=\frac{3}{8\pi G}H^2_{0}
+\end{eqnarray}
+$H^2_0$は，現在のハッブルパラメータなので，臨界密度は定数であり現在の宇宙のエネルギー密度の合計に対応する量である\hypertarget{p}{．}
+
+
+\subsection{宇宙論パラメーター(Cosmological  Parameters)}
+宇宙論パラメーターは，現在の宇宙の膨張を支えている各構成要素の割合を示す．この値は，上で挙げた4つのエネルギー密度を全体のエネルギー密度$\rho_{c}$で規格化したもので，
+\begin{eqnarray}
+\Omega_{M}=\frac{\rho_{M,0}}{\rho_c},\quad \Omega_{rad}=\frac{\rho_{rad,0}}{\rho_c},\quad \Omega_{\Lambda}=\frac{\rho_{\Lambda,0}}{\rho_c},\quad \Omega_{curv}=\frac{\rho_{curv,0}}{\rho_c}
+\end{eqnarray}
+で定義される．もちろん，現在のエネルギー密度の合計は，$\rho_{c}$に一致するので，
+\begin{eqnarray}
+\sum_{i}\Omega_i=\Omega_M+\Omega_{rad}+\Omega_{\Lambda}+\Omega_{curv}=1
+\end{eqnarray}
+を満たす．
+
+宇宙論パラメーターは，定義からわかるように定数なのである．そのため，時間発展は各構成要素のエネルギー密度の時間発展(A.11)式を用いればよい．
+\begin{empheqboxed}
+\
+
+したがって宇宙論パラメーターを用いて，宇宙の発展方程式(A,16)式を書き換えと，
+\begin{eqnarray}
+\label{cdm}
+\biggl(\frac{\dot{a}}{a}\biggr)^2=\frac{8\pi G}{3}\rho_{c}\biggl[\Omega_{M}\biggl(\frac{a_0}{a}\biggr)^3+\Omega_{rad}\biggl(\frac{a_0}{a}\biggr)^4+\Omega_{\Lambda}+\Omega_{curv}\biggl(\frac{a_0}{a}\biggr)^2\biggr]
+\end{eqnarray}
+となる．この方程式(A.21)が$\Lambda$CDMモデルおけるフリードマン方程式である．\footnote{宇宙初期では，相対論的粒子だったものが温度低下に伴い非相対論的な粒子になるため厳密には現在の宇宙パラメータと過去も宇宙パラメータの値が異なる．(A.21)式は，そのことをきちんと取り入れていない．}
+\end{empheqboxed}
+以前にも述べとように，初期宇宙は,十分高温であるのほとんどの物質が光速に近い速度で運動しているため,始
+めは放射優勢であったが,宇宙の温度が膨張と共に減少し,やがて共同座標上でほとんど速度を持たなく
+なる.そのため,現在の宇宙では,物質と宇宙定数が優勢である.このことは，(A.21)式のスケール因子の時間発展を見てもわかる．
+現在の宇宙の膨張は，放射と曲率からの寄与が十分小さいので，
+\begin{eqnarray}
+\biggl(\frac{\dot{a}}{a}\biggr)^2=H^2_{0}\biggl[\Omega_{M}\biggl(\frac{a_0}{a}\biggr)^3+\Omega_{\Lambda}\biggr]
+\end{eqnarray}
+にしたがう．この方程式は，簡単に解けて，
+\begin{eqnarray}
+a(t)=a_0\biggl(\frac{\Omega_{M}}{\Omega_{\Lambda}}\biggr)^{1/3}\biggl[\sinh\biggl(\frac{3}{2}\sqrt{\Omega_{\Lambda}}H_0 t\biggr)\biggr]^{2/3}
+\end{eqnarray}
+となる．現在の時刻$t=t_0$をこの方程式に代入すると，
+\begin{eqnarray}
+1=\biggl(\frac{\Omega_{M}}{\Omega_{\Lambda}}\biggr)^{1/3}\biggl[\sinh\biggl(\frac{3}{2}\sqrt{\Omega_{\Lambda}}H_0 t_0\biggr)\biggr]^{2/3}
+\end{eqnarray}
+を得る．この方程式から現在の宇宙の年齢$t_0$が求められて，
+\begin{eqnarray}
+t_0=\frac{2}{3\sqrt{\Omega_{\Lambda}}}\frac{1}{H_0}\sinh^{-1}\biggl(\frac{\Omega_{\Lambda}}{\Omega_{M}}\biggr)
+\end{eqnarray}
+となる．ここで，2013年のPlanckの観測結果()式を代入すれば，
+\begin{eqnarray}
+t_0=1.38\cdot 10^{10} yrs
+\end{eqnarray}と求まる．
+日本語に直すと137億光年に相当する．\footnote{宇宙の膨張はほとんど暗黒物質を含む物質と宇宙定数(ダークエネルギー)によって支えられているのだ．(あとでわかるように，放射優勢の時期は，現在の宇宙年齢にたして十分短い．)そこで，$\rm{\Lambda CDM}$で物質と暗黒エネルギーの寄与だけを考えて計算した宇宙の年齢がほぼ現在の宇宙年齢に一致している．}この結果は，星の年齢よりも大きく妥当であることがわかる．
+
+\subsection{赤方偏移(redshift)}
+宇宙が膨張に伴い，光の波長が伸びることが観測できる．これは，例えば21cm線などがどれくらい変位したかなどで見積もることができる．このような波長が放出されたときの値より大きくなる場合を赤方偏移(redshify)と呼び．赤方偏移がどれくらい起きたかについての指標となるのがredshiftと呼ばれる値でよく$z$を用いて表される．例えば，我々が時刻$t_i$に波長$\lambda_{i}$の光子が放出され，現在地球で波長$\lambda_{0}$として観測したとしよう．このとき，$\lambda_{i}$と$\lambda_{0}$を$z$を用いて表すと，
+\begin{eqnarray}
+\lambda_{0}=\frac{a_0}{a(t_{i})}\lambda_{i}=\lambda_{i}(1+z(t_i))
+\end{eqnarray}
+と表される．
+\begin{eqnarray}
+\label{Ar}
+z(t)=\frac{a_0}{a(t)}-1
+\end{eqnarray}
+\begin{eqnarray}
+z=H_{0}r,\quad z\ll1
+\end{eqnarray}
+\subsection{絶対光度と見かけの光度}
+何百光年という遠方で輝いている天体までの距離\footnote{電波などを反射させて測るには，何百光年という時間が必要になるため適していない}を測ることは，容易ではない．絶対的な光度$L$\footnote{単位時間あたりに標準光源が放射する全エルギーを絶対光度という．}が理論などから分かっている天体を標準光源という．地球からこの標準光源までの距離は，地球で観測した見かけの光度$J$が絶対強度のどのくらいの割合であるかによって決められる．
+
+光源から出た光は，一様等方宇宙では$t$秒後に半径$r$の球面上ににある．そこで，1秒間でこの球面上を通過するエネルギーは全体の${1\over 4\pi r^2}$倍となる．すなわち，絶対光度と見かけの光度の間には，
+\begin{eqnarray}
+\label{Ak}
+J=\frac{L}{4\pi r^2}
+\end{eqnarray}
+の関係がある．ここで地球から標準光源までの測地距離が$\chi$である場合，標準光源から出た光がある球面の半径は，モデルによって異なる．(A.2)$\sim$(A.4)式を見れば，$\chi$と半径$r$の関係は，
+\begin{eqnarray}
+\label{A31}
+r(z)=\begin{cases}
+   a_{0}\chi(z)  & (\mbox{flat}) \vspace{2mm} \\
+    a_0\sin\chi(z) & (\mbox{closed}) \vspace{2mm} \\
+   a_0\sinh\chi(z) & (\mbox{open})
+  \end{cases}
+  \end{eqnarray}
+となることに注意する．ただし，距離は赤方偏移からも計れるので引数にredshiftの$z$を入れた．
+
+実は，(\ref{Ak})式には空間が膨張していることによる次の二つの補正が必要である．
+
+空間が膨張しているために1秒間あたりに来る球面上の光子の総数が光源から出る光子の総数から減少する．光子が光源を出た時刻を$t$とすると，スケールが${a_0\over a(t)}$倍されるの，光子の総数が${a(t)\over a_0}=\frac{1}{1+z}$倍となる．
+
+地球上で受け取る個々の光子のエネルギー$h\nu_{0}$は，光子が放出されたときのエネルギー$h\nu_1$より${a(t)\over a_0}=\frac{1}{1+z}$倍される．(赤方偏移の影響でエネルギーが小さくなる．)
+
+これらの補正を合わせると，修正された絶対光度と見かけの光度の関係
+\begin{eqnarray}
+\label{Ak}
+J=\frac{L}{4\pi r^2(1+z)^2}=\frac{L}{4\pi r^2_{ph}}
+\end{eqnarray}
+を得る．ここで，$r_{ph}$は，光度距離(photometric distance)と呼ばれる量である．

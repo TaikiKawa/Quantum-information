@@ -1,0 +1,16 @@
+# Fdb version 3
+["dvipdf"] 1507998057 "References.dvi" "References.pdf" "References" 1507998058
+  "References.dvi" 1507998057 4492 f21db794aba3b4f22135f69fe5110398 "latex"
+  (generated)
+  "References.pdf"
+["latex"] 1507998057 "References.tex" "References.dvi" "References" 1507998058
+  "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1445297872 31985 3b2aa1e4e73426e2011ec5231ac92e0f ""
+  "/usr/local/texlive/2015/texmf-var/web2c/euptex/uplatex.fmt" 1432479682 3996148 e3de44459230b84e8a3472facbbf1bda ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "References.aux" 1507995224 305 5995ad2c59b176905d6a5e99603e6ab0 ""
+  "References.tex" 1507998057 2216 09841b6b9fc8055f3df4ca21711b64c8 ""
+  (generated)
+  "References.dvi"
+  "References.log"

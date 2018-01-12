@@ -1,0 +1,11 @@
+PWD /Users/gawaoofuruhi/Documents/物理学/量子情報/References
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/euptex/uplatex.fmt
+INPUT References.tex
+OUTPUT References.log
+OUTPUT References.dvi
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT References.aux

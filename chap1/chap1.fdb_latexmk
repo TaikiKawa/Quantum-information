@@ -1,0 +1,16 @@
+# Fdb version 3
+["dvipdf"] 1509252742 "chap1.dvi" "chap1.pdf" "chap1" 1509252743
+  "chap1.dvi" 1509252737 16084 d2f7fe042a38562d4f072729388f4a01 "latex"
+  (generated)
+  "chap1.pdf"
+["latex"] 1509252736 "chap1.tex" "chap1.dvi" "chap1" 1509252743
+  "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1445297872 31985 3b2aa1e4e73426e2011ec5231ac92e0f ""
+  "/usr/local/texlive/2015/texmf-var/web2c/euptex/uplatex.fmt" 1432479682 3996148 e3de44459230b84e8a3472facbbf1bda ""
+  "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
+  "chap1.aux" 1509252705 3512 3a97e9672d3e0a5c487177b0f04f5ac1 ""
+  "chap1.tex" 1509252357 14350 1fc98df12ac2cc561e7fc50f9d432f1e ""
+  (generated)
+  "chap1.log"
+  "chap1.dvi"

@@ -380,7 +380,7 @@ S_{n}&=\frac{1}{n-1}\biggl\{1-\sum_{i}\lambda_{i}\sum_{k=0}\frac{1}{k!}((n-1)\lo
 この波動関数から作られるdesity matrixに相当する$\rho_{\psi(n)\psi^{*}(n)}$は，
 \begin{align}
   \rho_{\psi(n)\psi(n)^{*}}&=(\frac{1}{\sqrt{3}}\braket{n|1}+\frac{2}{\sqrt{6}}\braket{n|2})(\frac{1}{\sqrt{3}}\braket{1|n}+\frac{2}{\sqrt{6}}\braket{2|n})\\
-  &=\frac{1}{3}\braket{n|1}\braket{n|1}+\frac{\sqrt{2}}{3}\braket{n|1}\braket{2|n}
+  &=\frac{1}{3}\braket{n|1}\braket{1|n}+\frac{\sqrt{2}}{3}\braket{n|1}\braket{2|n}
   +\frac{\sqrt{2}}{3}\braket{n|2}\braket{1|n}+\frac{2}{3}\braket{n|2}\braket{2|n}
 \end{align}となる．ブラケットの積の順番は入れ替えられることに注意して最後に，$n$に関する和を取と，
 \begin{align}
@@ -398,7 +398,7 @@ S_{n}&=\frac{1}{n-1}\biggl\{1-\sum_{i}\lambda_{i}\sum_{k=0}\frac{1}{k!}((n-1)\lo
 量子力学における，時刻$t_i$で位置$q_i$にいる状態から，時刻$t_f$で位置$q_f$にいる状態への遷移振幅は，経路積分を用いいて，
 \begin{align}
   \braket{q_f,t_f|q_i,t_i}&=\int^{q(t_f)=q_f}_{q(t_i)=q_i}Dq \exp(i\int^{t_f}_{t_i}dt\mathcal{L})\\
-  &=\int^{q(\tau_f)=q_f}_{q(\tau_i)=q_i}Dq \exp(-\int^{\tau_f}_{\tau_i}d\tau\mathcal{L_{E}})
+  &=\int^{q(\tau_f)=q_f}_{q(\tau_i)=q_i}Dq \exp(-\int^{\tau_f}_{\tau_i}d\tau\mathcal{L}_{E})
 \end{align}
 とかける．一行目から二行目への変形は，$\tau=it$のwick rotationを行なった．対応は，$dt=-id\tau$，$\tau_i=it_i$，$\tau_f=it_f$である．また，指数の中のマイナス符号は，lagragianから出てきたものである．
 また，積分測度は，次のように定めた．
@@ -447,9 +447,12 @@ $\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))=\prod_{x_1}\delta(\phi(x_{0f}=0,x_1)-\phi(
 \end{align}
 これは，積分測度の中に総乗が隠れているからである．すなわち．
 \begin{align}
-  D\phi(x_1)\propto \prod_{-\infty<x_0<0}\prod_{x_1}d\phi(x_0,x_1)
+  D\phi(x_1)\propto \prod_{x_1}d\phi(x_1)
 \end{align}
-であるからである．さらに，デルタ関数の中に含まれる$\phi(x)$についてもコメントをしておく．引数の初めの$\phi(0,x_1)$は，積分される場の値である．一方で，引数の2番目の$\phi(x_1)$は，初めに与えた場$\phi(x_1)$である．したがって，この値は一つの値に固定されている．
+であるからである．さらに，デルタ関数の中に含まれる$\phi(x)$についてもコメントをしておく．引数の初めの$\phi(0,x_1)$は，積分される場の値である．一方で，引数の2番目の$\phi(x_1)$は，初めに与えた場$\phi(x_1)$である．したがって，この値は一つの値に固定されている．また汎関数のデルタ関数は，主に次の意味で使われている．
+\begin{eqnarray}
+\delta[\phi(x_1)-\bar{\phi}(x_1)]=\prod_{x_1}\delta(\phi(x_1)-\bar{\phi}(x_1))
+\end{eqnarray}
 
 次にこの波動関数の複素共役な波動関数について考える．式(\ref{a})を参考にすれば，指数関数の肩の値は，$it \rightarrow -it$と変えればいいので，これを$x_0$の言葉で書き換えると，複素共役では$x_0 \rightarrow -x_0$と対応付くことに注意する．すなわち，上のやった$x_{0i}\to -\infty$で計算するトリックは，$x_{0i}\to \infty$とすれば良い．よって，
 \begin{align}
@@ -457,14 +460,16 @@ $\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))=\prod_{x_1}\delta(\phi(x_{0f}=0,x_1)-\phi(
 \end{align}
 とかける．(微小量$dx_0$も$-dx_0$になることに注意した．)このときの積分測度は，(\ref{b})とは異なり，
 \begin{align}
-  D\phi(x_1)\propto \prod_{0<x_0<\infty}\prod_{x_1}d\phi(x_0,x_1)
+  D\phi\propto \prod_{0<x_0<\infty}\prod_{x_1}d\phi(x_0,x_1)
 \end{align}
 で定義される．以上をまとめると，以下のようになる．
 
 \begin{empheqboxed}
 
 \begin{align}
+\label{wave1}
   \psi[\phi(x_{1})]&=\frac{1}{\sqrt{Z}} \int \prod_{-\infty<x_0<0}\prod_{x_1}d^{\prime}\phi(x_0,x_1) \exp\biggl(-\int_{0}^{\infty}dx_0\int dx_1\mathcal{L}\biggr)\times\delta[\phi(-\epsilon,x_1)-\phi(x_1)] \\
+  \label{wave2}
   \psi^{*}[\phi(x_{1})]&=\frac{1}{\sqrt{Z}} \int \prod_{0<x_0<\infty}\prod_{x_1}d^{\prime}\phi(x_0,x_1) \exp\biggl(-\int^{0}_{-\infty}dx_0\int dx_1\mathcal{L}\biggr)\times\delta[\phi(+\epsilon,x_1)-\phi(x_1)]
 \end{align}
 
@@ -479,18 +484,102 @@ $\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))=\prod_{x_1}\delta(\phi(x_{0f}=0,x_1)-\phi(
   &=\frac{1}{Z}\int D\phi(x_0,x_1) \exp\biggl(-\int^{\infty}_{-\infty}dx_0\int dx_1\mathcal{L}\biggr)\\
   &=\frac{1}{Z}Z=1
 \end{align}
-となり，1になる，すなわち$\frac{1}{Z}$は規格化因子となっていることがわかる．密度演算子の視点で考えると，これは$\mathrm{Tr}\rho=1$に対応する．
+となり，1になる，すなわち$\frac{1}{Z}$は規格化因子となっていることがわかる．密度演算子の視点で考えると，これは$\mathrm{Tr}\rho=1$に対応する．ここで確認しておくべきことは，場の理論の場合は，traceをとるときに全ての位置$x$における全ての場の配位を足し上げているところである．
 
+最後に，波動関数から作られる密度行列について考える．全体系の密度行列は，二つの境界条件によって，
+\begin{align}
+  [\rho_{tot}]_{\phi(x_1)\phi(x_1)}=\Psi[\phi(x_1)]\Psi[\phi(x_1)]
+\end{align}
+と書くことができる．ここで，密度行列の足は，時刻$t,x_0=0$における場の配位$\phi(x_1)$の関数全体ので張られる関数空間である．さらに領域Bに関する部分をトレースアウトすれば，Aに関する縮約密度行列は，
+\begin{align}
+  [\rho_{A}]_{\phi_A(x_-)\phi_A(x_+)}=\frac{1}{Z}&\int\prod_{x_1 \in B}[D\phi(x_1)]\int D\phi \exp\biggl(-\int_{-\infty}^{\infty}dx_0\int dx_1\mathcal{L}\biggr)\nonumber \\
+  &\qquad \times\delta[\phi(-\epsilon,x_1)-\phi_{A}(x_{1-})]\delta[\phi(+\epsilon,x_1)-\phi_{A}(x_{1+})] \\
+  =\frac{1}{Z}&\int D\phi \exp\biggl(-\int_{-\infty}^{\infty}dx_0\int dx_1\mathcal{L}\biggr)\\
+  &\qquad
+  \times\prod_{x_1\in A}\delta(\phi(-\epsilon,x_1)-\phi_{A}(x_{1-}))\delta(\phi(+\epsilon,x_1)-\phi_{A}(x_{1-}))
+\end{align}
+のように，Aの領域だけのデルタ関数が残る．
+最終的に求めたいものは，これの$n$コピーしたもので，全体のトレースをとれば領域Aのエンタングルメントエントロピーが求められることになる．\textbf{先ほども注意したように，境界条件になる場の配位$\phi_{A}(x)$は，全ての値をとりうるのでこれがちょうど行列の足になっている．}
+
+したがって，$n$乗した密度行列は，行列の計算方法から
+\begin{align}
+  \mathrm{Tr}\rho_{A}^{n}=\biggl(\prod^{n}_{j}[D\phi_{j}]\biggr)[\rho_{A}]_{\phi_1\phi_2}[\rho_{A}]_{\phi_2\phi_3}+\cdots+[\rho_{A}]_{\phi_n\phi_1}
+\end{align}
+と表すことができる．traceをとるので初めて終わりの足も揃っていることに注意したい．この表式は．次のようにも解釈できる．時間と空間を$z=x_1+ix_0 \in \mathcal{C}$と表すと，$\mathrm{Tr}(\rho_A)^n$は，$n$枚の複素平面をスリットのところで連結したリーマン面($\mathrm{R}_n$)上に定義された分配関数と考えられる，実際，traceをとるので，異なる面の境界条件を，$k=1,2,\cdots,n$
+\begin{align}
+  \label{harituke}
+  \phi_{A}^{(k)}(\tau=-\epsilon,x_1)=\phi_{A}^{(k-1)}(\tau=+\epsilon,x_1)\\
+  \label{harituke1}
+  \phi_{A}^{(1)}(\tau=-\epsilon,x_1)=\phi_{A}^{(n)}(\tau=+\epsilon,x_1)
+\end{align}
+で与える．もしくは，
+\begin{align}
+  \phi_{A}^{(k)}(e^{2\pi i}(w-u))=\phi_{A}^{(k+1)}(w-u)\\
+  \phi_{A}^{(k)}(e^{2\pi i}(w-v))=\phi_{A}^{(k-1)}(w-v)
+\end{align}
+で与えことと同じになる．この条件はくるっと一周回れば上のシートに行くことを意味する，実際，(\ref{harituke}),(\ref{harituke1})式で与えれる条件は，これを意味する．図的には，図\ref{replica00}を参考すると良い．\textcolor{red}{ここら辺がしっかり理解できていない$w$とは何か}
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[width=7cm,angle=270]{replica.pdf}
+  　　　\caption{}
+  　　\label{replica00}
+\end{center}
+\end{figure}
+
+これらのことを求めると，$\mathrm{Tr}(\rho_A)^n$は，
+\begin{align}
+  \mathrm{Tr}\rho_{A}^{n}=&\biggl(\prod^{n}_{j}[D\phi_{j}]\biggr)[\rho_{A}]_{\phi_1\phi_2}[\rho_{A}]_{\phi_2\phi_3}+\cdots+[\rho_{A}]_{\phi_n\phi_1}\\
+  -&\frac{1}{(Z_1)^n}\int_{\mathcal{R}_n}\mathcal{D}\phi e^{-\int dx_0dx_1\mathcal{L}^{n}}
+\end{align}
+と表すことができる．あとは，この値を計算することによって，領域Aにおけるエンタングルメントエントロピーを求めることができる．
 \hrulefill
 
 \subsubsection{Note}
 Q,Mの波動関数は$\phi(x)$で，これは位置$x$における情報しか持っていない．一方，場の理論の波動関数$\psi[\phi(x)]$は汎関数で表されて，初めから場全体の情報が含まれている(全ての$x$の情報)．そのため場の理論の波動関数は，エンタングルメントなどの物理量を求める時に必要なdata setが初めから用意されていて，量子力学の時のように直積で後から加える必要がない．
 
-\subsection{密度行列の計算}
-\begin{figure}[H]
-\begin{center}
-  \includegraphics[width=7cm,angle=270]{replica.pdf}
-  　　　\caption{}
-  　　\label{desitter}
-\end{center}
-\end{figure}
+\subsubsection{エンタングルメントエントロピーの具体的な計算}
+この節では，具体的なエンタングルメントエントロピーの計算を行う．簡単のために平坦な場のスカラー場について計算する．そこで，作用は，
+\begin{align}
+  S[\phi]=&\int dx_0d^dx\biggl[\frac{1}{2}(\partial_{x_0}\phi)^2+\frac{1}{2}(\partial_{x_1}\phi)^2+\frac{m^2}{2}\phi^2\biggr]\\
+  =&\frac{1}{2}\int dx^{d+1}\phi(x)[\Delta+m^2]\phi(x)
+\end{align}
+部分積分を行った．
+ここで，
+\begin{align}
+  \Delta=\partial_{x_0}^2+\partial_{x_1}^2
+\end{align}
+である．さらに，一般化されたガウスの法則，detとTrの関係
+\begin{align}
+  \int\frac{d^nx}{(2\pi)^{\frac{n}{2}}}\exp\biggl[-\frac{1}{2}\bvec{x}^{T}\bvec{M}\bvec{x}\biggr]=&\biggl[\mathrm{det}M\biggr]^{-\frac{1}{2}} \\
+  \mathrm{det}M=&e^{\mathrm{Tr}\ln M}
+\end{align}
+を思いると，初めに分配関数について計算が進め得られる．
+\begin{align}
+  \label{logZ}
+  Z=&\int\mathrm{D}\phi e^{-S}=e^{-\frac{1}{2}\mathrm{Tr}\log(\Delta+m^2)} \\
+  \log Z=&-\frac{1}{2}V_{d+1}\int\frac{d^{d+1}k}{(2\pi)^{d+1}}\log[k^2+m^2]
+\end{align}
+さらに，schwinger parameterを用いて書き直すと，
+\begin{empheqboxed}
+
+  \begin{align}
+    \frac{1}{A}=\int^{\infty}_{0}ds e^{-sA}
+  \end{align}
+
+\end{empheqboxed}
+であるから，この両辺を$A$に関して積分した，
+\begin{align}
+  \log A=-\int^{\infty}_{0}\frac{ds}{s}e^{-sA}
+\end{align}が使えて，(\ref{logZ})式の左辺の$\log$に適応すると，
+\begin{align}
+  \log Z=+\frac{V_{d+1}}{(2\pi)^{d+1}}\int \frac{ds}{s}\int d^{d+1}k e^{-s(m^2+k^2)}
+\end{align}
+を得る．ここで以前述べたreplica法を用いて，エンタングルメントエントロピーを計算する．巻きつけ作業していくつかのアンザツ後，$\mathrm{Tr}(\rho_A)^n$は，
+\begin{align}
+  \log\mathrm{Tr}(\rho_{A})^{n}=\frac{\pi}{6}(n-\frac{1}{n})V_{d-1}\int^{\infty}_{\epsilon^2}\frac{ds}{(4\pi s)^{\frac{d+1}{2}}}e^{-m^2s}
+\end{align}
+と求まる．したがって，(\ref{replica})式を用いてエンタングルメントエンタングルメントエントロピーは，
+\begin{align}
+  S_A=\frac{\pi}{3}V_{d-1}\int^{\infty}_{\epsilon^2}\frac{ds}{(4\pi s)^{\frac{d+1}{2}}}e^{-m^2s}
+\end{align}
+を得る，この結果から明らかなように．運動量カットオフの紫外極限をとるとこのエンタングルメントエントロピーは発散する．

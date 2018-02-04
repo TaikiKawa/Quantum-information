@@ -1,11 +1,13 @@
-\documentclass[a4paper,11pt,oneside,openany]{jsbook}
+\documentclass[a4paper,8pt,oneside,openany]{jsbook}
 %
 \usepackage{amsmath,amssymb}
+
 \usepackage{bm}
 \usepackage{subfigure}
 \usepackage{verbatim}
 \usepackage{wrapfig}
 \usepackage{ascmac}
+\usepackage{sidenotes}
 \usepackage{makeidx}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{here}
@@ -14,11 +16,82 @@
 \usepackage{mathrsfs}
 \usepackage{braket}
 \usepackage[many]{tcolorbox}
-\usepackage[top=50truemm,bottom=50truemm,left=25truemm,right=15truemm]{geometry}
+\usepackage[right=3cm]{geometry}
 \usepackage[dvipdfm,colorlinks=true,urlcolor=blue]{hyperref}
 \renewcommand{\contentsname}{Contents}
 \renewcommand{\bibname}{References}
 \renewcommand{\appendixname}{Appendix~}
+
+\usepackage{layout}
+
+\usepackage[explicit]{titlesec}
+\usepackage{lipsum}
+
+
+
+\titleformat{\chapter}[block]
+  {\normalfont\huge\bfseries}
+  {\tikz\node[
+      font=\huge\bfseries\color{white},
+      fill=gray!50,
+      rounded corners=20pt,
+      minimum height=1.6cm,
+      text width=3em,
+      align=center,
+      inner xsep=0pt] {\parbox{1.5em}{\thechapter\hfill}};%1の位置を定めている．
+  }
+  {-0.5em}%灰色域の
+  {\tikz\node[
+      fill=gray,
+      font=\Large\sffamily\color{white},
+      minimum height=1.6cm,
+      text width=\the\dimexpr\textwidth-2em\relax,%灰色の文字の中身を
+      align=center,inner xsep=-10pt] {#1};%
+  }
+
+
+  \titleformat{\chapter}[block]
+  {\normalfont\huge\bfseries}
+  {\tikz\node[
+      font=\huge\bfseries\color{white},
+      fill=gray!50,
+      rounded corners=20pt,
+      minimum height=1.6cm,
+      text width=3em,
+      align=center,
+      inner xsep=0pt] {\parbox{1.5em}{\thechapter\hfill}};%1の位置を定めている．
+  }
+  {-1em}%灰色域の
+  {\tikz\node[
+      fill=gray,
+      font=\Large\sffamily\color{white},
+      minimum height=1.6cm,
+      text width=\the\dimexpr\textwidth-2em\relax,%灰色の文字の中身を
+      align=center,inner xsep=-10pt] {#1};%
+  }
+
+
+\titleformat{name=\chapter,numberless}[block]
+  {\normalfont\huge\bfseries}
+  {\tikz\node[
+      font=\huge\bfseries\color{white},
+      fill=gray!50,
+      rounded corners=20pt,
+      minimum height=1.6cm,
+      text width=3em,
+      align=center,
+      inner xsep=0pt] {\parbox{1.5em}{\mbox{}\hfill}};%
+  }
+  {-1em}
+  {\tikz\node[
+      fill=gray,
+      font=\Large\sffamily\color{white},
+      minimum height=1.6cm,
+      text width=\the\dimexpr\textwidth-2em\relax,
+      align=center,
+      inner xsep=0pt] {#1};%
+  }
+
 
 \setcounter{tocdepth}{2}
 \hypersetup{%
@@ -86,6 +159,7 @@ citecolor=blue%
 %
 \mainmatter
 %
+\layout
 \include{chap1/chap1}
 \include{chap2/chap2}
 \include{chap3/chap3}

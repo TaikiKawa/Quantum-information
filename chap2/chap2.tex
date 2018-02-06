@@ -1,6 +1,6 @@
 \chapter{Entanglement Entropy in de Sitter space}
 
-     
+
 \section{Euclidean vacuum mode functions for a scalar field on open de Sitter space\cite{10}}
 
 低密度で負の曲率宇宙を予測するoneバブルのinflationalな宇宙シナリオの最近の研究によって動機づけられ、双曲線タイムスライスによって構成されるドジッター時空のopen chartにおけるのスカラー場のユークリッド真空モード関数を調べる。
@@ -340,12 +340,66 @@ S=\int d^4x\biggr(\frac{1}{2}\sqrt{-g}(-g^{\mu\nu}\partial_{\mu}\varphi\partial_
 我々は，真空の相関について考える，この真空の相関は，宇宙が膨張することで生じたものである．我々の目的はこのsuperhorizonのエンタングルメントの度合いを評価することである．もっと具体的には，以下の図にあるように，時間一定面でスライスした時に，平面になるflat sliceで中と外を分離する球面を考えてその中と外のエンタングルメントエントロピーを求める，ただし，この球面の半径$R$は，de Sitter時空の半径$R_{de}=H^{-1}$よりも十分大きな値になるようにとる．このように取れば，de Sitter時空のHorizonよりも大きな境界で中と外を分けることができる．もし，この半径がHorizonサイズよりも小さく取れば，この半径内にある情報は半径の外にある情報とも相互作用をしているので，
   \begin{figure}[H]
     \begin{center}
-    \includegraphics[width=6cm,angle=270]{de.pdf}
+    \includegraphics[width=8cm,angle=270]{de.pdf}
     \caption{title}
     \end{center}
   \end{figure}
 
-  \subsubsection{de Sitter spaceにおけるevent Horizon}
+  \begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=6cm,angle=270]{Web.pdf}
+    \caption{de Sitter spaceの様々なChat}
+    \label{vchart}
+    \end{center}
+  \end{figure}
+\subsubsection{de Sitter時空における対称性}
+4次元de Sitter時空は5次元Minkowski時空，
+\begin{align}
+  \label{EDS}
+  ds^2_{5}=-dX_0^2+dX^2_{1}+dX^2_{2}++dX^2_{3}++dX^2_{4}
+\end{align}
+に埋め込まれた双曲面，
+\begin{align}
+  +X_0^2-X_1^2-X_2^2-X_3^2-X_4^2=R_{ds}^2=H^{-2}
+\end{align}
+によって表現される．この埋め込みによって得られるde Sitter時空のFlat Chartは，
+新しい座標系($\tau,x_{i}$)を用意することで実現される．新旧の座標の関係は，次で与える．
+\begin{align}
+  X_{0}=&\frac{1}{2H}(H\eta-\frac{1}{H\eta})-\frac{1}{2}\frac{x_i^2}{\eta}\\
+  X_{i}=&\frac{x_i}{H\eta}\\
+  X_{4}=&-\frac{1}{2H}(H\eta+\frac{1}{H\eta})+\frac{1}{2}\frac{x_i^2}{\eta}
+\end{align}
+ただし，先にも述べたように$\eta<0$である．
+この変換の下で，メトリック(\ref{EDS})式は，
+\begin{align}
+  ds^{2}=\frac{1}{H^2\eta^2}(-d\eta^2+dx_{i}^2)
+\end{align}
+と，Flat chartのメトリックになる，ここで，このchartが覆っている領域は，上の対応関係から，$X_{0}+X_{4}=-\frac{1}{2H^2\eta}>0$であるので，図\ref{vchart}のFlat Chartのように全体の斜め半分のみを覆うことがわかる．ここで，$\eta\to 0$の極限では，この座標の対応は，
+\begin{align}
+  X_{0}=&-\frac{1}{2H^2\eta}-\frac{1}{2}\frac{x_i^2}{\eta}\\
+  X_{i}=&\frac{x_i}{H\eta}\\
+  X_{4}=&-\frac{1}{2H^2\eta}+\frac{1}{2}\frac{x_i^2}{\eta}
+\end{align}
+となり，これは近似的に，
+\begin{align}
+  -X_{0}^2+X_{i}^2+X_{4}^2=0
+\end{align}
+満たす．すなわち，$\eta\to0$の極限では，時空は近似的に，
+\begin{align}
+  X_{A}\to\lambda X_{A}
+\end{align}
+のscale変換の下で不変である．今，$X_{A}$は，$\frac{1}{\eta}$の一次関数で関数であらわせれているから，
+このこの対称性から，$\eta$がrescalingできることになる．さらに，エントロピーを評価する$\eta=$一定面上でのメトリックは，
+\begin{align}
+  ds^2_{\eta\to0}=\frac{dx^2_{i}}{H^2\eta^2}
+\end{align}
+となるので，時空は，$\eta\to\lambda\eta$と同時に$x_{i}\to\lambda x_{i}$とする変換の下でも不変である．
+\begin{itemize}
+  \item{時空は，$\eta\to\lambda\eta$とする変換の下でも不変}
+  \item{時空は，$\eta\to\lambda\eta$と同時に$x_{i}\to\lambda x_{i}$とする変換の下で不変}
+\end{itemize}
+以上のことから，$\eta\to0$の極限では，時空に$x_{i}\to\lambda x_{i}$の変換の下での対称性があることがわかる．したがって，
+  \subsubsection{de Sitter時空におけるevent Horizon}
   今，時刻$t=0$に$x=0$地点にいるObserverを考える，宇宙が膨張しているので，十分遠方からの光は観測できないと推測される．そこで，このObserverに届く情報はObserverからどの距離までにあるのかについて求める．情報が届かなくなる境界のことをよくEvent Horizonと呼ぶ．宇宙の中で最速なのは光であるので，光が無限の未来にObserverに到達するような場合の，光源のある場所がちょうどEvent Horizonとなる．したがって，Observerからその光源までの距離は，
   \begin{align}
     l_{ds}&=\int_{null}|d\bvec{x}|\\

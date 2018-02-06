@@ -92,6 +92,25 @@
       inner xsep=0pt] {#1};%
   }
 
+  \titleformat{\section}[block]
+  {\normalfont\large\bfseries}
+  {\tikz\node[
+      font=\large\bfseries\color{black},
+      fill=white,
+      rounded corners=20pt,
+      minimum height=1.6cm,
+      text width=10em,
+      align=center,
+      inner xsep=0pt] {\parbox{-0.5em}{\thesection}};%1の位置を定めている．
+  }
+  {-3em}%灰色域の
+  {\tikz\node[
+      fill=white,
+      font=\Large\sffamily\color{black},
+      minimum height=1.6cm,
+      text width=\the\dimexpr\textwidth-12em\relax,%灰色の文字の中身を
+      align=center,inner xsep=-10pt] {#1};%
+  }
 
 \setcounter{tocdepth}{2}
 \hypersetup{%

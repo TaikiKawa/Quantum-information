@@ -157,7 +157,9 @@ S(\rho)=-Tr(\rho_{A}\ln \rho_{A})
   \end{equation}
   と書けるときである.
 \end{empheqboxed}
-一歩，一般的なDensity Matrixは，
+separabilityについて詳しく考える。セパラブルな状態は、後述のLOCCによって生成される
+
+一方，一般的なDensity Matrixは，
 \begin{eqnarray}
 \label{40}
 \rho=\sum_{ijkl}C_{ijkl}\ket{i}_A\bra{j}_{A}\otimes\ket{k}_B\bra{l}_{B}
@@ -394,7 +396,7 @@ S_{n}&=\frac{1}{n-1}\biggl\{1-\sum_{i}\lambda_{i}\sum_{k=0}\frac{1}{k!}((n-1)\lo
   \psi[\phi(x_{1})]=\braket{\phi(x_1)|0}
 \end{align}
 この値は，場の理論の経路積分表示によって表すことができる．時刻$x_0=X_0$の時の波動関数は，場の配位$\phi(x_0,x_1)$の汎関数である．
-理論に時間方向の並進対称性があれば，$X_0=0$と置ける．(あとで述べるが，ここでいう$x_0$はwick rotation後の座標である．)このことに注意すれば，波動関数が経路積分で表示できる．その前に，量子力学の例をもう一度振り返ることで，見通しよく計算を進める．
+理論に時間方向の並進対称性があれば，$X_0=0$と置ける．\footnote{ここで，理論に時間並進対称性がある仮定した．}(あとで述べるが，ここでいう$x_0$はwick rotation後の座標である．)このことに注意すれば，波動関数が経路積分で表示できる．その前に，量子力学の例をもう一度振り返ることで，見通しよく計算を進める．
 
 量子力学における，時刻$t_i$で位置$q_i$にいる状態から，時刻$t_f$で位置$q_f$にいる状態への遷移振幅は，経路積分を用いいて，
 \begin{align}
@@ -441,7 +443,7 @@ $Z$は，規格化因子で次で定義される分配関数である．
 \begin{align}
   Z=\int D\phi e^{-S[\phi(x_0,x_1)]}
 \end{align}
-$\ket{\psi}$は，真空状態を含む任意の波動関数であるので，経路積分表示における境界条件は$x_{oi}\to -\infty$を取ることを行えば良い．このためデルタ関数は，最終状態の$\phi(x_{of},x_1)$のみだけが書かれている．ここで，注意したいことは，このデルタ関数も総乗である，すなわち，
+\textbf{$\ket{\psi}$は，真空状態を含む任意の波動関数であるので，経路積分表示における境界条件は$x_{oi}\to -\infty$を取ることを行えば良い．このためデルタ関数は，最終状態の$\phi(x_{0f},x_1)$のみだけが書かれている．}ここで，注意したいことは，このデルタ関数も総乗である，すなわち，
 $\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))=\prod_{x_1}\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))$の意味で使われている． したがって，
 \begin{align}
   \int\prod_{x_1}[d^{\prime}\phi(x_1)]G[\phi(x_1)]\times\delta[\phi(x_1)-\bar{\phi}(x_1)]=G[\bar\phi(x_1)]
@@ -489,9 +491,9 @@ $\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))=\prod_{x_1}\delta(\phi(x_{0f}=0,x_1)-\phi(
 
 最後に，波動関数から作られる密度行列について考える．全体系の密度行列は，二つの境界条件によって，
 \begin{align}
-  [\rho_{tot}]_{\phi(x_1)\phi(x_1)}=\Psi[\phi(x_1)]\Psi[\phi(x_1)]
+  [\rho_{tot}]_{\phi_{-}(x_1)\phi_{+}(x_1^{\prime})}=\Psi[\phi(x_1)]\Psi[\phi(x_1)]
 \end{align}
-と書くことができる．ここで，密度行列の足は，時刻$t,x_0=0$における場の配位$\phi(x_1)$の関数全体ので張られる関数空間である．さらに領域Bに関する部分をトレースアウトすれば，Aに関する縮約密度行列は，
+と書くことができる．ここで，密度行列の足は，時刻$t,x_0=0$における場の配位$\phi(x_1)$の関数全体ので張られる関数空間である．$\phi_{+},\phi_(-)$と書いている理由は，$x_0=\pm\epsilon$それぞれの時刻における場という意味であり，これらの配位は，積分で全ての配位を足し合わせるので，同じ値を走る，そのため行列の足としてきちんと昨日している．さらに領域Bに関する部分をトレースアウトすれば，Aに関する縮約密度行列は，
 \begin{align}
   [\rho_{A}]_{\phi_A(x_-)\phi_A(x_+)}=\frac{1}{Z}&\int\prod_{x_1 \in B}[D\phi(x_1)]\int D\phi \exp\biggl(-\int_{-\infty}^{\infty}dx_0\int dx_1\mathcal{L}\biggr)\nonumber \\
   &\qquad \times\delta[\phi(-\epsilon,x_1)-\phi_{A}(x_{1-})]\delta[\phi(+\epsilon,x_1)-\phi_{A}(x_{1+})] \\
@@ -500,6 +502,13 @@ $\delta(\phi(x_{0f}=0,x_1)-\phi(x_1))=\prod_{x_1}\delta(\phi(x_{0f}=0,x_1)-\phi(
   \times\prod_{x_1\in A}\delta(\phi(-\epsilon,x_1)-\phi_{A}(x_{1-}))\delta(\phi(+\epsilon,x_1)-\phi_{A}(x_{1-}))
 \end{align}
 のように，Aの領域だけのデルタ関数が残る．
+\subsubsection{Note}
+
+\hrulefill
+
+Bの領域でのトレース
+
+\hrulefill
 最終的に求めたいものは，これの$n$コピーしたもので，全体のトレースをとれば領域Aのエンタングルメントエントロピーが求められることになる．\textbf{先ほども注意したように，境界条件になる場の配位$\phi_{A}(x)$は，全ての値をとりうるのでこれがちょうど行列の足になっている．}
 
 したがって，$n$乗した密度行列は，行列の計算方法から

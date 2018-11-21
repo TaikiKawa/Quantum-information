@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.4)  6 FEB 2018 01:31
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2015.11.4)  7 FEB 2018 10:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1082,27 +1082,41 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 
  
 Writing index file é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.idx
-(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux) 
+(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux (./abstract.aux) (./chap1/chap1.aux)
+(./chap2/chap2.aux
+
+LaTeX Warning: Label `1.19' multiply defined.
+
+
+LaTeX Warning: Label `test' multiply defined.
+
+) (./chap3/chap3.aux) (./chap4/chap4.aux) (./appendixA/appendixA.aux)
+(./appendixB/appendixB.aux) (./appendixD/appendixD.aux)
+(./appendixC/appendixC.aux
+
+LaTeX Warning: Label `Ak' multiply defined.
+
+) (./appendixE/appendixE.aux) (./References/References.aux)) 
 \openout1 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 257.
-LaTeX Font Info:    ... okay on input line 257.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 Package marginnote Info: either \pdflastxpos or \pdfoutput not available
 (marginnote)             or \pdfoutput set to 0.
 (marginnote)             Extended position detection mode deactivated.
@@ -1111,7 +1125,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \@sidenotes@extrawidth=\skip61
- ABD: EveryShipout initializing macros
+
+ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -1147,7 +1162,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box98
-Package hyperref Info: Link coloring ON on input line 257.
+Package hyperref Info: Link coloring ON on input line 148.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1156,38 +1171,35 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 257.
-LaTeX Info: Redefining \pageref on input line 257.
-LaTeX Info: Redefining \nameref on input line 257.
+LaTeX Info: Redefining \ref on input line 148.
+LaTeX Info: Redefining \pageref on input line 148.
+LaTeX Info: Redefining \nameref on input line 148.
  
 (./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out) (./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out)
 \@outlinefile=\write7
 \openout7 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 263.
+(Font)              scaled to size 11.53198pt on input line 154.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 263.
+(Font)              scaled to size 11.53198pt on input line 154.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 269.
+(Font)              scaled to size 19.9311pt on input line 160.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 269.
+(Font)              scaled to size 19.9311pt on input line 160.
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <20.74> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 269.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 269.
+(Font)              scaled to size 19.9311pt on input line 160.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <20.74> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 269.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 160.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 269.
+(Font)              scaled to size 19.9311pt on input line 160.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 271.
+(Font)              scaled to size 13.83836pt on input line 162.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 271.
+(Font)              scaled to size 13.83836pt on input line 162.
+
 [1
 
 
@@ -1195,16 +1207,22 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 \openout2 = `abstract.aux'.
 
  (./abstract.tex
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              scaled to size 11.53198pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
-LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+(Font)              scaled to size 11.53198pt on input line 1.
 
+Overfull \hbox (24.0pt too wide) in paragraph at lines 1--1
+[]\OT1/cmr/bx/n/12 0.1 
+ []
+
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 1.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1214,9 +1232,9 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
+(Font)              scaled to size 7.68799pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 1.
+(Font)              scaled to size 5.76599pt on input line 1.
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 1.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1239,7 +1257,7 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 1.
 
-Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
+Overfull \hbox (74.5pt too wide) in paragraph at lines 1--1
 |[] []| 
  []
 
@@ -1255,70 +1273,243 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 2.
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 283.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 283.
+(Font)              scaled to size 9.60999pt on input line 174.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 283.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 283.
+(Font)              scaled to size 9.60999pt on input line 174.
  [1
 
 
 ]
-Overfull \hbox (46.665pt too wide) in paragraph at lines 285--285
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 176.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 176.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 176.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 176.
+
+Overfull \hbox (46.665pt too wide) in paragraph at lines 176--176
 |[] []| 
  []
 
- 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc [2
 
+
+])
 \tf@toc=\write8
 \openout8 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc'.
 
-[2
-
-
-]
+ [3]
 One-sided document style.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 291.
+(Font)              scaled to size 4.805pt on input line 182.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 291.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 291.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 291.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 291.
+(Font)              scaled to size 7.68799pt on input line 182.
 [1
 
 ]
 \openout2 = `chap1/chap1.aux'.
 
+ (./chap1/chap1.tex
+ç¬¬1ç« 
 
-No file chap1/chap1.tex.
+Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
+|[] []| 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 3--3
+[]\OT1/cmr/bx/n/12 1.1 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 3--3
+|[] []| 
+ []
+
+[2
+
+
+] [3]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 50--50
+[]\OT1/cmr/bx/n/12 1.2 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 50--50
+|[] []| 
+ []
+
+[4]
+Overfull \hbox (17.86613pt too wide) in paragraph at lines 124--124
+[] 
+ []
+
+[5]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 166.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 166.
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 193--193
+[]\OT1/cmr/bx/n/12 1.3 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 193--193
+|[] []| 
+ []
+
+[6] [7]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 245--245
+[]\OT1/cmr/bx/n/12 1.4 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 245--245
+|[] []| 
+ []
+
+[8]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 303--303
+[]\OT1/cmr/bx/n/12 1.5 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 303--303
+|[] []| 
+ []
+
+[9] [10]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 363--363
+[]\OT1/cmr/bx/n/12 1.6 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 363--363
+|[] []| 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 363.
+
+[11] [12] [13]
+Overfull \hbox (7.80298pt too wide) in paragraph at lines 475--475
+[] 
+ []
+
+
+Overfull \hbox (63.23262pt too wide) in paragraph at lines 487--487
+[] 
+ []
+
+[14]
+File: replica.pdf Graphic file (type pdf)
+ <replica.pdf>
+Overfull \hbox (12.55104pt too wide) in paragraph at lines 524--525
+ [] 
+ []
+
+[15] [16] [17]) [18]
 \openout2 = `chap2/chap2.aux'.
 
-No file chap2/chap2.tex.
+ (./chap2/chap2.tex
+ç¬¬2ç« 
+
+Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
+|[] []| 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 46--46
+[]\OT1/cmr/bx/n/12 2.1 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 46--46
+|[] []| 
+ []
+
+[19
+
+
+
+]
+Overfull \hbox (24.0pt too wide) in paragraph at lines 79--79
+[]\OT1/cmr/bx/n/12 2.2 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 79--79
+|[] []| 
+ []
+
+[20]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+File: de.pdf Graphic file (type pdf)
+ <de.pdf>
+Overfull \hbox (1.71904pt too wide) in paragraph at lines 131--132
+ [] 
+ []
+
+[21]
+File: Web.pdf Graphic file (type pdf)
+ <Web.pdf>
+Overfull \hbox (24.0pt too wide) in paragraph at lines 144--144
+[]\OT1/cmr/bx/n/12 2.3 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 144--144
+|[] []| 
+ []
+
+[22]
+File: deSitter.pdf Graphic file (type pdf)
+ <deSitter.pdf> [23] [24] [25] [26] [27]
+File: desRL.pdf Graphic file (type pdf)
+ <desRL.pdf> [28] [29] [30])
+[31]
 \openout2 = `chap3/chap3.aux'.
 
-(./chap3/chap3.tex) [2
-
-
-
+ (./chap3/chap3.tex) [32
 
 
 ]
 \openout2 = `chap4/chap4.aux'.
 
- (./chap4/chap4.tex) [3
+ (./chap4/chap4.tex) [33
 
 
 ]
 \openout2 = `appendixA/appendixA.aux'.
 
- (./appendixA/appendixA.tex
+
+(./appendixA/appendixA.tex
 Appendix\nobreakspace {}A
 
 Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
@@ -1326,30 +1517,43 @@ Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
  []
 
 
-Overfull \hbox (26.665pt too wide) in paragraph at lines 2--2
-|[] []| 
- []
-
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 3.
-
-Overfull \hbox (26.665pt too wide) in paragraph at lines 4--4
-|[] []| 
+Overfull \hbox (27.44444pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/12 A.1 
  []
 
 
-Overfull \hbox (26.665pt too wide) in paragraph at lines 5--5
+Overfull \hbox (74.5pt too wide) in paragraph at lines 2--2
 |[] []| 
  []
 
-) [4
+
+Overfull \hbox (27.44444pt too wide) in paragraph at lines 4--4
+[]\OT1/cmr/bx/n/12 A.2 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 4--4
+|[] []| 
+ []
+
+
+Overfull \hbox (27.44444pt too wide) in paragraph at lines 5--5
+[]\OT1/cmr/bx/n/12 A.3 
+ []
+
+
+Overfull \hbox (74.5pt too wide) in paragraph at lines 5--5
+|[] []| 
+ []
+
+) [34
 
 
 
 ]
 \openout2 = `appendixB/appendixB.aux'.
 
- (./appendixB/appendixB.tex) [5
+ (./appendixB/appendixB.tex) [35
 
 
 ]
@@ -1363,261 +1567,46 @@ Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
  []
 
 
-Overfull \hbox (26.665pt too wide) in paragraph at lines 2--2
-|[] []| 
+Overfull \hbox (26.84723pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/12 B.1 
  []
 
 
-LaTeX Warning: Reference `tau' on page 6 undefined on input line 33.
+Overfull \hbox (74.5pt too wide) in paragraph at lines 2--2
+|[] []| 
+ []
 
-[6
-
-
-
-]
-
-LaTeX Warning: Reference `4vv' on page 7 undefined on input line 47.
+[36
 
 
-LaTeX Warning: Reference `4v' on page 7 undefined on input line 61.
 
-[7]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 104.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 118.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 118.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 118.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 118.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 118.
-
-
-LaTeX Warning: Reference `trdet' on page 8 undefined on input line 118.
-
-
-LaTeX Warning: Reference `iii' on page 8 undefined on input line 118.
-
-
-LaTeX Warning: Reference `iiii' on page 8 undefined on input line 118.
-
-
-LaTeX Warning: Reference `trdet' on page 8 undefined on input line 120.
-
+] [37]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 122.
 
-[8]
+[38] [39] [40] [41] [42]
 
-LaTeX Warning: Reference `ggg' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Reference `gggg' on page 9 undefined on input line 142.
+LaTeX Warning: Reference `C3' on page 43 undefined on input line 349.
 
 
-LaTeX Warning: Reference `Ch' on page 9 undefined on input line 176.
+Overfull \hbox (26.84723pt too wide) in paragraph at lines 363--363
+[]\OT1/cmr/bx/n/12 B.2 
+ []
 
 
-LaTeX Warning: Reference `ggg' on page 9 undefined on input line 181.
-
-[9]
-
-LaTeX Warning: Reference `di32' on page 10 undefined on input line 190.
-
-
-LaTeX Warning: Reference `tau' on page 10 undefined on input line 221.
-
-[10]
-
-LaTeX Warning: Reference `rie' on page 11 undefined on input line 262.
-
-
-LaTeX Warning: Reference `rct' on page 11 undefined on input line 262.
-
-
-LaTeX Warning: Reference `rcs' on page 11 undefined on input line 262.
-
-
-LaTeX Warning: Reference `Ch' on page 11 undefined on input line 267.
-
-
-LaTeX Warning: Reference `hendg' on page 11 undefined on input line 271.
-
-
-LaTeX Warning: Reference `rie' on page 11 undefined on input line 280.
-
-[11]
-
-LaTeX Warning: Reference `dhench' on page 12 undefined on input line 287.
-
-
-LaTeX Warning: Reference `henri' on page 12 undefined on input line 287.
-
-
-LaTeX Warning: Reference `rcs' on page 12 undefined on input line 293.
-
-
-LaTeX Warning: Reference `henrct' on page 12 undefined on input line 297.
-
-
-LaTeX Warning: Reference `OS' on page 12 undefined on input line 308.
-
-
-LaTeX Warning: Reference `D3' on page 12 undefined on input line 316.
-
-
-LaTeX Warning: Reference `D3' on page 12 undefined on input line 318.
-
-[12]
-
-LaTeX Warning: Reference `Os' on page 13 undefined on input line 325.
-
-
-LaTeX Warning: Reference `D4' on page 13 undefined on input line 333.
-
-
-LaTeX Warning: Reference `D3' on page 13 undefined on input line 333.
-
-
-LaTeX Warning: Reference `D1' on page 13 undefined on input line 341.
-
-
-LaTeX Warning: Reference `C3' on page 13 undefined on input line 349.
-
-
-LaTeX Warning: Reference `D8' on page 13 undefined on input line 349.
-
-
-Overfull \hbox (26.665pt too wide) in paragraph at lines 363--363
+Overfull \hbox (74.5pt too wide) in paragraph at lines 363--363
 |[] []| 
  []
 
-[13]
-
-LaTeX Warning: Reference `a64aa' on page 14 undefined on input line 401.
-
-
-LaTeX Warning: Reference `pn' on page 14 undefined on input line 403.
-
-
-LaTeX Warning: Reference `a24' on page 14 undefined on input line 409.
-
-[14]
-
-LaTeX Warning: Reference `EL' on page 15 undefined on input line 415.
-
-
-LaTeX Warning: Reference `xn' on page 15 undefined on input line 416.
-
-
-LaTeX Warning: Reference `xn' on page 15 undefined on input line 420.
-
-
-LaTeX Warning: Reference `a25' on page 15 undefined on input line 442.
-
-
-LaTeX Warning: Reference `a31' on page 15 undefined on input line 448.
-
-[15]
-
-LaTeX Warning: Reference `a32' on page 16 undefined on input line 469.
-
-
-LaTeX Warning: Reference `a34' on page 16 undefined on input line 477.
-
-
-LaTeX Warning: Reference `xn' on page 16 undefined on input line 484.
-
-
-LaTeX Warning: Reference `ncu' on page 16 undefined on input line 493.
-
-[16]
-
-LaTeX Warning: Reference `hen-g' on page 17 undefined on input line 520.
-
-
-LaTeX Warning: Reference `a89' on page 17 undefined on input line 520.
-
-
-LaTeX Warning: Reference `emt2' on page 17 undefined on input line 536.
-
-
-LaTeX Warning: Reference `a82' on page 17 undefined on input line 536.
-
-
-LaTeX Warning: Reference `hen-g' on page 17 undefined on input line 540.
-
-
-LaTeX Warning: Reference `emt2' on page 17 undefined on input line 544.
-
-[17]
-
-LaTeX Warning: Reference `emt1' on page 18 undefined on input line 552.
-
-
-LaTeX Warning: Reference `emt3' on page 18 undefined on input line 557.
-
-
-LaTeX Warning: Reference `emt1' on page 18 undefined on input line 561.
-
-
-LaTeX Warning: Reference `emt4' on page 18 undefined on input line 582.
-
-
-LaTeX Warning: Reference `gggg' on page 18 undefined on input line 582.
-
-[18]
-
-LaTeX Warning: Reference `eleq' on page 19 undefined on input line 595.
-
-
-LaTeX Warning: Reference `xnnn' on page 19 undefined on input line 595.
-
-
-LaTeX Warning: Reference `xnnn' on page 19 undefined on input line 603.
-
+[43] [44] [45] [46] [47] [48]
 LaTeX Font Info:    Try loading font information for U+euf on input line 608.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-
-LaTeX Warning: Reference `a98' on page 19 undefined on input line 610.
-
-
-LaTeX Warning: Reference `emt5' on page 19 undefined on input line 614.
-
-
-LaTeX Warning: Reference `tmco' on page 19 undefined on input line 618.
-
-
-LaTeX Warning: Reference `xnnn' on page 19 undefined on input line 619.
-
-[19] [20]
-
-LaTeX Warning: Reference `A116' on page 21 undefined on input line 683.
-
-[21]
-
-LaTeX Warning: Reference `A126' on page 22 undefined on input line 735.
-
-
-LaTeX Warning: Reference `A133' on page 22 undefined on input line 735.
-
-
-LaTeX Warning: Reference `A135' on page 22 undefined on input line 735.
-
-
-LaTeX Warning: Reference `A127' on page 22 undefined on input line 739.
-
-
-LaTeX Warning: Reference `A133' on page 22 undefined on input line 739.
-
-[22]) [23]
+) [49] [50]
+[51] [52]) [53]
 \openout2 = `appendixC/appendixC.aux'.
 
  (./appendixC/appendixC.tex
@@ -1628,95 +1617,52 @@ Overfull \hbox (26.665pt too wide) in paragraph at lines 1--1
  []
 
 
-Overfull \hbox (26.665pt too wide) in paragraph at lines 2--2
-|[] []| 
+Overfull \hbox (27.0pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/12 C.1 
  []
 
 
-LaTeX Warning: Reference `a102' on page 24 undefined on input line 7.
-
-
-LaTeX Warning: Reference `xnnn' on page 24 undefined on input line 12.
-
-
-LaTeX Warning: Reference `nB1' on page 24 undefined on input line 12.
-
-
-LaTeX Warning: Reference `a102' on page 24 undefined on input line 12.
-
-
-LaTeX Warning: Reference `kilcon' on page 24 undefined on input line 20.
-
-[24
-
-
-
-]
-
-LaTeX Warning: Reference `RRR' on page 25 undefined on input line 22.
-
-
-LaTeX Warning: Reference `Rcycle' on page 25 undefined on input line 28.
-
-
-LaTeX Warning: Reference `cyclick' on page 25 undefined on input line 33.
-
-
-LaTeX Warning: Reference `Rxi' on page 25 undefined on input line 33.
-
-
-LaTeX Warning: Reference `cyclick' on page 25 undefined on input line 38.
-
-
-LaTeX Warning: Reference `cycle2' on page 25 undefined on input line 38.
-
-
-LaTeX Warning: Reference `kiR1' on page 25 undefined on input line 43.
-
-
-LaTeX Warning: Reference `kiln' on page 25 undefined on input line 51.
-
-[25]
-
-LaTeX Warning: Citation `b5' on page 26 undefined on input line 69.
-
-
-Overfull \hbox (26.665pt too wide) in paragraph at lines 89--89
+Overfull \hbox (74.5pt too wide) in paragraph at lines 2--2
 |[] []| 
  []
 
-
-LaTeX Warning: Reference `RieMSS' on page 26 undefined on input line 92.
-
-[26]
-
-LaTeX Warning: Reference `FL' on page 27 undefined on input line 104.
-
-[27]
-
-LaTeX Warning: Reference `Eeq1' on page 28 undefined on input line 152.
+[54
 
 
-LaTeX Warning: Reference `FL' on page 28 undefined on input line 162.
+
+] [55]
+
+LaTeX Warning: Citation `b5' on page 56 undefined on input line 69.
 
 
-LaTeX Warning: Reference `eee1' on page 28 undefined on input line 164.
+Overfull \hbox (27.0pt too wide) in paragraph at lines 89--89
+[]\OT1/cmr/bx/n/12 C.2 
+ []
 
 
-LaTeX Warning: Reference `ec1' on page 28 undefined on input line 186.
+Overfull \hbox (74.5pt too wide) in paragraph at lines 89--89
+|[] []| 
+ []
+
+[56] [57] [58]
+
+LaTeX Warning: Reference `Rp' on page 59 undefined on input line 205.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 205.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 205.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 205.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 205.
+[59]
+Overfull \hbox (27.0pt too wide) in paragraph at lines 240--240
+[]\OT1/cmr/bx/n/12 C.3 
+ []
 
 
-LaTeX Warning: Reference `emt' on page 28 undefined on input line 186.
-
-[28]
-
-LaTeX Warning: Reference `ec' on page 29 undefined on input line 193.
-
-
-LaTeX Warning: Reference `Rp' on page 29 undefined on input line 205.
-
-[29]
-Overfull \hbox (26.665pt too wide) in paragraph at lines 240--240
+Overfull \hbox (74.5pt too wide) in paragraph at lines 240--240
 |[] []| 
  []
 
@@ -1732,7 +1678,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 240.
 
-[30]
+[60]
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <7> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -1749,25 +1695,22 @@ LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <6> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 281.
- [31] [32]
-
-LaTeX Warning: Reference `Ak' on page 33 undefined on input line 340.
-
-) [33]
+ [61] [62]) [63]
 \openout2 = `appendixE/appendixE.aux'.
 
- (./appendixE/appendixE.tex) [34
+ (./appendixE/appendixE.tex) [64
 
 
 ]
 \openout2 = `References/References.aux'.
 
- (./References/References.tex
+
+(./References/References.tex
 Overfull \hbox (46.665pt too wide) in paragraph at lines 1--1
 |[] []| 
  []
 
-[35
+[65
 
 
 
@@ -1786,18 +1729,18 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 33.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) )
-(\end occurred when \iftrue on line 308 was incomplete)
-(\end occurred when \ifnum on line 308 was incomplete) 
+(\end occurred when \iftrue on line 199 was incomplete)
+(\end occurred when \ifnum on line 199 was incomplete) 
 Here is how much of TeX's memory you used:
- 30833 strings out of 493742
- 626218 string characters out of 6151252
- 785125 words of memory out of 5000000
- 33826 multiletter control sequences out of 15000+600000
+ 31006 strings out of 493742
+ 628304 string characters out of 6151252
+ 801985 words of memory out of 5000000
+ 33956 multiletter control sequences out of 15000+600000
  33671 words of font info for 146 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 58i,17n,93p,10468b,861s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,17n,93p,10468b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.dvi (38 pages, 210432 bytes).
+Output written on é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.dvi (69 pages, 441460 bytes).

@@ -1,4 +1,4 @@
-\documentclass[a4paper,8pt,oneside,openany]{jsbook}
+\documentclass[a4paper,11pt,oneside,openany]{jsbook}
 %
 \usepackage{amsmath,amssymb}
 
@@ -29,88 +29,6 @@
 
 
 
-\titleformat{\chapter}[block]
-  {\normalfont\huge\bfseries}
-  {\tikz\node[
-      font=\huge\bfseries\color{white},
-      fill=gray!50,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=3em,
-      align=center,
-      inner xsep=0pt] {\parbox{1.5em}{\thechapter\hfill}};%1の位置を定めている．
-  }
-  {-0.5em}%灰色域の
-  {\tikz\node[
-      fill=gray,
-      font=\Large\sffamily\color{white},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-2em\relax,%灰色の文字の中身を
-      align=center,inner xsep=-10pt] {#1};%
-  }
-
-
-  \titleformat{\chapter}[block]
-  {\normalfont\huge\bfseries}
-  {\tikz\node[
-      font=\huge\bfseries\color{white},
-      fill=gray!50,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=3em,
-      align=center,
-      inner xsep=0pt] {\parbox{1.5em}{\thechapter\hfill}};%1の位置を定めている．
-  }
-  {-1em}%灰色域の
-  {\tikz\node[
-      fill=gray,
-      font=\Large\sffamily\color{white},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-2em\relax,%灰色の文字の中身を
-      align=center,inner xsep=-10pt] {#1};%
-  }
-
-
-\titleformat{name=\chapter,numberless}[block]
-  {\normalfont\huge\bfseries}
-  {\tikz\node[
-      font=\huge\bfseries\color{white},
-      fill=gray!50,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=3em,
-      align=center,
-      inner xsep=0pt] {\parbox{1.5em}{\mbox{}\hfill}};%
-  }
-  {-1em}
-  {\tikz\node[
-      fill=gray,
-      font=\Large\sffamily\color{white},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-2em\relax,
-      align=center,
-      inner xsep=0pt] {#1};%
-  }
-
-  \titleformat{\section}[block]
-  {\normalfont\large\bfseries}
-  {\tikz\node[
-      font=\large\bfseries\color{black},
-      fill=white,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=10em,
-      align=center,
-      inner xsep=0pt] {\parbox{-0.5em}{\thesection}};%1の位置を定めている．
-  }
-  {-3em}%灰色域の
-  {\tikz\node[
-      fill=white,
-      font=\Large\sffamily\color{black},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-12em\relax,%灰色の文字の中身を
-      align=center,inner xsep=-10pt] {#1};%
-  }
 
 \setcounter{tocdepth}{2}
 \hypersetup{%

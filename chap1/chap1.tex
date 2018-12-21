@@ -49,65 +49,39 @@ Bekenstein の論文を受けてHawkingはブラックホールの放射のメ�
 Minkowski時空における量子エンタングルメントは，時空の次元によるのものなのか
 \section{純粋状態と混合状態}
 \subsection{純粋状態におけるエンタングルメント}
-純粋状態とは，量子状態$\ket{\phi}$が非自明な確率混合で準備できない状態である．すなわち，Density Matrixが，
+通常の量子力学で我々が扱う量子状態は、系全体の状態の時間発展や観測に関して議論する。系が孤立していて外部との相互作用を仮定せず、系全体の波動関数が分かっている、すなわち状態が状態ベクトルで記述できる場合のみを考える。他の系と相互作用をするような、部分系についてはほとんど議論されない。このような、通常の量子力学で扱う状態ベクトルで表現可能な量子状態のことを{\bf 純粋状態}と呼ぶ。従って、純粋状態$\ket{\phi}$は、外部からの粒子の流入など非自明な確率混合がない状態である．一方、量子情報の分野ではより一般的な非自明な確率混合を含むような状態、すなわち{\bf 混合状態}についても扱う。ここでは、それぞれの場合についてエンタングルメントと呼ばれる概念を説明する。そのためにまず、非自明な確率混合を含めて量子状態を記述する方法として、Density Matrixを導入する。純粋状態のDensity Matrixを用いると，
 \begin{equation}
 \label{1}
 \rho=\ket{\phi}\bra{\phi}
 \end{equation}
-の形で与えられる場合である．(\ref{1})式から，純粋状態であれば，
+の形で与えられる。Density Matrixでは、ブラケットを向かいあわせるように書きくだす。また、(\ref{1})式から，純粋状態であれば，Density Matrixの2乗について、
 \begin{equation}
+\label{2}
 \rho^{2}=\rho=1
 \end{equation}
 が成立する．
+
+このように純粋状態で表された系全体の状態が二つ以上の部分系で構成されている場合、それらの系の間の量子的な相関を考えることができる。この量子相関は、{\bf エンタングルメント(entaglement)}と呼ばれる。一方、二つの系に相関がなく全く独立の状態の足し合わせであるような状態を{\bf セパラブル(separable)}と呼ぶ。
+\
+\
+
 \begin{empheqboxed}
   \
   \
 
-  純粋状態$\ket{\phi}$が，エンタングルしてないすなわち，セパラブル(separable)であるときは，
+純粋状態でかつセパラブルな状態は、
   \begin{equation}
     \label{3}
   \ket{\phi}=\frac{1}{2}(\ket{\uparrow}_{A}+\ket{\downarrow}_{A})(\ket{\uparrow}_{B} +\ket{\downarrow}_{B})=\ket{A}\otimes\ket{B}
   \end{equation}
+のように，系全体の量子状態が部分系$A,B$の直積として表現できるときである．
+\
 
 \end{empheqboxed}
 
-のように，２つの系全体の量子状態が部分系$A,B$の直積として表現できるときである．これに対して，
-\begin{empheqboxed}
-\
-\
-
-エンタングルしている状態としては，
-\begin{equation}
-    \label{4}
-    \ket{\phi_{Bell}}=\frac{1}{\sqrt{2}}(\ket{\uparrow}_{A}\ket{\uparrow}_{B}+\ket{\downarrow}_{A}\ket{\downarrow}_{B})
-    \end{equation}
-    のように直積で書くことのできない状態である．
-\end{empheqboxed}
-(\ref{4})式にあげた例は，Bell状態と呼ばれ,
-この状態に関するエントロピー，すなわちエンタングルメントエントロピー$S(\rho)$
-\begin{empheqboxed}
-\
-
-\begin{equation}
-S(\rho)=-Tr(\rho_{A}\ln \rho_{A})
-\end{equation}
-\end{empheqboxed}
-を最大にし，さらにベルの不等式を最大で破っている場合になっている．ただし，$\rho_A$は，Density MatrixでBについてPartial Traceを取ったもので，
-\begin{equation}
-\rho_{A}={Tr}_{B}\rho
-\end{equation}
-
-で定義される．このように，純粋状態は，片方の状態をPartial Traceをとることでエンタングルメントエントロピーが計算でき，エンタングルしているかどうかを判定することができる．
-
-そのために，混合状態について言及しておく．
-\subsection{混合状態におけるエンタングルメントエントロピー}
-
-\textcolor[rgb]{0.4,0.4,0.4}{\begin{align*}
-\mathcal{H}_{tot}=\mathcal{H}_{A}\otimes\mathcal{H}_{A}
-\end{align*}}
 
 
-１つの物理系についても，純粋状態と混合状態が定義できる．混合状態と純粋状態では，密度行列の数学的な性質が異なる．例えば，separableな状態である(\ref{3})から構成した密度行列は，
+この量子状態に関して、先ほど同様にDensity Matrixを考えることができる。
 \begin{align}
   \rho^{AB_{p}}=\frac{1}{4}(&\ket{\uparrow}_{A}\ket{\uparrow}_{B}+\ket{\downarrow}_{A}\ket{\uparrow}_{B}+\ket{\uparrow}_{A}\ket{\downarrow}_{B}+\ket{\downarrow}_{A}\ket{\downarrow}_{B})
   (\bra{\uparrow}_{A}\bra{\uparrow}_{B}+\bra{\downarrow}_{A}\bra{\uparrow}_{B}+\bra{\uparrow}_{A}\bra{\downarrow}_{B}+\bra{\downarrow}_{A}\bra{\downarrow}_{B}) \nonumber \\
@@ -130,34 +104,107 @@ S(\rho)=-Tr(\rho_{A}\ln \rho_{A})
 \ket{\uparrow}_{A}\bra{\uparrow}_{A}+\ket{\uparrow}_{A}\bra{\downarrow}_{A}+\ket{\downarrow}_{A}\bra{\uparrow}_{A}+\ket{\downarrow}_{A}\bra{\downarrow}_{A})\\
 &=\frac{1}{2}(\ket{\uparrow}_{A}+\ket{\downarrow}_{A})(\bra{\uparrow}_{A}+\bra{\downarrow}_{A})
 \end{align}
-となり，これは，Aの物理系だけの純粋状態$\bra{\psi}=\frac{1}{\sqrt{2}}(\ket{\uparrow}_{A}+\ket{\downarrow}_{A})$になっていることがわかる．これは，\textbf{separableな状態においてBの物理系ををトレースアウトすれば，Aの純粋状態だけが残る}という非常に当たり前の結果である．また，純粋状態の密度演算子は，二乗すると元に戻るので，
-\begin{align}
-  \rho^2=\rho,\hspace{2mm}\rm{Tr}\rho^2=1
-\end{align}
-などの性質がある．次に，entangleな状態から構成される量子状態について考える．
+となり，これは，Aの物理系だけの純粋状態$\bra{\psi}=\frac{1}{\sqrt{2}}(\ket{\uparrow}_{A}+\ket{\downarrow}_{A})$になっていることがわかる．これは，\textbf{separableな状態においてBの物理系ををトレースアウトすれば，Aの純粋状態だけが残る}という非常に当たり前の結果である．このように、系の一部をトレースアウトした状態のことを縮約密度行列(Reduced Density Matrix)と呼ばれる。また，先ほど確認した、純粋状態の密度演算子に関する条件，(\ref{2})を満たすことが確認できる。これに対して，
+\begin{empheqboxed}
+\
+\
 
-
-混合状態は，エンタングル状態の2つの物理系から1つをトレースアウトすることで得られる．
-
-
-
-混合状態は，純粋状態でない状態すなわち，量子状態$\ket{\phi}$が非自明な確率混合で準備できる状態である．
-混合状態では，非自明な確率で様々な量子状態が混合されている状態である，
+エンタングルメント状態とは，
 \begin{equation}
-\rho=\sum_{i}p_i\rho_{i}
+    \label{4}
+    \ket{\phi_{Bell}}=\frac{1}{\sqrt{2}}(\ket{\uparrow}_{A}\ket{\uparrow}_{B}+\ket{\downarrow}_{A}\ket{\downarrow}_{B})
+    \end{equation}
+    のように直積で書くことのできない状態である．
+\end{empheqboxed}
+(\ref{4})式にあげた例は，Bell状態と呼ばれ,
+この状態に関しても、Density Matrixを書き出すと、
+
+\begin{align}
+  \rho^{AB_{p}}=\frac{1}{2}(&\ket{\uparrow}_{A}\ket{\uparrow}_{B}+\ket{\downarrow}_{A}\ket{\downarrow}_{B})
+  (\bra{\uparrow}_{A}\bra{\uparrow}_{B}+\bra{\downarrow}_{A}\bra{\downarrow}_{B}) \nonumber \\
+  =\frac{1}{2}(
+&\ket{\uparrow}_{A}\ket{\uparrow}_{B}\bra{\uparrow}_{A}\bra{\uparrow}_{B}+\ket{\uparrow}_{A}\ket{\uparrow}_{B}\bra{\downarrow}_{A}\bra{\downarrow}_{B}+\ket{\downarrow}_{A}\ket{\downarrow}_{B}\bra{\uparrow}_{A}\bra{\uparrow}_{B}\nonumber+\ket{\downarrow}_{A}\ket{\downarrow}_{B}\bra{\downarrow}_{A}\bra{\downarrow}_{B}\nonumber)
+\end{align}
+となる。この密度行列の縮約密度行列は、
+
+\begin{equation}
+  \label{10}
+\rho_{A}=Tr_{B}\rho_{AB}=\frac{1}{2}\biggl(\ket{\uparrow}_{A}\bra{\uparrow}_{A}+\ket{\downarrow}_{A}\bra{\downarrow}_{A}\biggr)
 \end{equation}
+と表せる。純粋状態のエンタングルメント状態の縮約によって得られたこの状態は、実は、純粋状態ではなく次に説明する混合状態呼ばれる状態である。
+
+
+\subsubsection{エンタングルメントエントロピー}
+ここまで、純粋状態のセパラブルとエンタングルメントについて説明してきた。エンタングルメントは、量子相関のことであった。そのため、相関関数同様に量子的な相関をもつ複数の系の間の相関の強さについて定義することができる。この量子相関の尺度の一つが、エンタングルメントエントロピー$S(\rho)$である。
+
+\begin{empheqboxed}
+\
+\
+
+\begin{equation}
+S(\rho_A)=-\rm{Tr}(\rho_{A}\ln \rho_{A})
+\end{equation}
+\
+\end{empheqboxed}
+
+定義からもわかるように、相関を知りたい二つの系のうち、どちらか一方をトレースアウトした縮約密度行列に関して対数を取ることで求めることができる。そのため、エンタングルメントエントロピーは、2体系の量子相関を求める際に適している。このエンタングルメントエントロピーは、$\rho_A$が、
+\begin{equation}
+\rho_{A}=\sum_{i}p_i\ket{i}_{A}\bra{i}_{A}
+\end{equation}
+のときに、
+\begin{equation}
+S(\rho_A)=\sum_i p_i \log p_i
+\end{equation}
+となり、これは情報エントロピーの定義に一致する。
+
+また、(\ref{10})式はこのエンタングルメントの表式を最大にし，さらにベルの不等式を最大で破っている場合になっている．
+
+実際に計算していこう。$\log$の計算が少々煩雑になるが、テイラー展開し状態の直行条件を用いることによって次のような公式が使えることに注目すると簡単に計算が可能である。
 \begin{empheqboxed}
   \
+
+  \begin{equation}
+    \log\biggl(\sum_jq_j\ket{j}\bra{j}\biggr)=\sum_{j}\ket{j}\bra{j}\log q_j
+  \end{equation}
+\end{empheqboxed}
+これを用いると、(\ref{10})式で表される状態のエンタングルメントエントロピーは、
+\begin{equation}
+\log \rho_A=\ket{\uparrow}\bra{\uparrow}\log_2\frac{1}{2}+\ket{\downarrow}\bra{\downarrow}\log_2\frac{1}{2}
+\end{equation}
+
+を用いて、
+\begin{equation}
+  S(\rho_A)=-\rm{Tr}\biggl(\rho_A\log\rho_A\biggr)=-\rm{Tr}\biggl(-\frac{1}{2}\ket{\uparrow}\bra{\uparrow}-\frac{1}{2}\ket{\downarrow}\bra{\downarrow}\biggr)=+1
+\end{equation}
+と有限のエンタングルメントエントロピーが求まる。
+
+このように，純粋状態は，片方の状態をPartial Traceをとることでエンタングルメントエントロピーが計算でき，エンタングルしているかどうかを判定することができる．ここまで述べてきたエンタングルメントの定義とその尺度であるエンタングルメントエントロピーは、純粋状態に対するものである。これよりも少し複雑な混合状態の場合、その定義や尺度はさらに複雑になる。
+
+そこで、次に混合状態について言及していく。
+\subsection{混合状態におけるエンタングルメントエントロピー}
+
+混合状態(Mixed State)と純粋状態(Pure State)では，密度行列の数学的な性質が異なる．先ほど少し触れたように、混合状態の場合、密度行列の二乗が元の密度行列と一般に異なる値となる。すなわち、
+
+\begin{equation}
+  \rm{Tr}\rho=1, \ \rm{Tr}\rho^2\neq 1
+\end{equation}
+である。
+
+混合状態は，エンタングル状態の2つの物理系から1つをトレースアウトすることで得られる．
+また、混合状態は，純粋状態でない状態すなわち，量子状態$\ket{\phi}$が非自明な確率混合で準備できる状態である．この二つの文章はほとんど同じことを述べている。エンタングルメント状態である二つの状態のうち、片方だけに着目した場合、残りの状態が測定によって決まってしまった場合、着目している状態も変化してしまうという非自明な状態であるためである。もちろん、混合状態に関してもセパラブルな状態とエンタングルしている状態それぞれを考えることができる。
+
+
+\begin{empheqboxed}
   \
 
-  混合状態がセパラブルであるとは，
-  \begin{equation}
+混合状態がセパラブルであるとは，
+\begin{equation}
   \label{30}
   \rho=\sum_{i}p_i\rho^{A}_{i}\otimes\rho^{B}_{i}=\sum_{i}p_i\ket{i}_A\bra{i}_{A}\otimes\ket{i}_B\bra{i}_{B}
   \end{equation}
   と書けるときである.
 \end{empheqboxed}
-separabilityについて詳しく考える。セパラブルな状態は、後述のLOCCによって生成される
+と二つの系の純粋状態の直積の和でかけるときである。この状態をセパラブルとして定義する理由は、後述の\hyperlink{appendixE}{appendixE}で詳しく述べることにする。
 
 一方，一般的なDensity Matrixは，
 \begin{eqnarray}
@@ -186,14 +233,20 @@ separabilityについて詳しく考える。セパラブルな状態は、後�
 
   pure stateのエンタングルメント判定方法は，次のようにまとめられる．
 
+
   \begin{align}
     S(\rho^{A})=0, \hspace{4mm} then\ the\ state\ is\ separable\\
     S(\rho^{A})\neq0, \hspace{4mm} then\ the\ state\ is\ entangle
   \end{align}
 \end{empheqboxed}
 
+ここまで、量子状態に関して純粋状態と混合状態について述べてきたが、全ての物理系がこれら二つの状態だけで記述できるかどうかについて考えてみる。そもそも、宇宙全体を考えたときに、宇宙全体が孤立系であるとすると純粋状態の波動関数で記述できることがわかる。そうすると、宇宙の部分的な状態に関して知りたかった場合は、必要でない部分をトレースして捨ててしまうことで、部分系の量子状態を考えることができる。しかし、今まで見てきたように純粋状態の部分系は純粋状態もしくは、混合状態でかけることがわかっている。したがって、全ての量子状態は、量子力学の範囲内では、純粋状態もしくは、混合状態だけでかけると言える。
 \section{PPT条件とNegativity}
-混合状態や，3つ以上の量子もつれにも適用できる測度としてNegativityがある，\footnote{Negativityが最良の測度であるという意味ではない．}PPT(Positive Partial Transpose)条件は，Density Matrix\ $\rho$に対して，
+これまで述べてきたように、エンタングルメントエントロピーは、純粋状態に対して適応することができるが混合状態や3つ以上の複数の量子状態に対して、量子相関の良い尺度とは言えない。混合状態のセパラブルな状態に関するエンタングルメントエントロピーを求めようとすると、元が混合状態であったので、トレースを取った後の状態も混合状態になることが多く、エンタングルメントエントロピーという指標を用いると混合状態は、LOCCによってのみ生成されているにも関わらず量子相関があることになってしまう。そのため、混合状態に対する量子相関の尺度の定義は一般に難しい。
+ここでは、混合状態測度としてPPT条件とNegativityと呼ばれる概念を紹介する。\footnote{Negativityが最良の測度であるという意味ではない．他にもQuatum Witnessなど様々な指標が考案されている。}　
+\subsection{PPT条件}
+
+PPT(Positive Partial Transpose)条件は，Density Matrix\ $\rho$に対して，
 \begin{eqnarray}
 \label{5}
 \rho^{T_{A}}
@@ -259,19 +312,14 @@ L(N)=\log||\rho^{T_{A}}||=\log(2N+1)
 \begin{equation}
   F=-\frac{1}{\beta}\log Z
 \end{equation}
-の関係がある．はじめにこの関係について導出する．
+の関係がある．
 
------村上さんのをみよ------
-
-
-
-次に，統計に力学におけるエントロピーを確認する，
 統計力学では，エントロピーはヘルムホルツの自由エネルギー$F$を用いて，
 \begin{equation}
   S=\frac{1}{T}(E-F)
 \end{equation}
 で表すことができる．まずこれを示し，量子力学におけるエントロピーと統計力学におけるエントロピーの関係性について議論する．
-混合状態における温度$T=\frac{1}{T}$のカノニカル分布の密度行列は，
+混合状態における温度$T=\frac{1}{\beta}$のカノニカル分布の密度行列は，
 \begin{eqnarray}
 \label{25}
 \rho_{tot}=\frac{e^{-\beta \mathcal{H}}}{Z}
@@ -289,7 +337,11 @@ S_{tot}&=&-\frac{\partial F}{\partial T}=\beta^2\frac{\partial F}{\partial \beta
 F=E-ST
 \end{eqnarray}
 を得る．
-また，(\ref{25})を用いて，(\ref{27})式を変形すると，
+また，(\ref{25})を用いて，(\ref{27})式を変形する。
+\begin{equation}
+  \beta\mathcal{H}= -\log(\rho_{tot}Z), \quad e^{-\beta\mathcal{H}} = Z\rho_{tot}
+\end{equation}
+の関係を利用して、$\beta\mathcal{H}$を消去して、
 \begin{equation}
   S_{tot}=\frac{1}{Z}\biggl(\rm{Tr}[-\rho_{tot}Z\log(\rho_{tot}Z)]+Z\log Z\biggr)
 \end{equation}
@@ -300,7 +352,7 @@ F=E-ST
 に注意すれば，熱力学的なエントロピー(\ref{28})式は，
 \begin{equation}
   S_{tot}=-\rm{Tr}(\rho_{tot}\log\rho_{tot})
-\end{equation}と書き換えられる．これは，行列$\rho_{tot}$に関するフォンノイマンエントロピーである．従って，混合状態が統計力学の分布に従うとき，熱力学的なエントロピーは，フォンノイマンエントロピーに一致する．すなわち，統計力学における熱力学的なエントロピーは量子力学の密度行列の気泡を用いるると，フォンノイマンエントロピーとして，簡潔に記述できる．
+\end{equation}と書き換えられる．これは，行列$\rho_{tot}$に関するフォンノイマンエントロピーである．従って，混合状態が統計力学の分布に従うとき，熱力学的なエントロピーは，フォンノイマンエントロピーに一致する．すなわち，統計力学における熱力学的なエントロピーは量子力学の密度行列の表記を用いると，フォンノイマンエントロピーとして，簡潔に記述できる．
 
 \section{Tsallis Entropy(ツァリス エントロピー)}
 Tsallis Entropyは，Von Neumann Entropyの拡張として，

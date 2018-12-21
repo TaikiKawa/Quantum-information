@@ -35,34 +35,27 @@
 
 
 
-
-
-
-
-
-
-
-
 \section{Set Up}
 \textcolor{red}{もう一度構成から書き直しをする．足りないところは手書きノート見ながら埋める．}
 この章では，まず，これからどのような設定でエンタングルメントエントロピーを求めるかを決め，そのエンタングルメントエントロピーをどのようなステップで求めるかを述べる．
 
-はじめに我々の目標は，de Sitter時空の真空の大局的な相関\footnote{エンタングルメントエントロピーは，大局的な相関である．普段CMBなどで考えている相関は，局所的な複数の点の壮観である．エンタングルメントエントロピーの相関は，領域同士の相関である．}を求めることである．この真空の相関は，宇宙が膨張する時に生じたものである．de Sitter時空を考える理由は，初期宇宙がde Sitter時空に近似できることから初期宇宙で生じたエンタングルメントエントロピーを評価するのに適しているからである．
+我々の目標は，de Sitter時空での自由スカラー場の真空の大局的な相関\footnote{エンタングルメントエントロピーは，大局的な相関である．普段CMBなどで考えている相関は，局所的な複数の点の壮観である．エンタングルメントエントロピーの相関は，領域同士の相関である．}を求めることである．この真空の相関は，宇宙が膨張する時に生じたものである．de Sitter時空を考える理由は，初期宇宙がde Sitter時空に近似できることから初期宇宙で生じたエンタングルメントエントロピーを評価するのに適しているからである．
 \subsubsection{de Sitter時空におけるevent Horizon}
-今，時刻$t=0$に$x=0$地点にいるObserverを考える，宇宙が膨張しているので，十分遠方からの光は観測できないと推測される．そこで，このObserverに届く情報はObserverからどの距離までにあるのかについて求める．情報が届かなくなる境界のことをよくEvent Horizonと呼ぶ．宇宙の中で最速なのは光であるので，光が無限の未来にObserverに到達するような場合の，光源のある場所がちょうどEvent Horizonとなる．したがって，Observerからその光源までの距離は，
+今，時刻$t=0$に$x=0$地点にいるObserverを考える，宇宙が膨張しているので，十分遠方からの光は観測できないと推測される．そこで，このObserverに届く情報はObserverからどの距離までにあるのかについて求める．情報が届かなくなる境界のことをよくEvent Horizonと呼ぶ．宇宙の中で最速なのは光であるので，光が無限の未来にObserverに到達するような場合、光源がはじめに放出された時刻における、観測者と光源の放出された場所までの距離がちょうどEvent Horizonと呼ばれる境界となる。時刻$t^{\prime}$に光源をでた光が、Observerに到達したとすると、その光源までの距離は，
 \begin{align}
-  l_{ds}&=\int_{null}|d\bvec{x}|\\
-  &=\int^{\infty}_{t}\frac{dt^{\prime}}{a(t^{\prime})}
+  l_{ds}&=a(t^{\prime})\int_{null}|d\bvec{x}|\\
+  &=a(t^{\prime})\int^{\infty}_{t^{\prime}}\frac{dt}{a(t)}
 \end{align}
-となる，1行目から二行目の変形は，nullは$|d\bvec{x}|=d\eta=\dfrac{dt^{\prime}}{a(t)}$であることを用いた．(a)の図における，メトリックは
+となる，1行目から二行目の変形は，nullは$|d\bvec{x}|=d\eta=\dfrac{dt}{a(t)}$であることを用いた．de Sitter時空のOpen Chartのメトリックは
 \begin{align}
 ds^2=dt^2-e^{2H_{dS}t}d\bvec{x}^2
 \end{align}
-()式で表せるので，$a(t)=e^{H_{dS}}$である．ゆえに，
+で表せるので，$a(t)=e^{H_{dS}}$である．ゆえに，積分した結果は、
 \begin{align}
 l_{dS}=\frac{1}{H_{dS}}
 \end{align}
-となる．
+となる．この結果からわかることは、de Sitter時空におけるEvent Horizonは一定であり、宇宙膨張によって広がらないということでる。以降の議論のために、共動座標についてもここで確認しておく。座標$x$は、共動座標と呼ばれこの尺度で一定な長さでも、宇宙膨張によって実際の物理的な長さは引き延ばされる。($\sum x_i^2 = R^2$ は宇宙膨張とともに拡大する球である。)一方、$a(t)x_i$で書かれた座標系は、物理的な座標であり、この座標系で一定の長さは、物理的な実際の長さが常に一定である。
+
 $dt=e^{H_{ds}t}d\eta$を用いてconformal time$\eta$を導入する．すると，
 \begin{align}
 \eta=-\frac{e^{-H_{ds}t}}{H_{ds}}
@@ -80,7 +73,7 @@ ds^2=\frac{1}{(H_{ds}\eta)^2}(-d\eta^2+dx^2+dy^2+dz^2)
 4次元de Sitter時空は5次元Minkowski時空，
 \begin{align}
   \label{EDS}
-  ds^2_{5}=-dX_0^2+dX^2_{1}+dX^2_{2}++dX^2_{3}++dX^2_{4}
+  ds^2_{5}=-dX_0^2+dX^2_{1}+dX^2_{2}+dX^2_{3}+dX^2_{4}
 \end{align}
 に埋め込まれた双曲面，
 \begin{align}
@@ -215,7 +208,7 @@ de Sitter時空は，5次元Minkowski spacetimeに埋め込まれた4次元部�
 \label{CenterM}
   ds^2=H^{-2}\biggl[dt^2+\cos^2t(-dr^2+\cosh^2r(d\theta^2+d\phi^2\sin^2\theta))\biggr]
 \end{align}
-となる．
+となる．中央部分のチャートは、他のチャートと異なり時間座標と空間座標の役割が異なっていることに注意する。
 
 \subsection{Euclidean de Siiter space}
 Euclidean de Sitter Spaceとは，5次元Euclid空間に埋め込めこまれた4次元球である，その超曲面は，
@@ -264,9 +257,9 @@ Euclidean de Sitter Spaceとは，5次元Euclid空間に埋め込めこまれた
   \label{1.30}
     \cos{i\theta}=\cosh{\theta}
 \end{eqnarray}
-と，$\rho,\tau$のwick rotationで他の変数$x_1\sim x_4$が複素数にならないようにすることに注意する．
+と，$\rho,\tau$のwick rotationで他の変数$x_1\sim x_4$がImaginary numberにならないようにすることに注意する．
 \subsubsection{(i)}
-$\cos\tau$がrealとなることから$\tau$は，realまたはimaginalのどちらかである，もし，複素数であれば，加法定理で分解した時に$\sin$の因子からimaginary numberが出てくる．また，$\tau$がpure imaginalであれば，$x_2\sim x_4$が(\ref{1.29})式からimaginary numberとなるので不適．従って，$\tau$はreal numberであれば良いことがわかった．次に$\sin\rho$がimaginary numberになるには，
+$\cos\tau$がrealとなることから$\tau$は，realまたはimaginalのどちらかである，もし，Imaginary numberであれば，加法定理で分解した時に$\sin$の因子からimaginary numberが出てくる．また，$\tau$がpure imaginalであれば，$x_2\sim x_4$が(\ref{1.29})式からimaginary numberとなるので不適．従って，$\tau$はreal numberであれば良いことがわかった．次に$\sin\rho$がimaginary numberになるには，
 \begin{eqnarray}
   \rho=\pm ir+\frac{\pi}{2}
 \end{eqnarray}
@@ -291,11 +284,11 @@ $\cos\tau$がrealとなることから$\tau$は，realまたはimaginalのどち
 となる．これはちょうどde Sitter時空の中央をおおうChart(\ref{CenterM})式に一致する．
 \subsubsection{(ii)}
 次に，$\cos\tau$がpure imaginaryで$\cos\rho$がrealである場合について考える．
-このとき，$\tau$は，次の場合にが考えられる．
+$\tau$は，次の場合にが考えられる．
 \begin{align}
   \tau=it\pm\frac{\pi}{2},-it\pm\frac{\pi}{2}
 \end{align}
-ただし，real partが$\frac{\pi}{2}$となるように選んだ理由は，$\tau$の変域とpure imaginaryになるようにするためである，$\cos\tau$imaginary numberであるとき，$\sin\rho$がrealであれば，$x_2 \sim x_4$がimaginary numberとなるので，$\rho$は$\sin\rho$がpure imaginaryかつ，$\cos\tau$が仮定からrealになるように取ればいい．その候補として，
+ただし，real partが$\frac{\pi}{2}$となるように選んだ理由は，$\tau$の変域とpure imaginaryになるようにするためである。(4つの候補がある理由は、open chartに4箇所の端があるからである。chartの上側のR領域とL領域、chartの下側のR領域L領域である。) $\cos\tau$がimaginary numberであるとき，$\sin\rho$がrealであれば，$x_2 \sim x_4$がimaginary numberとなるので，$\rho$は$\sin\rho$がpure imaginaryかつ，$\cos\tau$が仮定からrealになるように取ればいい．その候補として，
 \begin{align}
   \rho=\pm ir
 \end{align}
@@ -406,13 +399,12 @@ S=\int d^4x\biggr(\frac{1}{2}\sqrt{-g}(-g^{\mu\nu}\partial_{\mu}\varphi\partial_
   \frac{\partial^2}{\partial \phi^2} \\
   \nu&=\sqrt{\frac{9}{4}-\frac{m^2_{eff}}{H^{2}}}
 \end{align}
-で表される．Lagragianがローレンツ変換に対する対称性があるので，RとLは完全に対称な形で運動方程式が与えられる．次に，モード関数$u_{\Lambda}(t,r,\Omega)$を$t$に関係する部分とそれ以外に分離する．
+で表される．Lagragianがローレンツ変換に対する対称性があるので，RとLは完全に対称な形で運動方程式が与えられる。まずモード関数$u_{\Lambda}(t,r,\Omega)$を$t$に関係する部分とそれ以外に分離する．
 \begin{align}
   u_{\Lambda}(t,r,\Omega)&=\chi(t)Y_{plm}(r,\Omega)\\
   &=\chi(t)f_{pl}(r)Y_{lm}(\theta,\phi)
  \end{align}
- \textcolor{red}{この変数分離で表せない解はないのか}
-このとき，$\bm{L_{\Omega}^2}$部分は，固有値方程式，
+ $\bm{L_{\Omega}^2}$部分は，固有値方程式，
 \begin{align}
   L_{\Omega}^2Y_{lm}(\theta,\phi)=-l(l+1)Y_{lm}(\theta,\phi)
 \end{align}
@@ -464,6 +456,195 @@ S=\int d^4x\biggr(\frac{1}{2}\sqrt{-g}(-g^{\mu\nu}\partial_{\mu}\varphi\partial_
   P^{-l-\frac{1}{2}}=P^{l+\frac{1}{2}}
 \end{align}
 であることがわかる．
+
+また、\textcolor{red}{以下の関係も満たすことが確認できる}
+\begin{equation}
+  P^{\mu}_{\nu}=P^{\mu}_{-\mu-1}
+\end{equation}
 }
-\textcolor{red}{この解は，分母に$0$になる可能性がある因子があるので，それについてテェックしておく必要がある．
-また，カシミア演算子やlorents gruopの話，固有値が$(1+p^2)$になる理由について確認する必要あり．}
+この解は，分母に$0$になる可能性がある因子があるが、積分をする際、波動関数全体に$\sinh r$がかかるので結果的に収束する項となる。
+
+
+\begin{eqnarray}
+\hat\phi(t,r,\Omega) = \sum_{\sigma,\ell,m} \int dp
+\left[\,a_{\sigma p\ell m}\,u_{\sigma p\ell m}(t,r,\Omega)
++a_{\sigma p\ell m}^\dagger\,u^*_{\sigma p\ell m}(t,r,\Omega)\,\right]\,,
+\label{phi}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+u_{\sigma p\ell m} = \frac{H}{\sinh t}\,
+\chi_{p,\sigma}(t)\,Y_{p\ell m} (r, \Omega)\,.
+\label{bdmf}
+\end{eqnarray}
+
+\begin{eqnarray}
+\chi^{\sigma} = N_p^{-1} \sum_{q=R,L} \left[\,
+ \alpha_q^\sigma\,P^q + \beta_q^\sigma\,P^{*\,q}
+\,\right]\,,
+\label{sty2}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+&&\alpha_R^\sigma = \frac{e^{\pi p} -i\sigma e^{-i\pi \nu}}{\Gamma (\nu+ip +\frac{1}{2})}\qquad,\qquad
+\beta_R^\sigma =-\frac{e^{-\pi p} -i\sigma e^{-i\pi \nu}}{\Gamma (\nu-ip +\frac{1}{2})} \,\,,\\
+&&\alpha_L^\sigma =\sigma\,\frac{e^{\pi p} -i\sigma e^{-i\pi \nu}}{\Gamma (\nu+ip +\frac{1}{2})}
+\quad\,,\qquad
+\beta_L^\sigma =-\sigma\,\frac{e^{-\pi p} -i\sigma e^{-i\pi \nu}}{\Gamma (\nu-ip +\frac{1}{2})}   \,\,.
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\chi^{*\,\sigma}=N_p^{-1}\sum_{q=R,L} \left[\,
+{\beta^{*}{}_q}^{\!\!\!\sigma}\,P^q + {\alpha^{*}{}_q}^{\!\!\!\sigma}\,P^{*\,q}
+\,\right]\,.
+\end{eqnarray}
+
+\begin{eqnarray}
+\chi^I=N_p^{-1}\,M^I{}_J\,P^J\,,
+\end{eqnarray}
+
+\begin{eqnarray}
+\chi^I=\left(\,\chi^\sigma\,,\chi^{*\,\sigma}\,\right)\,,\quad
+M^I{}_J=\left(
+\begin{array}{ll}
+\alpha^\sigma_q & \beta^\sigma_q \vspace{3mm}\\
+{\beta^{*}{}_q}^{\!\!\!\sigma} & {\alpha^{*}{}_q}^{\!\!\!\sigma} \\
+\end{array}\right)\,,\quad
+P^J=\left(\,P^R\,,P^L\,,P^{*\,R}\,, P^{*\,L}\,\right)\,.
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\phi(t)=a_I\,\chi^I=N_p^{-1}a_I\,M^I{}_J\,P^J\,,\qquad
+a_I=\left(\,a_\sigma\,,\,a_\sigma^\dagger\,\right)\,,
+\label{phi2}
+\end{eqnarray}
+
+
+
+\begin{eqnarray}
+\phi(t)=N_p^{-1}b_J\,P^J\,,\qquad
+b_J=\left(\,b_R\,,\,b_L\,,\,b_R^\dagger\,,\, b_L^\dagger\,\right)\,.
+\label{phi3}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+a_J=b_I\left(M^{-1}\right)^I{}_J\,,\qquad
+\left(M^{-1}\right)^I{}_J=\left(
+\begin{array}{ll}
+\xi_{q\sigma} & \delta_{q\sigma} \vspace{3mm}\\
+\delta_{q\sigma}^* & \xi_{q\sigma}^* \\
+\end{array}\right)\,,\qquad
+\left\{
+\begin{array}{l}
+\xi=
+\left(\alpha-\beta\,\alpha^{*\,-1}\beta^*\right)^{-1}\,,\vspace{3mm}\\
+\delta=-\alpha^{-1}\beta\,\xi^*\,.
+\end{array}
+\right.
+\label{xidelta1}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+a_\sigma=\sum_{q=R,L}\left[\,\xi_{q\sigma}\,b_q+\delta_{q\sigma}^*\,b_q^\dagger\,\right]\,.
+\label{ab}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+|{\rm BD}\rangle = \exp\left(\frac{1}{2}\sum_{i,j=R,L}m_{ij}\,b_i^\dagger\, b_j^\dagger\right) |R\rangle|L\rangle\,,
+\label{bogoliubov1}
+\end{eqnarray}
+
+\begin{eqnarray}
+m_{ij}=-\delta_{i\sigma}^*\left(\xi^{-1}\right)_{\sigma j}
+=-\frac{\Gamma\left(\nu-ip+1/2\right)}{\Gamma\left(\nu+ip+1/2\right)}
+\frac{2\,e^{i\pi\nu}}{e^{2\pi p}+e^{2i\pi\nu}}
+\left(
+\begin{array}{cc}
+\cos \pi\nu & i\sinh p\pi \vspace{1mm}\\
+i\sinh p\pi & \cos \pi\nu \\
+\end{array}
+\right)\,.
+\label{mij1}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+m_{ij}=e^{i\theta}\frac{\sqrt{2}\,e^{-p\pi}}{\sqrt{\cosh 2\pi p+\cos 2\pi\nu}}
+\left(
+\begin{array}{cc}
+\cos \pi\nu & i\sinh p\pi \vspace{1mm}\\
+i\sinh p\pi & \cos \pi\nu \\
+\end{array}
+\right)\,,
+\label{mij2}
+\end{eqnarray}
+
+
+
+\begin{eqnarray}
+c_R = u\,b_R + v\,b_R^\dagger \,,\qquad\quad
+c_L = \bar{u}\,b_L + \bar{v}\,b_L^\dagger\,,
+\label{bc}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+|{\rm BD}\rangle = \exp\left(\gamma_p\,c_R^\dagger\,c_L^\dagger\,\right)|R'\rangle|L'\rangle\,,
+\label{bogoliubov2}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+c_R\,|{\rm BD}\rangle= \gamma_p\,c_L^\dagger\,|{\rm BD}\rangle \,,\qquad
+c_L\,|{\rm BD}\rangle = \gamma_p\,c_R^\dagger\,|{\rm BD}\rangle\,.
+\label{consistency}
+\end{eqnarray}
+
+\begin{eqnarray}
+&&\omega\,u + v -\gamma_p\,\zeta\,\bar{v}^* =0 \ , \qquad
+\zeta\,u - \gamma_p\,\bar{u}^* - \gamma_p\,\omega\,\bar{v}^* =0\,,
+\label{system1}\\
+&&\omega\,\bar{u} + \bar{v} -\gamma_p\,\zeta\,v^* =0 \ , \qquad
+\zeta\,\bar{u} - \gamma_p\,u^* - \gamma_p\,\omega\,v^* =0\,.
+\label{system2}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\gamma_p=\frac{1}{2\zeta}\left[-\omega^2+\zeta^2+1-\sqrt{\left(\omega^2-\zeta^2-1\right)^2-4\zeta^2}\,\right]\,,
+\label{gammap}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\gamma_p = i\frac{\sqrt{2}}{\sqrt{\cosh 2\pi p + \cos 2\pi \nu}
+ + \sqrt{\cosh 2\pi p + \cos 2\pi \nu +2 }}\,.
+\label{gammap2}
+\end{eqnarray}
+
+
+\begin{eqnarray}
+\rho_L ={\rm Tr}_{R}\,|{\rm BD}\rangle\langle{\rm BD}|
+=\left(1-|\gamma_p|^2\,\right)\sum_{n=0}^\infty |\gamma_p |^{2n}\,|n;p\ell m\rangle\langle n;p\ell m|\,,
+\label{densitymatrix1}
+\end{eqnarray}
+
+\begin{eqnarray}
+\sum_{n=0}^\infty |\gamma_p |^{2n}=\lim_{n\rightarrow\infty}\frac{1-|\gamma_p|^{2n}}{1-|\gamma_p|^2}\xrightarrow{|\gamma_p|<1}\frac{1}{1-|\gamma_p|^2}\,.
+\end{eqnarray}
+
+
+\begin{eqnarray}
+S(p,\nu)=-{\rm Tr}\,\rho_L(p)\,{\rm log}\,\rho_L(p)
+=-{\rm log}\,\left(1-|\gamma_p|^2\right)
+-\frac{|\gamma_p|^2}{1-|\gamma_p|^2}\,{\rm log}\,|\gamma_p|^2\,.
+\label{s}
+\end{eqnarray}
+Note that this formula is derived under the condition $|\gamma_p|<1$.

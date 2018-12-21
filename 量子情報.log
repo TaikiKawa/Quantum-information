@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.10.11)  28 NOV 2018 14:44
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.10.11)  21 DEC 2018 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,17 +1172,17 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 72.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 78.
+(Font)              scaled to size 16.60605pt on input line 78.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 78.
-LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <20.74> not available
+(Font)              scaled to size 16.60605pt on input line 78.
+LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <17.28> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 78.
-LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <20.74> not available
+(Font)              scaled to size 16.60605pt on input line 78.
+LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <17.28> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 78.
+(Font)              scaled to size 16.60605pt on input line 78.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 80.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -1195,196 +1195,191 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 \openout2 = `abstract.aux'.
 
  (./abstract.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 1.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
+(Font)              scaled to size 23.90964pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
+(Font)              scaled to size 23.90964pt on input line 1.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 6.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 2.
+(Font)              scaled to size 6.72699pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+(Font)              scaled to size 4.805pt on input line 7.
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 2.
+(Font)              scaled to size 9.60999pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 2.
+(Font)              scaled to size 6.72699pt on input line 7.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 2.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+(Font)              scaled to size 4.805pt on input line 7.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 7.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 92.
+)
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 92.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 92.
+(Font)              scaled to size 11.53198pt on input line 16.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 92.
+(Font)              scaled to size 11.53198pt on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 20.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 20.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 20.
  [1
 
 
-]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 94.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 94.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 94.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 94.
- 
-(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc [2
+
+] [2]) [3] 
+(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc [4
 
 
-])
+] [5])
 \tf@toc=\write8
 \openout8 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc'.
 
- [3]
-One-sided document style.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 100.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 100.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 100.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 100.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 100.
-[1
-
-]
+ [6]
 \openout2 = `chap1/chap1.aux'.
 
  (./chap1/chap1.tex
 ç¬¬1ç« 
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 1.
-[2
+[1
 
 
-]
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 33.
+
+] [2] [3]
+Overfull \hbox (17.86613pt too wide) in paragraph at lines 98--98
+[] 
+ []
+
+[4] [5]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 215.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 215.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 33.
- [3] [4]
-Overfull \hbox (17.86613pt too wide) in paragraph at lines 124--124
-[] 
- []
-
-[5]
+(Font)              scaled to size 7.68799pt on input line 215.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 215.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 168.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 168.
- [6] [7] [8] [9] [10]
+(Font)              scaled to size 5.76599pt on input line 215.
+ [6] [7] [8] [9] [10] [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 365.
+(hyperref)                removing `\@ifnextchar' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 365.
+(hyperref)                removing `\@ifnextchar' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 365.
+(hyperref)                removing `\@ifnextchar' on input line 417.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 365.
+(hyperref)                removing `\@ifnextchar' on input line 417.
 
-[11] [12] [13]
-Overfull \hbox (7.80298pt too wide) in paragraph at lines 477--477
+[12] [13] [14]
+Overfull \hbox (7.80298pt too wide) in paragraph at lines 529--529
 [] 
  []
 
 
-Overfull \hbox (63.23262pt too wide) in paragraph at lines 489--489
+Overfull \hbox (63.23262pt too wide) in paragraph at lines 541--541
 [] 
  []
 
-[14] [15]
+[15] [16]
 File: replica.pdf Graphic file (type pdf)
  <replica.pdf>
-Overfull \hbox (12.55104pt too wide) in paragraph at lines 533--534
+Overfull \hbox (12.55104pt too wide) in paragraph at lines 585--586
  [] 
  []
 
-[16] [17] [18]) [19]
+[17] [18] [19]) [20]
 \openout2 = `chap2/chap2.aux'.
 
  (./chap2/chap2.tex
 ç¬¬2ç« 
-[20
+[21
 
 
 
-] [21]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
-
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+] [22]
 File: de.pdf Graphic file (type pdf)
-
-<de.pdf>
-Overfull \hbox (1.71904pt too wide) in paragraph at lines 131--132
- [] 
- []
-
-[22]
-File: Web.pdf Graphic file (type pdf)
- <Web.pdf>
-Overfull \hbox (3.75348pt too wide) in paragraph at lines 138--139
+ <de.pdf>
+Overfull \hbox (1.71904pt too wide) in paragraph at lines 124--125
  [] 
  []
 
 [23]
+File: Web.pdf Graphic file (type pdf)
+ <Web.pdf>
+Overfull \hbox (3.75348pt too wide) in paragraph at lines 131--132
+ [] 
+ []
+
+[24]
 File: deSitter.pdf Graphic file (type pdf)
- <deSitter.pdf> [24] [25] [26] [27] [28]
+ <deSitter.pdf> [25] [26] [27] [28] [29]
 File: desRL.pdf Graphic file (type pdf)
- <desRL.pdf> [29] [30] [31]
+ <desRL.pdf> [30] [31] [32]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 467.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 464.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 467.
+(Font)              scaled to size 7.68799pt on input line 464.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 467.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 464.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 467.
+(Font)              scaled to size 7.68799pt on input line 464.
 
 
-LaTeX Warning: Reference `ligg' on page 32 undefined on input line 467.
+LaTeX Warning: Reference `ligg' on page 33 undefined on input line 464.
 
-) [32]
+[33] [34] [35]) [36]
 \openout2 = `chap3/chap3.aux'.
 
- (./chap3/chap3.tex) [33
+ (./chap3/chap3.tex) [37
 
 
 ]
 \openout2 = `chap4/chap4.aux'.
 
- (./chap4/chap4.tex) [34
+ (./chap4/chap4.tex) [38
 
 
 ]
@@ -1393,59 +1388,65 @@ LaTeX Warning: Reference `ligg' on page 32 undefined on input line 467.
 
 (./appendixA/appendixA.tex
 Appendix\nobreakspace {}A
-) [35
+) [39
 
 
 
 ]
 \openout2 = `appendixB/appendixB.aux'.
 
- (./appendixB/appendixB.tex) [36
+ (./appendixB/appendixB.tex
+Appendix\nobreakspace {}B
+) [40
+
 
 
 ]
 \openout2 = `appendixD/appendixD.aux'.
 
  (./appendixD/appendixD.tex
-Appendix\nobreakspace {}B
-[37
+Appendix\nobreakspace {}C
+[41
 
 
 
-] [38]
+] [42]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 122.
 
-[39] [40] [41] [42] [43]
+[43] [44] [45] [46] [47]
 
-LaTeX Warning: Reference `C3' on page 44 undefined on input line 349.
+LaTeX Warning: Reference `C3' on page 48 undefined on input line 349.
 
-[44] [45] [46] [47] [48] [49]
+[48] [49] [50] [51] [52] [53]
 LaTeX Font Info:    Try loading font information for U+euf on input line 608.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [50] [51]
-[52] [53]) [54]
+) [54] [55]
+[56] [57]) [58]
 \openout2 = `appendixC/appendixC.aux'.
 
  (./appendixC/appendixC.tex
-Appendix\nobreakspace {}C
-[55
+Appendix\nobreakspace {}D
+[59
 
 
 
-] [56]
+] [60]
 
-LaTeX Warning: Citation `b5' on page 57 undefined on input line 69.
+LaTeX Warning: Citation `b5' on page 61 undefined on input line 69.
 
-[57] [58] [59]
+[61] [62]
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 181.
+ [63]
 
-LaTeX Warning: Reference `Rp' on page 60 undefined on input line 205.
+LaTeX Warning: Reference `Rp' on page 64 undefined on input line 205.
 
-[60]
+[64]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 240.
@@ -1458,7 +1459,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 240.
 
-[61]
+[65]
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <7> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -1475,33 +1476,38 @@ LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <6> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 281.
- [62] [63]) [64]
+ [66] [67]) [68]
 \openout2 = `appendixE/appendixE.aux'.
 
- (./appendixE/appendixE.tex) [65
+ (./appendixE/appendixE.tex
+Appendix\nobreakspace {}E
+) [69
+
+
+
+] [70
 
 
 ]
 \openout2 = `References/References.aux'.
 
-
-(./References/References.tex [66
-
+ (./References/References.tex [71
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
- (./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux
-(./abstract.aux) (./chap1/chap1.aux) (./chap2/chap2.aux) (./chap3/chap3.aux)
-(./chap4/chap4.aux) (./appendixA/appendixA.aux) (./appendixB/appendixB.aux)
-(./appendixD/appendixD.aux) (./appendixC/appendixC.aux)
-(./appendixE/appendixE.aux) (./References/References.aux))
+ (./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux (./abstract.aux) (./chap1/chap1.aux) (./
+chap2/chap2.aux)
+(./chap3/chap3.aux) (./chap4/chap4.aux) (./appendixA/appendixA.aux)
+(./appendixB/appendixB.aux) (./appendixD/appendixD.aux)
+(./appendixC/appendixC.aux) (./appendixE/appendixE.aux)
+(./References/References.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 33.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Info: File `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 0E0C2081AD19F69C9506B1E77951AC3F;4295.
+(rerunfilecheck)             Checksum: C8B510BB58398FAFCB5B1011E24C92BE;4813.
 
 
 LaTeX Warning: There were undefined references.
@@ -1510,15 +1516,15 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
  ) )
-(\end occurred when \iftrue on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete) 
+(\end occurred when \iftrue on line 120 was incomplete)
+(\end occurred when \ifnum on line 120 was incomplete) 
 Here is how much of TeX's memory you used:
- 31464 strings out of 493653
- 640900 string characters out of 6148873
- 827131 words of memory out of 5000000
- 34482 multiletter control sequences out of 15000+600000
- 30013 words of font info for 133 fonts, out of 8000000 for 9000
+ 31486 strings out of 493653
+ 641102 string characters out of 6148873
+ 829012 words of memory out of 5000000
+ 34505 multiletter control sequences out of 15000+600000
+ 30425 words of font info for 135 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  58i,17n,93p,10468b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.dvi (70 pages, 400156 bytes).
+Output written on é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.dvi (78 pages, 436804 bytes).

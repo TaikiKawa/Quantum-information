@@ -402,13 +402,31 @@ S=\int d^4x\biggr(\frac{1}{2}\sqrt{-g}(-g^{\mu\nu}\partial_{\mu}\varphi\partial_
 で表される．Lagragianがローレンツ変換に対する対称性があるので，RとLは完全に対称な形で運動方程式が与えられる。まずモード関数$u_{\Lambda}(t,r,\Omega)$を$t$に関係する部分とそれ以外に分離する．
 \begin{align}
   u_{\Lambda}(t,r,\Omega)&=\chi(t)Y_{plm}(r,\Omega)\\
-  &=\chi(t)f_{pl}(r)Y_{lm}(\theta,\phi)
+  &=\chi_p(t)f_{pl}(r)Y_{lm}(\theta,\phi)
  \end{align}
- $\bm{L_{\Omega}^2}$部分は，固有値方程式，
+ この式を、元の運動方程式に戻して式を整理する。
+ \begin{equation}
+   \biggl[\frac{1}{\sinh^3t}\frac{\partial}{\partial t}\sinh^3t\frac{\partial}{\partial t}-\frac{1}{\sinh^2t}\bm{L}^2_{H^3}+\frac{4}{9}-\nu^2\biggr]\chi_p(t)f_{pl}(r)Y_{lm}(\theta,\phi)=0
+ \end{equation}
+ $fY_{plm}\neq0$のとき、この式は、
+ \begin{equation}
+    \frac{1}{\sinh^3t}\frac{\partial}{\partial t}\sinh^3t\frac{\partial\chi_p(t)}{\partial t}-\frac{\chi_p(t)}{\sinh^2t}\frac{\bm{L}^2_{H^3}(fY)}{fY}+\frac{4}{9}-\nu^2=0
+ \end{equation}
+ となる。第一項は、$t$の関数である第二項の第一因子も$t$の関数である。第三、四項は定数項である。このことから、初めの仮定である$\chi_i(t)$が$t$のみの関数になるためには、$\frac{\bm{L}^2_{H^3}(fY)}{fY}$の部分も定数だある必要がある。したがって、
+ その定数を$\lambda$として、
+ \begin{equation}
+   \frac{\bm{L}^2_{H^3}(fY)}{fY}=\lambda
+ \end{equation}
+ が成立するはずである。
+ この式を正確に書き下すと、
+ \begin{equation}
+   \biggl(\frac{1}{\sinh^2r}\frac{\partial}{\partial r}\biggl(\sinh^2r\frac{\partial}{\partial r}\biggr)+\frac{1}{\sinh^2r}\bm{L}_{\Omega}^2\biggr)f_{pl}(r)Y_{lm}(\theta,\phi)=\lambda f_{pl}(r)Y_{plm}(\theta,\phi)
+ \end{equation}
+ 上と同様にして、$f_{pl}(r)$と$Y_{lm}(\theta,\phi)$の部分を分離することで、$\bm{L_{\Omega}^2}$部分は，固有値方程式，
 \begin{align}
   L_{\Omega}^2Y_{lm}(\theta,\phi)=-l(l+1)Y_{lm}(\theta,\phi)
 \end{align}
-を満たし，固有値$l,m$によって特徴付けられる，(右辺の符号がマイナスであれば，この方程式は，ルジャンドルの陪微分方程式になる．)
+を満たし，固有値$l,m$によって特徴付けられる球面調和関数であることがわかる，(右辺の符号がマイナスであれば，この方程式は，ルジャンドルの陪微分方程式になる．)
 また，$Y_{plm}(r,\Omega)$の部分は，\textcolor{red}{あとで確認するように，次の固有値方程式を満たすことがわかる．}
 \begin{align}
   \bm{L}_{H^3}^2Y_{plm}(r,\Omega)&=-(1+p^2)Y_{plm}(r,\Omega) \\
@@ -419,7 +437,7 @@ S=\int d^4x\biggr(\frac{1}{2}\sqrt{-g}(-g^{\mu\nu}\partial_{\mu}\varphi\partial_
 \begin{align}
 \biggl(\frac{1}{\sinh^2r}\frac{\partial}{\partial r}\biggl(\sinh^2r\frac{\partial}{\partial r}\biggr)+\frac{1}{\sinh^2r}\bm{L}_{\Omega}^2\biggr)f_{pl}(r)Y_{lm}(\theta,\phi)=-(1+p^2)Y_{plm} \\
 \label{1.80}
-\therefore\biggl(\frac{1}{\sinh^2r}\frac{\partial}{\partial r}\biggl(\sinh^2r\frac{\partial}{\partial r}\biggr)-\frac{l(l+1)}{\sinh^2r}+(1+p^2)\biggr)f_{pl}(r)Y_{lm}(\theta,\phi)=0
+\therefore\biggl(\frac{1}{\sinh^2r}\frac{\partial}{\partial r}\biggl(\sinh^2r\frac{\partial}{\partial r}\biggr)-\frac{l(l+1)}{\sinh^2r}+(1+p^2)\biggr)Y_{lm}(\theta,\phi)=0
 \end{align}
 ここで，$\xi=\cosh r$の座標変換をすれば，
 \begin{align}

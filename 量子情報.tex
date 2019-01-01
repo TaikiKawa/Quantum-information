@@ -1,4 +1,4 @@
-\documentclass[a4paper,8pt,oneside,openany]{jsbook}
+\documentclass[a4paper,11pt,oneside,openany]{jsbook}
 %
 \usepackage{amsmath,amssymb}
 
@@ -29,88 +29,6 @@
 
 
 
-\titleformat{\chapter}[block]
-  {\normalfont\huge\bfseries}
-  {\tikz\node[
-      font=\huge\bfseries\color{white},
-      fill=gray!50,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=3em,
-      align=center,
-      inner xsep=0pt] {\parbox{1.5em}{\thechapter\hfill}};%1の位置を定めている．
-  }
-  {-0.5em}%灰色域の
-  {\tikz\node[
-      fill=gray,
-      font=\Large\sffamily\color{white},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-2em\relax,%灰色の文字の中身を
-      align=center,inner xsep=-10pt] {#1};%
-  }
-
-
-  \titleformat{\chapter}[block]
-  {\normalfont\huge\bfseries}
-  {\tikz\node[
-      font=\huge\bfseries\color{white},
-      fill=gray!50,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=3em,
-      align=center,
-      inner xsep=0pt] {\parbox{1.5em}{\thechapter\hfill}};%1の位置を定めている．
-  }
-  {-1em}%灰色域の
-  {\tikz\node[
-      fill=gray,
-      font=\Large\sffamily\color{white},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-2em\relax,%灰色の文字の中身を
-      align=center,inner xsep=-10pt] {#1};%
-  }
-
-
-\titleformat{name=\chapter,numberless}[block]
-  {\normalfont\huge\bfseries}
-  {\tikz\node[
-      font=\huge\bfseries\color{white},
-      fill=gray!50,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=3em,
-      align=center,
-      inner xsep=0pt] {\parbox{1.5em}{\mbox{}\hfill}};%
-  }
-  {-1em}
-  {\tikz\node[
-      fill=gray,
-      font=\Large\sffamily\color{white},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-2em\relax,
-      align=center,
-      inner xsep=0pt] {#1};%
-  }
-
-  \titleformat{\section}[block]
-  {\normalfont\large\bfseries}
-  {\tikz\node[
-      font=\large\bfseries\color{black},
-      fill=white,
-      rounded corners=20pt,
-      minimum height=1.6cm,
-      text width=10em,
-      align=center,
-      inner xsep=0pt] {\parbox{-0.5em}{\thesection}};%1の位置を定めている．
-  }
-  {-3em}%灰色域の
-  {\tikz\node[
-      fill=white,
-      font=\Large\sffamily\color{black},
-      minimum height=1.6cm,
-      text width=\the\dimexpr\textwidth-12em\relax,%灰色の文字の中身を
-      align=center,inner xsep=-10pt] {#1};%
-  }
 
 \setcounter{tocdepth}{2}
 \hypersetup{%
@@ -157,7 +75,7 @@ citecolor=blue%
 \end{flushright}
 \begin{center}
 \vspace*{150truept}
-{\huge \textit{量子情報}}\\ % タイトル
+{\LARGE \textit{Entanglement Entropy Generated in the Early Universe}}\\ % タイトル
 \vspace{120truept}
 {\Large17M00430}\\ % 学籍番号
 \vspace{50truept}
@@ -178,7 +96,6 @@ citecolor=blue%
 %
 \mainmatter
 %
-\layout
 \include{chap1/chap1}
 \include{chap2/chap2}
 \include{chap3/chap3}
@@ -193,8 +110,12 @@ citecolor=blue%
 \include{appendixC/appendixC}
 \include{appendixE/appendixE}
 %
-%
-%
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+はじめに、毎回適切なテーマ選択をしていただき宇宙論のゼミ等でも指導や助言をしていただいた、指導教官の山口昌英教授には深くお礼を申し上げます。本論文を書くにあたって山口研究室の先輩方、特に量子情報に関するゼミをやっていただき、様々な問題を指摘していただいた早稲田大学講師の木村 蘭平さん、Cambridge大学の太田さんにはとても感謝しています。
+椎野克助教授には４年前期から、一般相対論に関するゼミを毎週やっていただき、そこで培った知識などを今回の論文で活かせました。修論構想発表会では須山輝明准教授にいくつか指摘をいただき、本論文に生かさせていただきました。
+研究室では、秋田謙介さん、石川純也さん、特に席が隣ということで藤倉さんには何度も質問をさせていただきお世話になりました。
+これらの方々に，この場をかりて，深くお礼を申し上げます．大変感謝しております．
 %
 \include{References/References}
 %

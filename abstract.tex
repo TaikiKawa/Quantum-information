@@ -1,2 +1,78 @@
-\section{Notation}
-$-++++$
+\chapter{Introduction}
+宇宙初期に起きたと考えられるインフレーションと呼ばれる宇宙の加速膨張は、現在の宇宙の大規模な構造を形成するために必要なメカニズムである。このインフレーションにより、スカラー場の量子ゆらぎが生成されると共に引き伸ばされ、古典的な現在の宇宙の密度ゆらぎが生成されたと考えられている。また、この膨張過程により、初期宇宙に生成されたスカラー場の量子的な相関は、引き伸ばされ遠く離れた異なる領域間の量子相関に成長していくと考えられる。
+  従って、量子相関を定量的に評価し、その振る舞いについて理解することは初期宇宙やゆらぎの古典化を理解する上で重要である。本論文では、量子相関の尺度であるエンタングルメントエントロピーを、 インフレーション中の時空構造であるde Sitter時空の対称性を用いて効率よく求める方法を示し、その振る舞いについて調べた。
+
+
+\section*{Notation}
+本論文では，特に断りのない限り\begin{eqnarray}
+\hbar=c=k_{b}=1
+\end{eqnarray}
+とする自然単位系を用いる．これより，質量とエネルギー，温度が同じ次元を持つことになる．
+
+また，添え字に0がついた物理量は現在の値であることを示している．また，アルファベットの$p$は二つの物理量に用いている．圧力は小文字の$p$で表し運動量は大文字$P$で表している．
+
+計量の符号は，時間成分がマイナスになるように$(-,+,+,+)$で定めた．(Srednichiと同じ，シュワルツとは異なる．)
+
+\subsection*{有用な値}
+\begin{itemize}
+\item{太陽質量\begin{flushright}$M_{\odot}=1.989\cdot10^30$kg\end{flushright}}
+\item{地球質量\begin{flushright}$M_{\oplus}=5.972\cdot10^24$kg\end{flushright}}
+\item{プランク質量\begin{flushright}$M_{Pl}=\dfrac{1}{\sqrt{8\pi G}}=2.44\cdot10^{18}$GeV\end{flushright}}
+Rubakovでは，$M_{PL}=G^{-1/2}=1.2\cdot 10^{19}$GeVで定めている．
+\item{現在の宇宙のエントロピー密度\begin{flushright}$s_0=2.89\times 10^3 [cm^{-3}]$\end{flushright}}
+\item{現在の宇宙の温度(光子を基準にとっている)\begin{flushright}$T_0=2.726\pm0.001$K\end{flushright}}
+\item{現在のハッブルパラメータ(膨張率)\begin{flushright}$H_0=h\cdot100$km/s$\cdot$Mpc\end{flushright}
+
+$h=0.705\pm0.013$ハッブルパラメータは変動が激しく$70$km/s$\cdot$Mpc程度であると覚えておけば良い．}
+\item{フェルミ結合定数\begin{flushright}$G_{F}=1.17\cdot10^{-5}$GeV$^{-2}$\end{flushright}}
+
+\end{itemize}
+ここで，1Mpc$=3.1\cdot10^{24}$cmである．
+\subsubsection*{銀河などのスケール}
+\begin{center}
+星，星団(100光年)，銀河，銀河団(100万光年)，銀河団
+\end{center}
+\subsubsection*{単位変換}
+単位変換には，
+\begin{eqnarray}
+1\rm{GeV}&=&1.6\cdot10^{-10}\rm{J} \nonumber \\
+&=&1.8\cdot10^{-27}\rm{kg} \nonumber \\
+&=&1.2\cdot10^{13}\rm{K} \nonumber 
+\end{eqnarray}
+あるいは，
+\begin{eqnarray}
+1\rm{GeV^{-1}}&=&2.0\cdot10^{-14}\rm{cm} \nonumber \\
+&=&6.6\cdot10^{-25}\rm{s} \nonumber 
+\end{eqnarray}
+が役に立つ．
+\begin{eqnarray}
+1\rm{eV}=1.2\cdot10^{4}\rm{K} \nonumber 
+\end{eqnarray}
+
+\begin{eqnarray}
+\rho_{c}=4.0\cdot10^{-47}\rm{GeV} \nonumber 
+\end{eqnarray}
+一年間は，$3.1\times10^{7}$sである．
+GeV$=10^{9}$eV, MeV$=10^{6}$eV,  KeV$=10^{3}$eV
+\subsubsection*{テーラー展開}
+\begin{eqnarray}
+f(x+dx)=f(x)+f^{\prime}(x)dx+\frac{1}{2}f^{\prime\prime}(x)dx^2+\cdots
+\end{eqnarray}
+一般座標変換は，このようにべき展開できる解析関数(正確には，テーラーと異なる)である必要がある．例えば，$\dfrac{1}{x}$や$\sqrt{x}$などもテーラー展開できる，$x=t-1$とすれば，テーラー展開できる．
+
+
+\subsubsection{多変数関数のマクローリン展開}
+\begin{eqnarray}
+f(x,y)=f(0,0)+xf_x(0,0) &+& yf_y(0,0)+\dfrac{1}{2}(x^2f_{xx}(0,0)+2xyf_{xy}(0,0)+y^2f_{yy}(0,0))+\cdots \nonumber \\
+&+&\dfrac{1}{(n-1)!}(x\partial_x+y \partial_y)^{n−1}f(0,0)+\cdots
+\end{eqnarray}
+
+テイラー展開で$n!$がでてくるのは，$n$回微分が含まれるからである．
+
+\subsubsection{微小量の微分も微小量}
+$\psi(x)$などの揺らぎの微小な物理量の微分を考える．このとき，この微小量が微分によって(変化量であるから微小ではなくなりそうなきがするがそんなことはない)
+実際，$\psi(x)=\epsilon\psi(x)$と微小部分と位置によって変化する部分に分ければそのことはすぐわかる．
+\begin{eqnarray}
+\frac{d\psi(x)}{dx}=\frac{d\epsilon\psi(x)}{dx}=\epsilon\frac{d\psi(x)}{dx}
+\end{eqnarray}である．
+

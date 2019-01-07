@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.10.11)  26 DEC 2018 19:20
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.10.11)  30 DEC 2018 20:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1070,21 +1070,7 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 
  
 Writing index file é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.idx
-(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux (./abstract.aux) (./chap1/chap1.aux)
-(./chap2/chap2.aux
-
-LaTeX Warning: Label `1.19' multiply defined.
-
-
-LaTeX Warning: Label `test' multiply defined.
-
-) (./chap3/chap3.aux) (./chap4/chap4.aux) (./appendixA/appendixA.aux)
-(./appendixB/appendixB.aux) (./appendixD/appendixD.aux)
-(./appendixC/appendixC.aux
-
-LaTeX Warning: Label `Ak' multiply defined.
-
-) (./appendixE/appendixE.aux) (./References/References.aux)) 
+(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux) 
 \openout1 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1113,8 +1099,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \@sidenotes@extrawidth=\skip62
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -1167,6 +1152,10 @@ LaTeX Info: Redefining \nameref on input line 66.
 \@outlinefile=\write7
 \openout7 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 72.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -1187,7 +1176,6 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 80.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 80.
-
 [1
 
 
@@ -1256,14 +1244,16 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 
 ] [2]) [3] 
-(./é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc [4
 
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-] [5])
 \tf@toc=\write8
 \openout8 = `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.toc'.
 
- [6]
+[4
+
+
+]
 \openout2 = `chap1/chap1.aux'.
 
  (./chap1/chap1.tex
@@ -1280,12 +1270,29 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 
 
-] [2] [3]
+] [2]
+
+LaTeX Warning: Reference `1' on page 3 undefined on input line 57.
+
+[3]
 Overfull \hbox (17.86613pt too wide) in paragraph at lines 98--98
 [] 
  []
 
-[4] [5]
+
+LaTeX Warning: Reference `2' on page 4 undefined on input line 107.
+
+
+LaTeX Warning: Reference `4' on page 4 undefined on input line 119.
+
+[4]
+
+LaTeX Warning: Reference `10' on page 5 undefined on input line 160.
+
+
+LaTeX Warning: Reference `10' on page 5 undefined on input line 170.
+
+[5]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 215.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -1296,7 +1303,65 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 215.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 215.
- [6] [7] [8] [9] [10] [11]
+ [6] [7]
+
+LaTeX Warning: Reference `40' on page 8 undefined on input line 254.
+
+
+LaTeX Warning: Reference `30' on page 8 undefined on input line 259.
+
+
+LaTeX Warning: Reference `5' on page 8 undefined on input line 266.
+
+
+LaTeX Warning: Reference `6' on page 8 undefined on input line 279.
+
+
+LaTeX Warning: Reference `7' on page 8 undefined on input line 291.
+
+[8]
+
+LaTeX Warning: Reference `22' on page 9 undefined on input line 307.
+
+[9]
+
+LaTeX Warning: Reference `25' on page 10 undefined on input line 340.
+
+
+LaTeX Warning: Reference `27' on page 10 undefined on input line 340.
+
+
+LaTeX Warning: Reference `28' on page 10 undefined on input line 352.
+
+[10]
+
+LaTeX Warning: Reference `1.50' on page 11 undefined on input line 400.
+
+
+LaTeX Warning: Reference `1.51' on page 11 undefined on input line 400.
+
+[11]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 417.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 417.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 417.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 417.
+
+
+LaTeX Warning: Citation `15' on page 12 undefined on input line 417.
+
+
+LaTeX Warning: Citation `16' on page 12 undefined on input line 417.
+
+
+LaTeX Warning: Citation `17' on page 12 undefined on input line 417.
+
+
+LaTeX Warning: Citation `18' on page 12 undefined on input line 417.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 417.
@@ -1314,6 +1379,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 417.
 
 [12] [13] [14]
+
+LaTeX Warning: Reference `a' on page 15 undefined on input line 512.
+
+
+LaTeX Warning: Reference `b' on page 15 undefined on input line 516.
+
+
 Overfull \hbox (7.80298pt too wide) in paragraph at lines 529--529
 [] 
  []
@@ -1324,13 +1396,30 @@ Overfull \hbox (63.23262pt too wide) in paragraph at lines 541--541
  []
 
 [15] [16]
+
+LaTeX Warning: Reference `harituke' on page 17 undefined on input line 582.
+
+
+LaTeX Warning: Reference `harituke1' on page 17 undefined on input line 582.
+
+
+LaTeX Warning: Reference `replica00' on page 17 undefined on input line 582.
+
 File: replica.pdf Graphic file (type pdf)
- <replica.pdf>
+<replica.pdf>
 Overfull \hbox (12.55104pt too wide) in paragraph at lines 585--586
  [] 
  []
 
-[17] [18] [19]) [20]
+[17] [18]
+
+LaTeX Warning: Reference `logZ' on page 19 undefined on input line 641.
+
+[19]
+
+LaTeX Warning: Reference `replica' on page 20 undefined on input line 649.
+
+) [20]
 \openout2 = `chap2/chap2.aux'.
 
  (./chap2/chap2.tex
@@ -1339,9 +1428,16 @@ Overfull \hbox (12.55104pt too wide) in paragraph at lines 585--586
 
 
 
-] [22]
+]
+
+LaTeX Warning: Reference `EDS' on page 22 undefined on input line 90.
+
+[22]
+
+LaTeX Warning: Reference `vchart' on page 23 undefined on input line 94.
+
 File: de.pdf Graphic file (type pdf)
- <de.pdf>
+<de.pdf>
 Overfull \hbox (1.71904pt too wide) in paragraph at lines 124--125
  [] 
  []
@@ -1355,32 +1451,136 @@ Overfull \hbox (3.75348pt too wide) in paragraph at lines 131--132
 
 [24]
 File: deSitter.pdf Graphic file (type pdf)
- <deSitter.pdf> [25] [26] [27] [28] [29]
-File: desRL.pdf Graphic file (type pdf)
- <desRL.pdf> [30] [31] [32]
-[33]
+ <deSitter.pdf> [25]
+
+LaTeX Warning: Reference `1.2' on page 26 undefined on input line 177.
+
+[26]
+
+LaTeX Warning: Reference `1.2' on page 27 undefined on input line 206.
+
+
+LaTeX Warning: Reference `1.19' on page 27 undefined on input line 242.
+
+[27]
+
+LaTeX Warning: Reference `4sphereM' on page 28 undefined on input line 252.
+
+
+LaTeX Warning: Reference `1.29' on page 28 undefined on input line 262.
+
+
+LaTeX Warning: Reference `1.25' on page 28 undefined on input line 266.
+
+
+LaTeX Warning: Reference `4sphereM' on page 28 undefined on input line 280.
+
+
+LaTeX Warning: Reference `CenterM' on page 28 undefined on input line 284.
+
+[28]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 482.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 302.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 482.
+(Font)              scaled to size 7.68799pt on input line 302.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 482.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 302.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 482.
+(Font)              scaled to size 7.68799pt on input line 302.
 
 
-LaTeX Warning: Reference `ligg' on page 34 undefined on input line 482.
+LaTeX Warning: Reference `1.47' on page 29 undefined on input line 302.
 
-[34] [35]) [36]
+
+LaTeX Warning: Reference `4sphereM' on page 29 undefined on input line 323.
+
+
+LaTeX Warning: Reference `openM' on page 29 undefined on input line 328.
+
+[29]
+
+LaTeX Warning: Reference `1.47' on page 30 undefined on input line 330.
+
+
+LaTeX Warning: Reference `1.48' on page 30 undefined on input line 330.
+
+
+LaTeX Warning: Reference `1.49' on page 30 undefined on input line 330.
+
+
+LaTeX Warning: Reference `1.50' on page 30 undefined on input line 330.
+
+
+LaTeX Warning: Reference `relttt' on page 30 undefined on input line 332.
+
+File: desRL.pdf Graphic file (type pdf)
+<desRL.pdf> [30]
+
+LaTeX Warning: Reference `EL' on page 31 undefined on input line 369.
+
+
+LaTeX Warning: Reference `1.66' on page 31 undefined on input line 386.
+
+
+LaTeX Warning: Reference `1.66' on page 31 undefined on input line 390.
+
+
+LaTeX Warning: Reference `1.68' on page 31 undefined on input line 395.
+
+
+LaTeX Warning: Reference `1.65' on page 31 undefined on input line 395.
+
+[31] [32]
+
+LaTeX Warning: Reference `1.80' on page 33 undefined on input line 460.
+
+
+LaTeX Warning: Reference `1.80' on page 33 undefined on input line 465.
+
+[33]
+
+LaTeX Warning: Reference `ligg' on page 34 undefined on input line 496.
+
+
+LaTeX Warning: Reference `1.81' on page 34 undefined on input line 496.
+
+
+LaTeX Warning: Reference `luggg' on page 34 undefined on input line 496.
+
+
+LaTeX Warning: Reference `1.81' on page 34 undefined on input line 496.
+
+
+LaTeX Warning: Reference `Ynor' on page 34 undefined on input line 497.
+
+
+LaTeX Warning: Reference `fieom' on page 34 undefined on input line 497.
+
+
+LaTeX Warning: Reference `Yplm' on page 34 undefined on input line 497.
+
+
+LaTeX Warning: Reference `chi_iem' on page 34 undefined on input line 506.
+
+[34]
+
+LaTeX Warning: Reference `kaichi' on page 35 undefined on input line 523.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 535.
+
+[35] [36] [37]) [38]
 \openout2 = `chap3/chap3.aux'.
 
- (./chap3/chap3.tex) [37
+ (./chap3/chap3.tex) [39
 
 
 ]
 \openout2 = `chap4/chap4.aux'.
 
- (./chap4/chap4.tex) [38
+ (./chap4/chap4.tex) [40
 
 
 ]
@@ -1389,7 +1589,7 @@ LaTeX Warning: Reference `ligg' on page 34 undefined on input line 482.
 
 (./appendixA/appendixA.tex
 Appendix\nobreakspace {}A
-) [39
+) [41
 
 
 
@@ -1398,7 +1598,7 @@ Appendix\nobreakspace {}A
 
  (./appendixB/appendixB.tex
 Appendix\nobreakspace {}B
-) [40
+) [42
 
 
 
@@ -1407,47 +1607,319 @@ Appendix\nobreakspace {}B
 
  (./appendixD/appendixD.tex
 Appendix\nobreakspace {}C
-[41
+
+LaTeX Warning: Reference `tau' on page 43 undefined on input line 33.
+
+[43
 
 
 
-] [42]
+]
 
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 122.
+LaTeX Warning: Reference `4vv' on page 44 undefined on input line 47.
 
-[43] [44] [45] [46] [47]
 
-LaTeX Warning: Reference `C3' on page 48 undefined on input line 349.
+LaTeX Warning: Reference `4v' on page 44 undefined on input line 61.
 
-[48] [49] [50] [51] [52] [53]
+[44]
+
+LaTeX Warning: Reference `trdet' on page 45 undefined on input line 118.
+
+
+LaTeX Warning: Reference `iii' on page 45 undefined on input line 118.
+
+
+LaTeX Warning: Reference `iiii' on page 45 undefined on input line 118.
+
+
+LaTeX Warning: Reference `trdet' on page 45 undefined on input line 120.
+
+[45]
+
+LaTeX Warning: Reference `ggg' on page 46 undefined on input line 142.
+
+
+LaTeX Warning: Reference `gggg' on page 46 undefined on input line 142.
+
+
+LaTeX Warning: Reference `Ch' on page 46 undefined on input line 176.
+
+
+LaTeX Warning: Reference `ggg' on page 46 undefined on input line 181.
+
+[46]
+
+LaTeX Warning: Reference `di32' on page 47 undefined on input line 190.
+
+
+LaTeX Warning: Reference `tau' on page 47 undefined on input line 221.
+
+[47]
+
+LaTeX Warning: Reference `rie' on page 48 undefined on input line 262.
+
+
+LaTeX Warning: Reference `rct' on page 48 undefined on input line 262.
+
+
+LaTeX Warning: Reference `rcs' on page 48 undefined on input line 262.
+
+
+LaTeX Warning: Reference `Ch' on page 48 undefined on input line 267.
+
+
+LaTeX Warning: Reference `hendg' on page 48 undefined on input line 271.
+
+
+LaTeX Warning: Reference `rie' on page 48 undefined on input line 280.
+
+[48]
+
+LaTeX Warning: Reference `dhench' on page 49 undefined on input line 287.
+
+
+LaTeX Warning: Reference `henri' on page 49 undefined on input line 287.
+
+
+LaTeX Warning: Reference `rcs' on page 49 undefined on input line 293.
+
+
+LaTeX Warning: Reference `henrct' on page 49 undefined on input line 297.
+
+
+LaTeX Warning: Reference `OS' on page 49 undefined on input line 308.
+
+
+LaTeX Warning: Reference `D3' on page 49 undefined on input line 316.
+
+
+LaTeX Warning: Reference `D3' on page 49 undefined on input line 318.
+
+[49]
+
+LaTeX Warning: Reference `Os' on page 50 undefined on input line 325.
+
+
+LaTeX Warning: Reference `D4' on page 50 undefined on input line 333.
+
+
+LaTeX Warning: Reference `D3' on page 50 undefined on input line 333.
+
+
+LaTeX Warning: Reference `D1' on page 50 undefined on input line 341.
+
+
+LaTeX Warning: Reference `C3' on page 50 undefined on input line 349.
+
+
+LaTeX Warning: Reference `D8' on page 50 undefined on input line 349.
+
+[50]
+
+LaTeX Warning: Reference `a64aa' on page 51 undefined on input line 401.
+
+
+LaTeX Warning: Reference `pn' on page 51 undefined on input line 403.
+
+
+LaTeX Warning: Reference `a24' on page 51 undefined on input line 409.
+
+[51]
+
+LaTeX Warning: Reference `EL' on page 52 undefined on input line 415.
+
+
+LaTeX Warning: Reference `xn' on page 52 undefined on input line 416.
+
+
+LaTeX Warning: Reference `xn' on page 52 undefined on input line 420.
+
+
+LaTeX Warning: Reference `a25' on page 52 undefined on input line 442.
+
+
+LaTeX Warning: Reference `a31' on page 52 undefined on input line 448.
+
+[52]
+
+LaTeX Warning: Reference `a32' on page 53 undefined on input line 469.
+
+
+LaTeX Warning: Reference `a34' on page 53 undefined on input line 477.
+
+
+LaTeX Warning: Reference `xn' on page 53 undefined on input line 484.
+
+
+LaTeX Warning: Reference `ncu' on page 53 undefined on input line 493.
+
+[53]
+
+LaTeX Warning: Reference `hen-g' on page 54 undefined on input line 520.
+
+
+LaTeX Warning: Reference `a89' on page 54 undefined on input line 520.
+
+
+LaTeX Warning: Reference `emt2' on page 54 undefined on input line 536.
+
+
+LaTeX Warning: Reference `a82' on page 54 undefined on input line 536.
+
+
+LaTeX Warning: Reference `hen-g' on page 54 undefined on input line 540.
+
+
+LaTeX Warning: Reference `emt2' on page 54 undefined on input line 544.
+
+[54]
+
+LaTeX Warning: Reference `emt1' on page 55 undefined on input line 552.
+
+
+LaTeX Warning: Reference `emt3' on page 55 undefined on input line 557.
+
+
+LaTeX Warning: Reference `emt1' on page 55 undefined on input line 561.
+
+
+LaTeX Warning: Reference `emt4' on page 55 undefined on input line 582.
+
+
+LaTeX Warning: Reference `gggg' on page 55 undefined on input line 582.
+
+[55]
+
+LaTeX Warning: Reference `eleq' on page 56 undefined on input line 595.
+
+
+LaTeX Warning: Reference `xnnn' on page 56 undefined on input line 595.
+
+
+LaTeX Warning: Reference `xnnn' on page 56 undefined on input line 603.
+
 LaTeX Font Info:    Try loading font information for U+euf on input line 608.
-
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [54] [55]
-[56] [57]) [58]
+)
+
+LaTeX Warning: Reference `a98' on page 56 undefined on input line 610.
+
+
+LaTeX Warning: Reference `emt5' on page 56 undefined on input line 614.
+
+
+LaTeX Warning: Reference `tmco' on page 56 undefined on input line 618.
+
+
+LaTeX Warning: Reference `xnnn' on page 56 undefined on input line 619.
+
+[56] [57]
+
+LaTeX Warning: Reference `A116' on page 58 undefined on input line 683.
+
+[58]
+
+LaTeX Warning: Reference `A126' on page 59 undefined on input line 735.
+
+
+LaTeX Warning: Reference `A133' on page 59 undefined on input line 735.
+
+
+LaTeX Warning: Reference `A135' on page 59 undefined on input line 735.
+
+
+LaTeX Warning: Reference `A127' on page 59 undefined on input line 739.
+
+
+LaTeX Warning: Reference `A133' on page 59 undefined on input line 739.
+
+[59]) [60]
 \openout2 = `appendixC/appendixC.aux'.
 
  (./appendixC/appendixC.tex
 Appendix\nobreakspace {}D
-[59
+
+LaTeX Warning: Reference `a102' on page 61 undefined on input line 7.
+
+
+LaTeX Warning: Reference `xnnn' on page 61 undefined on input line 12.
+
+
+LaTeX Warning: Reference `nB1' on page 61 undefined on input line 12.
+
+
+LaTeX Warning: Reference `a102' on page 61 undefined on input line 12.
+
+
+LaTeX Warning: Reference `kilcon' on page 61 undefined on input line 20.
+
+[61
 
 
 
-] [60]
+]
 
-LaTeX Warning: Citation `b5' on page 61 undefined on input line 69.
+LaTeX Warning: Reference `RRR' on page 62 undefined on input line 22.
 
-[61] [62]
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 181.
- [63]
 
-LaTeX Warning: Reference `Rp' on page 64 undefined on input line 205.
+LaTeX Warning: Reference `Rcycle' on page 62 undefined on input line 28.
+
+
+LaTeX Warning: Reference `cyclick' on page 62 undefined on input line 33.
+
+
+LaTeX Warning: Reference `Rxi' on page 62 undefined on input line 33.
+
+
+LaTeX Warning: Reference `cyclick' on page 62 undefined on input line 38.
+
+
+LaTeX Warning: Reference `cycle2' on page 62 undefined on input line 38.
+
+
+LaTeX Warning: Reference `kiR1' on page 62 undefined on input line 43.
+
+
+LaTeX Warning: Reference `kiln' on page 62 undefined on input line 51.
+
+[62]
+
+LaTeX Warning: Citation `b5' on page 63 undefined on input line 69.
+
+
+LaTeX Warning: Reference `RieMSS' on page 63 undefined on input line 92.
+
+[63]
+
+LaTeX Warning: Reference `FL' on page 64 undefined on input line 104.
 
 [64]
+
+LaTeX Warning: Reference `Eeq1' on page 65 undefined on input line 152.
+
+
+LaTeX Warning: Reference `FL' on page 65 undefined on input line 162.
+
+
+LaTeX Warning: Reference `eee1' on page 65 undefined on input line 164.
+
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 181.
+
+LaTeX Warning: Reference `ec1' on page 65 undefined on input line 186.
+
+
+LaTeX Warning: Reference `emt' on page 65 undefined on input line 186.
+
+[65]
+
+LaTeX Warning: Reference `ec' on page 66 undefined on input line 193.
+
+
+LaTeX Warning: Reference `Rp' on page 66 undefined on input line 205.
+
+[66]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 240.
@@ -1460,7 +1932,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 240.
 
-[65]
+[67]
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <7> not available
 (Font)              Font shape `JT1/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
@@ -1477,22 +1949,26 @@ LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <6> not available
 (Font)              Font shape `JY1/mc/m/n' tried instead on input line 281.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 281.
- [66] [67]) [68]
+ [68] [69]
+
+LaTeX Warning: Reference `Ak' on page 70 undefined on input line 340.
+
+) [70]
 \openout2 = `appendixE/appendixE.aux'.
 
  (./appendixE/appendixE.tex
 Appendix\nobreakspace {}E
-) [69
+) [71
 
 
 
-] [70
+] [72
 
 
 ]
 \openout2 = `References/References.aux'.
 
- (./References/References.tex [71
+ (./References/References.tex [73
 
 
 ]
@@ -1506,26 +1982,33 @@ chap2/chap2.aux)
 (./References/References.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 33.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
-Package rerunfilecheck Info: File `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out' has not 
-changed.
-(rerunfilecheck)             Checksum: C8B510BB58398FAFCB5B1011E24C92BE;4813.
+ 
 
+Package rerunfilecheck Warning: File `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out' has c
+hanged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.out'
+:
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  C8B510BB58398FAFCB5B1011E24C92BE;4813.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) )
 (\end occurred when \iftrue on line 120 was incomplete)
 (\end occurred when \ifnum on line 120 was incomplete) 
 Here is how much of TeX's memory you used:
- 31486 strings out of 493653
- 641102 string characters out of 6148873
- 829012 words of memory out of 5000000
- 34505 multiletter control sequences out of 15000+600000
+ 31431 strings out of 493653
+ 640277 string characters out of 6148873
+ 812275 words of memory out of 5000000
+ 34474 multiletter control sequences out of 15000+600000
  30425 words of font info for 135 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  58i,17n,93p,10468b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.dvi (78 pages, 439708 bytes).
+Output written on é^^87^^8fçµ–^^90æ^^83^^85å^^a0±.dvi (78 pages, 403224 bytes).
